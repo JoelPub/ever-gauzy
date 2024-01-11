@@ -229,11 +229,11 @@ export const environment: IEnvironment = {
 
 	demo: process.env.DEMO === 'true' ? true : false,
 	demoCredentialConfig: {
-		superAdminEmail: process.env.DEMO_SUPER_ADMIN_EMAIL || `admin@ever.co`,
+		superAdminEmail: process.env.DEMO_SUPER_ADMIN_EMAIL || `admin@mobiplushrs.com`,
 		superAdminPassword: process.env.DEMO_SUPER_ADMIN_PASSWORD || `admin`,
-		adminEmail: process.env.DEMO_ADMIN_EMAIL || `local.admin@ever.co`,
+		adminEmail: process.env.DEMO_ADMIN_EMAIL || `local.admin@mobiplushrs.com`,
 		adminPassword: process.env.DEMO_ADMIN_PASSWORD || `admin`,
-		employeeEmail: process.env.DEMO_EMPLOYEE_EMAIL || `employee@ever.co`,
+		employeeEmail: process.env.DEMO_EMPLOYEE_EMAIL || `employee@mobiplushrs.com`,
 		employeePassword: process.env.DEMO_EMPLOYEE_PASSWORD || `123456`
 	}
 };

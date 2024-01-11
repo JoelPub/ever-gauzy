@@ -164,13 +164,13 @@ export const env: Env = cleanEnv(
 
 		DEMO: bool({ default: false }),
 
-		DEMO_SUPER_ADMIN_EMAIL: str({ default: 'admin@ever.co' }),
+		DEMO_SUPER_ADMIN_EMAIL: str({ default: 'admin@mobiplushrs.com' }),
 		DEMO_SUPER_ADMIN_PASSWORD: str({ default: 'admin' }),
 
-		DEMO_ADMIN_EMAIL: str({ default: 'local.admin@ever.co' }),
+		DEMO_ADMIN_EMAIL: str({ default: 'local.admin@mobiplushrs.com' }),
 		DEMO_ADMIN_PASSWORD: str({ default: 'admin' }),
 
-		DEMO_EMPLOYEE_EMAIL: str({ default: 'employee@ever.co' }),
+		DEMO_EMPLOYEE_EMAIL: str({ default: 'employee@mobiplushrs.com' }),
 		DEMO_EMPLOYEE_PASSWORD: str({ default: '123456' }),
 
 		CHATWOOT_SDK_TOKEN: str({ default: '' }),

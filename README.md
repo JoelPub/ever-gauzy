@@ -113,7 +113,7 @@ Ever Gauzy Platform Demo at <https://demo.gauzy.co>.
 
 Notes:
 
--   Default super-admin user login is `admin@ever.co` and the password is `admin`
+-   Default super-admin user login is `admin@mobiplushrs.com` and the password is `admin`
 -   Content of demo DB resets on each deployment to the demo environment (usually daily)
 -   Demo environment deployed using CI/CD from the `develop` branch
 
@@ -155,8 +155,8 @@ More information about our Server & Desktop Apps:
 -   Download for your OS from the official [Downloads](https://web.gauzy.co/downloads) page or see the section "Download" above for other links to our releases pages.
 -   Setup Gauzy Server with default choices in Setup Wizard and run it.
 -   You can also setup Gauzy Desktop App (can run independently or connect to Gauzy Server) or Gauzy Desktop Timer App (should be connected to Gauzy Server)
--   You can login with `admin@ever.co` and password `admin` to check Admin functionality if you installed Gauzy Server or Gauzy Desktop App. Note: such an Admin user is not an employee, so you will not be able to track time.
--   You can login with `employee@ever.co` and password `123456` to check Employee-related functionality in Gauzy UI or to run Desktop Timer from an "Employee" perspective (such a user is an Employee and can track time).
+-   You can login with `admin@mobiplushrs.com` and password `admin` to check Admin functionality if you installed Gauzy Server or Gauzy Desktop App. Note: such an Admin user is not an employee, so you will not be able to track time.
+-   You can login with `employee@mobiplushrs.com` and password `123456` to check Employee-related functionality in Gauzy UI or to run Desktop Timer from an "Employee" perspective (such a user is an Employee and can track time).
 -   If you install Gauzy Server, it is possible to connect to it using a browser (by default on <http://localhost:4200>) or using Gauzy Desktop Apps (make sure to configure Desktop apps to connect to Gauzy API on <http://127.0.0.1:3000/api> because it's where Gauzy Server API runs by default).
 -   You can read more information about our Desktop Apps on the [Desktop Apps Wiki Page](https://github.com/ever-co/ever-gauzy/wiki/Gauzy-Desktop-Apps) and our Server at the [Server Wiki Page](https://github.com/ever-co/ever-gauzy/wiki/Gauzy-Server).
 
@@ -194,8 +194,8 @@ Please refer to our official [Platform Documentation](https://docs.gauzy.co) and
 -   Run `docker-compose -f docker-compose.build.yml up`, if you want to build everything (code and Docker images) locally. Check `.env.compose` file for different settings (optionally), e.g. DB type. _(Note: this is extremely long process because it builds whole platform locally. Other options above are much faster!)_
 -   :coffee: time... It might take some time for our API to seed fake data in the DB during the first Docker Compose run, even if you used prebuild Docker images.
 -   Open <http://localhost:4200> in your browser.
--   Login with email `admin@ever.co` and password: `admin` for Super Admin user.
--   Login with email `employee@ever.co` and password: `123456` for Employee user.
+-   Login with email `admin@mobiplushrs.com` and password: `admin` for Super Admin user.
+-   Login with email `employee@mobiplushrs.com` and password: `123456` for Employee user.
 -   Enjoy!
 
 Together with Gauzy, Docker Compose will run the following:
@@ -221,8 +221,8 @@ Together with Gauzy, Docker Compose will run the following:
 -   Alternatively, you can copy [`.env.sample`](https://github.com/ever-co/ever-gauzy/blob/develop/.env.sample) to `.env` and change default settings there, e.g. database type, name, user, password, etc.
 -   Run both API and UI with a single command: `yarn start`.
 -   Open Gauzy UI on <http://localhost:4200> in your browser (API runs on <http://localhost:3000/api>).
--   Login with email `admin@ever.co` and password: `admin` for Super Admin user.
--   Login with email `employee@ever.co` and password: `123456` for Employee user.
+-   Login with email `admin@mobiplushrs.com` and password: `admin` for Super Admin user.
+-   Login with email `employee@mobiplushrs.com` and password: `123456` for Employee user.
 -   Enjoy!
 
 Notes:
