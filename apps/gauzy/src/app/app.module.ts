@@ -51,7 +51,8 @@ import { Router } from '@angular/router';
 import { FeatureToggleModule } from 'ngx-feature-toggle';
 import { IFeatureToggle, LanguagesEnum, WeekDaysEnum } from '@gauzy/contracts';
 import { HttpLoaderFactory } from './@shared/translate/translate.module';
-import { FeatureService, GoogleMapsLoaderService } from './@core/services';
+// import { FeatureService, GoogleMapsLoaderService } from './@core/services';
+import { FeatureService } from './@core/services';
 import { AppInitService } from './@core/services/app-init-service';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { CookieService } from 'ngx-cookie-service';
@@ -180,13 +181,13 @@ if (environment.SENTRY_DSN && environment.SENTRY_DSN === 'DOCKER_SENTRY_DSN') {
 			deps: [ServerConnectionService, Store, Router],
 			multi: true,
 		},
-		GoogleMapsLoaderService,
-		{
-			provide: APP_INITIALIZER,
-			useFactory: googleMapsLoaderFactory,
-			deps: [GoogleMapsLoaderService],
-			multi: true,
-		},
+		// GoogleMapsLoaderService,
+		// {
+		// 	provide: APP_INITIALIZER,
+		// 	useFactory: googleMapsLoaderFactory,
+		// 	deps: [GoogleMapsLoaderService],
+		// 	multi: true,
+		// },
 		FeatureService,
 		{
 			provide: APP_INITIALIZER,
@@ -251,9 +252,9 @@ export function serverConnectionFactory(provider: ServerConnectionService, store
  * @param provider
  * @returns
  */
-export function googleMapsLoaderFactory(provider: GoogleMapsLoaderService) {
-	return () => provider.load(environment.GOOGLE_MAPS_API_KEY);
-}
+// export function googleMapsLoaderFactory(provider: GoogleMapsLoaderService) {
+// 	return () => provider.load(environment.GOOGLE_MAPS_API_KEY);
+// }
 
 /**
  *
