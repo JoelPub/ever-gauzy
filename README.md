@@ -1,4 +1,4 @@
-circleci
+1 run circleci
 # Ever Gauzy Platform
 
 [uri_gauzy]: https://gauzy.co
