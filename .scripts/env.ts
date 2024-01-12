@@ -127,7 +127,7 @@ export const env: Env = cleanEnv(
 
 		CLIENT_BASE_URL: str({ default: 'http://localhost:4200' }),
 
-		API_BASE_URL: str({ default: 'http://10.203.93.213:3000' }),
+		API_BASE_URL: str({ default: 'http://localhost:3000' }),
 
 		PLATFORM_WEBSITE_URL: str({ default: 'https://gauzy.co' }),
 		PLATFORM_WEBSITE_DOWNLOAD_URL: str({
