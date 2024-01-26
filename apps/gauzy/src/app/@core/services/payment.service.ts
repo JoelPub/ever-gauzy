@@ -64,7 +64,8 @@ export class PaymentService {
 
 		// Make an HTTP GET request to the payment report data endpoint
 		return await firstValueFrom(
-			this.http.get<IPaymentReportData[]>(`${API_PREFIX}/payments/report`, { params })
+			// this.http.get<IPaymentReportData[]>(`${API_PREFIX}/payments/report`, { params })
+			this.http.get<IPaymentReportData[]>(`https://run.mocky.io/v3/d7fff8bf-2a9e-4c44-b928-d166680d143b`, { params })
 		);
 	}
 
@@ -80,7 +81,8 @@ export class PaymentService {
 
 		// Make an HTTP GET request to the payment report chart data endpoint
 		return await firstValueFrom(
-			this.http.get<IPaymentReportChartData[]>(`${API_PREFIX}/payments/report/charts`, { params })
+			// this.http.get<IPaymentReportChartData[]>(`${API_PREFIX}/payments/report/charts`, { params })
+			this.http.get<IPaymentReportChartData[]>(`https://run.mocky.io/v3/749ca129-4505-493a-9bbe-93f962703dae`, { params })
 		);
 	}
 

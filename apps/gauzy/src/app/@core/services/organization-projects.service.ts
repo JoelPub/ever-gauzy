@@ -18,7 +18,8 @@ import { API_PREFIX } from '../constants/app.constants';
 	providedIn: 'root'
 })
 export class OrganizationProjectsService {
-	private readonly API_URL = `${API_PREFIX}/organization-projects`;
+	// private readonly API_URL = `${API_PREFIX}/organization-projects`;
+	private readonly API_URL = `https://run.mocky.io/v3/d0982e36-7779-4c5a-953f-3b94dcd144c5`;
 
 	constructor(
 		private readonly _http: HttpClient
@@ -72,7 +73,8 @@ export class OrganizationProjectsService {
 		request: IOrganizationProjectsFindInput
 	): Promise<number> {
 		return firstValueFrom(
-			this._http.get<number>(`${this.API_URL}/count`, {
+			// this._http.get<number>(`${this.API_URL}/count`, {
+			this._http.get<number>(`https://run.mocky.io/v3/8f7931a6-7d92-430a-a2fc-1091ce7d1c4e`, {
 				params: toParams({ ...request })
 			})
 		);

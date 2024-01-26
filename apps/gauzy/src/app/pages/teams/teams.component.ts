@@ -370,7 +370,8 @@ export class TeamsComponent extends PaginationFilterBaseComponent
 		const { id: organizationId } = this.organization;
 
 		this.smartTableSource = new ServerDataSource(this.httpClient, {
-			endPoint: `${API_PREFIX}/organization-team/pagination`,
+			// endPoint: `${API_PREFIX}/organization-team/pagination`,
+			endPoint: `https://run.mocky.io/v3/abb60f72-a4ba-40d4-9266-d4fac0232611`,
 			relations: [
 				'members.role',
 				'members.employee.user',

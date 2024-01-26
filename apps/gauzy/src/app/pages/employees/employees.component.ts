@@ -506,7 +506,8 @@ export class EmployeesComponent extends PaginationFilterBaseComponent
 		const { id: organizationId } = this.organization;
 
 		this.smartTableSource = new ServerDataSource(this.http, {
-			endPoint: `${API_PREFIX}/employee/pagination`,
+			// endPoint: `${API_PREFIX}/employee/pagination`,
+			endPoint: `https://run.mocky.io/v3/9524d2fa-2f83-46ec-9964-f941de801c2a`,
 			relations: ['user', 'tags'],
 			withDeleted: this.includeDeleted,
 			where: {

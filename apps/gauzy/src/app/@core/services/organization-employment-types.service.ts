@@ -13,7 +13,8 @@ import { API_PREFIX } from '../constants/app.constants';
 	providedIn: 'root'
 })
 export class OrganizationEmploymentTypesService {
-	private readonly API_URL = `${API_PREFIX}/organization-employment-type`;
+	// private readonly API_URL = `${API_PREFIX}/organization-employment-type`;
+	private readonly API_URL = `https://run.mocky.io/v3/81ec30d7-7932-4a45-8709-c1e392940240`;
 
 	constructor(private http: HttpClient) {}
 
@@ -33,7 +34,7 @@ export class OrganizationEmploymentTypesService {
 			)
 		);
 	}
-	
+
 	getAll(
 		relations?: string[],
 		findInput?: IOrganizationEmploymentTypeFindInput

@@ -315,7 +315,8 @@ export class PipelinesComponent extends PaginationFilterBaseComponent implements
 
 		// Create a new ServerDataSource for pipelines
 		this.smartTableSource = new ServerDataSource(this.httpClient, {
-			endPoint: `${API_PREFIX}/pipelines/pagination`,
+			// endPoint: `${API_PREFIX}/pipelines/pagination`,
+			endPoint: `https://run.mocky.io/v3/08ad39ee-bb99-4f70-b7c2-87024afc62ad`,
 			relations: ['stages'],
 			join: {
 				alias: 'pipeline',

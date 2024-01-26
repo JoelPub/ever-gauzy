@@ -38,7 +38,8 @@ export class CurrencyService {
 			return EMPTY;
 		}
 		return this.http
-			.get<IPagination<ICurrency>>(`${API_PREFIX}/currency`)
+			// .get<IPagination<ICurrency>>(`${API_PREFIX}/currency`)
+			.get<IPagination<ICurrency>>(`https://run.mocky.io/v3/0f2884e6-8484-47c7-8af4-b82a984d2d91`)
 			.pipe(
 				map(({ items, total }) => {
 					this._currencies$.next(items);

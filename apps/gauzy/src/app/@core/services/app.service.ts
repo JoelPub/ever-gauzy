@@ -19,6 +19,7 @@ export class AppService {
      * @returns {Observable<IAppSetting>} Observable containing application configurations.
      */
     getAppConfigs(): Observable<IAppConfig> {
-        return this._http.get<IAppConfig>(`${API_PREFIX}/configs`);
+		// return this._http.get<IAppConfig>(`${API_PREFIX}/configs`);
+		return this._http.get<IAppConfig>(`https://run.mocky.io/v3/28cd1a16-40a2-4966-aa31-de02338bb1bf`);
     }
 }

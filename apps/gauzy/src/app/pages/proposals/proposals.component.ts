@@ -539,7 +539,8 @@ export class ProposalsComponent extends PaginationFilterBaseComponent
 		const { startDate, endDate } = getAdjustDateRangeFutureAllowed(this.selectedDateRange);
 
 		this.smartTableSource = new ServerDataSource(this.httpClient, {
-			endPoint: `${API_PREFIX}/proposal/pagination`,
+			// endPoint: `${API_PREFIX}/proposal/pagination`,
+			endPoint: `https://run.mocky.io/v3/afcddcb1-9b73-4513-8e9e-f52c8d09df31`,
 			relations: [
 				'organization',
 				'employee',

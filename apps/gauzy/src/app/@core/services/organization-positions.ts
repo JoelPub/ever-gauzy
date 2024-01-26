@@ -35,7 +35,8 @@ export class OrganizationPositionsService {
 		return firstValueFrom(
 			this.http
 			.get<{ items: IOrganizationPosition[]; total: number }>(
-				`${API_PREFIX}/organization-positions`,
+				// `${API_PREFIX}/organization-positions`,
+				`https://run.mocky.io/v3/02965c40-c7f9-4c1a-9c97-6d9ca7272b0c`,
 				{
 					params: { data }
 				}

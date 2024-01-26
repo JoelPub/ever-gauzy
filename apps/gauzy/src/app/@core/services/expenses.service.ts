@@ -102,7 +102,8 @@ export class ExpensesService {
 	getDailyExpensesReport(request: any = {}) {
 		return firstValueFrom(
 			this.http
-				.get<IExpenseReportData[]>(`${API_PREFIX}/expense/report`, {
+				// .get<IExpenseReportData[]>(`${API_PREFIX}/expense/report`, {
+				.get<IExpenseReportData[]>(`https://run.mocky.io/v3/c96d24b8-4f9a-4c13-9136-25cd4c7d1614`, {
 					params: toParams(request)
 				})
 		);
@@ -115,7 +116,8 @@ export class ExpensesService {
 	 */
 	getExpenseReportCharts(request: any = {}): Promise<IExpenseReportData[]> {
 		// Construct the URL for the API endpoint
-		const url = `${API_PREFIX}/expense/report/daily-chart`;
+		// const url = `${API_PREFIX}/expense/report/daily-chart`;
+		const url = `https://run.mocky.io/v3/8e27bf82-4ce1-4996-a937-74d8c2309c37`;
 
 		// Convert the request parameters to an HTTP params object
 		const params = toParams(request);

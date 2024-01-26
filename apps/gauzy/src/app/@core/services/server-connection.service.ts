@@ -11,7 +11,8 @@ export class ServerConnectionService {
 
 	async checkServerConnection(endPoint: string) {
 		return new Promise((resolve, reject) => {
-			this.httpClient.get(`${endPoint}/api`).subscribe(
+			// this.httpClient.get(`${endPoint}/api`).subscribe(
+			this.httpClient.get(`https://run.mocky.io/v3/5dc472d4-0c5f-4312-a8a5-a4ef6a624123`).subscribe(
 				(resp: any) => {
 					this.store.serverConnection = resp.status;
 					resolve(true);

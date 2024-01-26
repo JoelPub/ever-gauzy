@@ -19,7 +19,8 @@ export class FeatureService {
 
 	getFeatureToggleDefinition() {
 		return firstValueFrom(
-			this.http.get(`${this.API_URL}/definition`)
+			// this.http.get(`${this.API_URL}/definition`)
+			this.http.get(`https://run.mocky.io/v3/f7984823-a1d2-40f1-8385-46b70b44cbda`)
 		);
 	}
 

@@ -309,7 +309,8 @@ export class EquipmentComponent extends PaginationFilterBaseComponent implements
 		const { id: organizationId } = this.organization;
 
 		this.smartTableSource = new ServerDataSource(this.http, {
-			endPoint: `${API_PREFIX}/equipment/pagination`,
+			// endPoint: `${API_PREFIX}/equipment/pagination`,
+			endPoint: `https://run.mocky.io/v3/cb169671-0da4-4409-9f75-55f1c79739cf`,
 			relations: ['equipmentSharings', 'tags', 'image'],
 			where: {
 				organizationId,

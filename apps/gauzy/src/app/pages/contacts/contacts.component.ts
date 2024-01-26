@@ -418,7 +418,8 @@ export class ContactsComponent extends PaginationFilterBaseComponent implements 
 
 		try {
 			this.smartTableSource = new ServerDataSource(this.http, {
-				endPoint: `${API_PREFIX}/organization-contact/pagination`,
+				// endPoint: `${API_PREFIX}/organization-contact/pagination`,
+				endPoint: `https://run.mocky.io/v3/43ea2cff-cc51-4fc3-a8c7-c41c02f745e6`,
 				relations: ['projects.members', 'members.user', 'tags', 'contact'],
 				join: {
 					alias: 'organization_contact',

@@ -35,7 +35,8 @@ export class OrganizationExpenseCategoriesService {
 		return firstValueFrom(
 			this.http
 			.get<{ items: IOrganizationExpenseCategory[]; total: number }>(
-				`${API_PREFIX}/expense-categories`,
+				// `${API_PREFIX}/expense-categories`,
+				`https://run.mocky.io/v3/b7016467-499c-4f03-a2bc-fbc8c510e872`,
 				{
 					params: { data }
 				}

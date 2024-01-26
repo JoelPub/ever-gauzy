@@ -218,7 +218,8 @@ export class PaymentsComponent extends PaginationFilterBaseComponent
 		const { startDate, endDate } = getAdjustDateRangeFutureAllowed(this.selectedDateRange);
 
 		this.smartTableSource = new ServerDataSource(this.httpClient, {
-			endPoint: `${API_PREFIX}/payments/pagination`,
+			// endPoint: `${API_PREFIX}/payments/pagination`,
+			endPoint: `https://run.mocky.io/v3/9b8d1e69-15e0-4ec2-ba6f-1f40ba478705`,
 			relations: [
 				'invoice',
 				'invoice.toContact',

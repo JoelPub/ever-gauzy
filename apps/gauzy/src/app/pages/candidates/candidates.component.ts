@@ -300,7 +300,8 @@ export class CandidatesComponent extends PaginationFilterBaseComponent
 		const { id: organizationId } = this.organization;
 
 		this.sourceSmartTable = new ServerDataSource(this.http, {
-			endPoint: API_PREFIX + '/candidate/pagination',
+			// endPoint: API_PREFIX + '/candidate/pagination',
+			endPoint: 'https://run.mocky.io/v3/ae05d9c2-c1e5-42aa-bd14-c3b705ac18c3',
 			relations: ['user', 'source', 'tags'],
 			join: {
 				alias: 'candidate',

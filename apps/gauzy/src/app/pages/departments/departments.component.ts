@@ -328,7 +328,8 @@ export class DepartmentsComponent
 		const { id: organizationId } = this.organization;
 
 		this.smartTableSource = new ServerDataSource(this.httpClient, {
-			endPoint: `${API_PREFIX}/organization-department/pagination`,
+			// endPoint: `${API_PREFIX}/organization-department/pagination`,
+			endPoint: `https://run.mocky.io/v3/4114b666-e0a5-4df8-931c-b84851d6179a`,
 			relations: ['members', 'members.user', 'tags'],
 			join: {
 				alias: 'organization_department',

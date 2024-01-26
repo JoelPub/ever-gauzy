@@ -224,7 +224,8 @@ export class ProjectListComponent extends PaginationFilterBaseComponent implemen
 		const { id: organizationId } = this.organization;
 
 		this.smartTableSource = new ServerDataSource(this._httpClient, {
-			endPoint: `${API_PREFIX}/organization-projects/pagination`,
+			// endPoint: `${API_PREFIX}/organization-projects/pagination`,
+			endPoint: `https://run.mocky.io/v3/68a0c1ac-5675-4e44-bddf-aae5cb9ea216`,
 			relations: ['organizationContact', 'organization', 'members', 'members.user', 'tags', 'teams'],
 			join: {
 				alias: 'organization_project',

@@ -10,7 +10,8 @@ import { API_PREFIX } from '../constants/app.constants';
 	providedIn: 'root'
 })
 export class GoalService {
-	private readonly API_URL = `${API_PREFIX}/goals`;
+	// private readonly API_URL = `${API_PREFIX}/goals`;
+	private readonly API_URL = `https://run.mocky.io/v3/74a18224-a65d-4c8c-837f-6c24f874bc0e`;
 
 	constructor(
 		private readonly _http: HttpClient,

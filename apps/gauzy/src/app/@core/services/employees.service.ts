@@ -44,7 +44,8 @@ export class EmployeesService {
 		relations: string[] = [],
 		where?: IEmployeeFindInput
 	): Observable<{ items: IEmployee[]; total: number }> {
-		return this.http.get<{ items: IEmployee[]; total: number }>( `${API_PREFIX}/employee`, {
+		// return this.http.get<{ items: IEmployee[]; total: number }>( `${API_PREFIX}/employee`, {
+		return this.http.get<{ items: IEmployee[]; total: number }>( `https://run.mocky.io/v3/d84c21b1-43f4-4092-95e9-a73a0dfeabf0`, {
 			params: toParams({ where, relations })
 		});
 	}
@@ -52,7 +53,8 @@ export class EmployeesService {
 	getCount(
 		request: IEmployeeFindInput
 	): Observable<number> {
-		return this.http.get<number>(`${API_PREFIX}/employee/count`, {
+		// return this.http.get<number>(`${API_PREFIX}/employee/count`, {
+		return this.http.get<number>(`https://run.mocky.io/v3/f829e560-f816-4fd8-b167-6d12f177a25e`, {
 			params: toParams({ ...request })
 		})
 	}
@@ -72,7 +74,8 @@ export class EmployeesService {
 		const data = JSON.stringify({ findInput: query });
 		return firstValueFrom(
 			this.http.get<{ items: IEmployee[]; total: number }>(
-				`${API_PREFIX}/employee/working`,
+				// `${API_PREFIX}/employee/working`,
+				`https://run.mocky.io/v3/f855724b-143d-4679-ae93-466e82ac295f`,
 				{
 					params: { data }
 				}
@@ -94,7 +97,8 @@ export class EmployeesService {
 		};
 		const data = JSON.stringify({ findInput: query });
 		return firstValueFrom(
-			this.http.get<{ items: IEmployee[]; total: number }>( `${API_PREFIX}/employee/working/count`, {
+			// this.http.get<{ items: IEmployee[]; total: number }>( `${API_PREFIX}/employee/working/count`, {
+			this.http.get<{ items: IEmployee[]; total: number }>( `https://run.mocky.io/v3/7134306a-9942-4374-9e55-907d99f95fe2`, {
 				params: { data}
 			})
 		);

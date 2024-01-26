@@ -18,13 +18,29 @@ export class UsersOrganizationsService {
 	): Promise<{ items: IUserOrganization[]; total: number }> {
 		const data = JSON.stringify({ relations, findInput });
 		return firstValueFrom(
-			this.http
-			.get<{ items: IUserOrganization[]; total: number }>(
-				`${API_PREFIX}/user-organization`,
-				{
-					params: { data }
-				}
-			)
+			// this.http
+			// .get<{ items: IUserOrganization[]; total: number }>(
+			// 	`${API_PREFIX}/user-organization`,
+			// 	{
+			// 		params: { data }
+			// 	}
+			// )
+			relations.length==0?
+				this.http
+					.get<{ items: IUserOrganization[]; total: number }>(
+						`https://run.mocky.io/v3/d3ef910b-adca-4ecf-b531-fce63ab30e66`,
+						{
+							params: { data }
+						}
+					)
+				:
+				this.http
+					.get<{ items: IUserOrganization[]; total: number }>(
+						`https://run.mocky.io/v3/49752093-85a6-4b3f-8eee-eeee553c02db`,
+						{
+							params: { data }
+						}
+					)
 		);
 	}
 

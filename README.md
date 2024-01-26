@@ -213,17 +213,18 @@ Together with Gauzy, Docker Compose will run the following:
 
 #### Required
 
--   Install [NodeJs](https://nodejs.org/en/download) LTS version or later, e.g. 18.x.
--   Install [Yarn](https://github.com/yarnpkg/yarn) (if you don't have it) with `npm i -g yarn`.
--   Install NPM packages and bootstrap solution using the command `yarn bootstrap`.
--   If you will need to make code changes (and push to Git repo), please run `yarn prepare:husky`.
--   Adjust settings in the [`.env.local`](https://github.com/ever-co/ever-gauzy/blob/develop/.env.local) which is used in local runs.
--   Alternatively, you can copy [`.env.sample`](https://github.com/ever-co/ever-gauzy/blob/develop/.env.sample) to `.env` and change default settings there, e.g. database type, name, user, password, etc.
--   Run both API and UI with a single command: `yarn start`.
--   Open Gauzy UI on <http://localhost:4200> in your browser (API runs on <http://localhost:3000/api>).
--   Login with email `admin@mobiplushrs.com` and password: `admin` for Super Admin user.
--   Login with email `employee@mobiplushrs.com` and password: `123456` for Employee user.
--   Enjoy!
+- Install [NodeJs](https://nodejs.org/en/download) LTS version or later, e.g. 18.x.
+- Install [Yarn](https://github.com/yarnpkg/yarn) (if you don't have it) with `npm i -g yarn`.
+- Install NPM packages and bootstrap solution using the command `yarn bootstrap`.
+- If you will need to make code changes (and push to Git repo), please run `yarn prepare:husky`.
+- Adjust settings in the [`.env.local`](https://github.com/ever-co/ever-gauzy/blob/develop/.env.local) which is used in local runs.
+- Alternatively, you can copy [`.env.sample`](https://github.com/ever-co/ever-gauzy/blob/develop/.env.sample) to `.env` and change default settings there, e.g. database type, name, user, password, etc.
+- Run both API and UI with a single command: `yarn start`.
+- 以最小内存只启动前端（cd apps/gauzy && node --max_old_space_size=4096 ./node_modules/@angular/cli/bin/ng serve gauzy）
+- Open Gauzy UI on <http://localhost:4200> in your browser (API runs on <http://localhost:3000/api>).
+- Login with email `admin@mobiplushrs.com` and password: `admin` for Super Admin user.
+- Login with email `employee@mobiplushrs.com` and password: `123456` for Employee user.
+- Enjoy!
 
 Notes:
 

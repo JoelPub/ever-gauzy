@@ -31,7 +31,8 @@ export class EmployeeStatisticsService {
 
 		return firstValueFrom(
 			this.http.get<IAggregatedEmployeeStatistic>(
-				`${API_PREFIX}/employee-statistics/aggregate`,
+				// `${API_PREFIX}/employee-statistics/aggregate`,
+				`https://run.mocky.io/v3/d73bbd1b-9ad0-4c78-93d7-c4669f00679d`,
 				{
 					params: { data }
 				}

@@ -437,7 +437,8 @@ export class VendorsComponent extends PaginationFilterBaseComponent implements O
 		const { tenantId } = this.store.user;
 		const { id: organizationId } = this.organization;
 		this.smartTableSource = new ServerDataSource(this.httpClient, {
-			endPoint: `${API_PREFIX}/organization-vendors/pagination`,
+			// endPoint: `${API_PREFIX}/organization-vendors/pagination`,
+			endPoint: `https://run.mocky.io/v3/758a530e-0865-458c-8bf7-ceef14c477fc`,
 			relations: ['tags'],
 			where: {
 				organizationId,

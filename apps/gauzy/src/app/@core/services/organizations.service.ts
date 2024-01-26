@@ -54,7 +54,8 @@ export class OrganizationsService {
 		relations: string[] = [],
 		select: IOptionsSelect<IOrganization> = {}
 	): Observable<IOrganization> {
-		return this.http.get<IOrganization>(`${API_PREFIX}/organization/${id}`, {
+		// return this.http.get<IOrganization>(`${API_PREFIX}/organization/${id}`, {
+		return this.http.get<IOrganization>(`https://run.mocky.io/v3/776ac825-91ea-4ea4-a33e-62e6d06f4c9e`, {
 			params: toParams({ relations, select })
 		});
 	}

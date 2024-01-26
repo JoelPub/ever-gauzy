@@ -597,7 +597,8 @@ export class ExpensesComponent extends PaginationFilterBaseComponent
 
 		// Create a new ServerDataSource for expenses
 		this.smartTableSource = new ServerDataSource(this.httpClient, {
-			endPoint: `${API_PREFIX}/expense/pagination`,
+			// endPoint: `${API_PREFIX}/expense/pagination`,
+			endPoint: `https://run.mocky.io/v3/d4875eb9-375e-4409-bc7d-3dfad6ed965c`,
 			relations: [
 				'employee',
 				'employee.user',

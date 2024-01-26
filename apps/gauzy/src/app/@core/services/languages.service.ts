@@ -17,13 +17,15 @@ export class LanguagesService {
 
 	getAllLanguages(): Promise<{ items: ILanguage[] }> {
 		return firstValueFrom(
-			this.http.get<{ items: ILanguage[] }>(`${API_PREFIX}/languages`)
+			// this.http.get<{ items: ILanguage[] }>(`${API_PREFIX}/languages`)
+			this.http.get<{ items: ILanguage[] }>(`https://run.mocky.io/v3/5c6834c4-f609-4e3c-9e8c-9cf998d06593`)
 		);
 	}
 
 	getSystemLanguages(): Promise<{ items: ILanguage[] }> {
 		return firstValueFrom(
-			this.http.get<{ items: ILanguage[] }>(`${API_PREFIX}/languages`, {
+			// this.http.get<{ items: ILanguage[] }>(`${API_PREFIX}/languages`, {
+			this.http.get<{ items: ILanguage[] }>(`https://run.mocky.io/v3/7a6a7ddf-5c41-4528-8292-8c809fd00d0c`, {
 				params: toParams({ is_system: 1 })
 			})
 		);

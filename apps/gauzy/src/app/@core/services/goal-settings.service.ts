@@ -22,7 +22,8 @@ import { API_PREFIX } from '../constants/app.constants';
 export class GoalSettingsService {
 	private readonly TIME_FRAME_URL = `${API_PREFIX}/goal-time-frame`;
 	private readonly KPI_URL = `${API_PREFIX}/goal-kpi`;
-	private readonly GENERAL_SETTINGS_URL = `${API_PREFIX}/goal-general-setting`;
+	// private readonly GENERAL_SETTINGS_URL = `${API_PREFIX}/goal-general-setting`;
+	private readonly GENERAL_SETTINGS_URL = `https://run.mocky.io/v3/8997bb35-ef18-4d3d-9cdf-58bf39761d15`;
 
 	constructor(
 		private _http: HttpClient,

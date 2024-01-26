@@ -737,7 +737,8 @@ export class InvoicesComponent extends PaginationFilterBaseComponent implements 
 		);
 
 		this.smartTableSource = new ServerDataSource(this.httpClient, {
-			endPoint: `${API_PREFIX}/invoices/pagination`,
+			// endPoint: `${API_PREFIX}/invoices/pagination`,
+			endPoint: `https://run.mocky.io/v3/95c7329f-5c72-4df2-977b-a9ca4d7b182f`,
 			relations: [
 				'invoiceItems',
 				'invoiceItems.employee',

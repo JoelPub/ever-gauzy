@@ -427,10 +427,12 @@ export class TaskComponent extends PaginationFilterBaseComponent implements OnIn
 
 		this.smartTableSource = new ServerDataSource(this.httpClient, {
 			...(this.viewComponentName === ComponentEnum.ALL_TASKS
-				? { endPoint: `${API_PREFIX}/tasks/pagination` }
+				// ? { endPoint: `${API_PREFIX}/tasks/pagination` }
+				? { endPoint: `https://run.mocky.io/v3/4167d6bf-0494-4ca5-ba91-d4b18bcff143` }
 				: {}),
 			...(this.viewComponentName === ComponentEnum.TEAM_TASKS
-				? { endPoint: `${API_PREFIX}/tasks/team` }
+				// ? { endPoint: `${API_PREFIX}/tasks/team` }
+				? { endPoint: `https://run.mocky.io/v3/ba0d1937-5cd6-4c5c-9467-e4f1419d821d` }
 				: {}),
 			...(this.viewComponentName === ComponentEnum.MY_TASKS
 				? { endPoint: `${API_PREFIX}/tasks/me` }

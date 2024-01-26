@@ -34,7 +34,8 @@ export class CountryService {
 			return EMPTY;
 		}
 		return this.http
-			.get<IPagination<ICountry>>(`${API_PREFIX}/country`)
+			// .get<IPagination<ICountry>>(`${API_PREFIX}/country`)
+			.get<IPagination<ICountry>>(`https://run.mocky.io/v3/3aa49620-cf68-4890-9a1a-b2c72f8669b0`)
 			.pipe(
 				map(({ items, total }) => {
 					this._countries$.next(items);

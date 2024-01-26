@@ -343,7 +343,8 @@ export class TableInventoryComponent extends PaginationFilterBaseComponent
 
 			// Create a new ServerDataSource for Smart Table
 			this.smartTableSource = new ServerDataSource(this.http, {
-				endPoint: `${API_PREFIX}/products/pagination`,
+				// endPoint: `${API_PREFIX}/products/pagination`,
+				endPoint: `https://run.mocky.io/v3/0739e0cc-50bc-4d9d-99f0-66c7f6b719ef`,
 				relations: [
 					'productType',
 					'productCategory',

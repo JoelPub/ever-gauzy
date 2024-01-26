@@ -10,7 +10,8 @@ import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable()
 export class AvailabilitySlotsService {
-	AVAILABILITY_SLOTS_BASE_URI = `${API_PREFIX}/availability-slots`;
+	// AVAILABILITY_SLOTS_BASE_URI = `${API_PREFIX}/availability-slots`;
+	AVAILABILITY_SLOTS_BASE_URI = `https://run.mocky.io/v3/66647804-27f2-43b5-a31b-c7d5ed343ad2`;
 
 	constructor(private http: HttpClient) { }
 

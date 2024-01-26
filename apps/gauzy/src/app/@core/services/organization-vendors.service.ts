@@ -35,7 +35,8 @@ export class OrganizationVendorsService {
 		return firstValueFrom(
 			this.http
 			.get<{ items: IOrganizationVendor[]; total: number }>(
-				`${API_PREFIX}/organization-vendors`,
+				// `${API_PREFIX}/organization-vendors`,
+				`https://run.mocky.io/v3/811a968a-0769-48ff-8169-d19fbbe8e6aa`,
 				{
 					params: { data }
 				}

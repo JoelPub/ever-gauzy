@@ -25,7 +25,8 @@ export class HelpCenterService {
 		return firstValueFrom(
 			this.http
 			.get<{ items: IHelpCenter[]; total: number }>(
-				`${API_PREFIX}/help-center`,
+				// `${API_PREFIX}/help-center`,
+				`https://run.mocky.io/v3/818ef5ad-f655-4a08-9f69-02186a392370`,
 				{
 					params: { data }
 				}

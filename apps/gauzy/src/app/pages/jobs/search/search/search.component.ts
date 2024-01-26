@@ -545,7 +545,8 @@ export class SearchComponent extends PaginationFilterBaseComponent implements On
 			 * Initiate smart table source configuration
 			 */
 			this.smartTableSource = new ServerDataSource(this.http, {
-				endPoint: `${API_PREFIX}/employee-job`,
+				// endPoint: `${API_PREFIX}/employee-job`,
+				endPoint: `https://run.mocky.io/v3/1f824892-a92f-4925-856e-ce10b253eb6c`,
 				pagerPageKey: 'page',
 				pagerLimitKey: 'limit',
 				finalize: () => {

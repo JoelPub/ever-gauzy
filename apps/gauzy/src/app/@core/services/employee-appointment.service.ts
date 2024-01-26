@@ -12,7 +12,8 @@ import { API_PREFIX } from '../constants/app.constants';
 
 @Injectable()
 export class EmployeeAppointmentService {
-	EMPLOYEE_APPOINTMENT_URL = `${API_PREFIX}/employee-appointment`;
+	// EMPLOYEE_APPOINTMENT_URL = `${API_PREFIX}/employee-appointment`;
+	EMPLOYEE_APPOINTMENT_URL = `https://run.mocky.io/v3/a92700f4-4cd8-4265-a08d-b0ffa9f2ba12`;
 
 	constructor(private http: HttpClient) {}
 
