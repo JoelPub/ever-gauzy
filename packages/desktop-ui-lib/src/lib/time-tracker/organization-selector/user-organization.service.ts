@@ -19,7 +19,7 @@ export class UserOrganizationService {
 		private readonly _userOrganizationsCacheService: OrganizationsCacheService,
 		private readonly _userOrganizationCacheService: UserOrganizationCacheService,
 		private readonly _http: HttpClient
-	) {}
+	) { }
 
 	public all(
 		relations?: string[],
@@ -63,7 +63,8 @@ export class UserOrganizationService {
 		if (!userOrganizations$) {
 			userOrganizations$ = this._http
 				// .get<IUserOrganization>(`${API_PREFIX}/user/me`, {
-				.get<IUserOrganization>(`https://run.mocky.io/v3/b3a99df0-ef40-43fc-930c-4433a6da621e`, {
+				// .get<IUserOrganization>(`https://run.mocky.io/v3/b3a99df0-ef40-43fc-930c-4433a6da621e`, {
+				.get<IUserOrganization>(`https://run.mocky.io/v3/f901b883-e216-4a4a-a7c3-5e2a0fb64795`, {
 					params
 				})
 				.pipe(

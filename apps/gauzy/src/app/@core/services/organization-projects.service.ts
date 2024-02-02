@@ -19,7 +19,8 @@ import { API_PREFIX } from '../constants/app.constants';
 })
 export class OrganizationProjectsService {
 	// private readonly API_URL = `${API_PREFIX}/organization-projects`;
-	private readonly API_URL = `https://run.mocky.io/v3/d0982e36-7779-4c5a-953f-3b94dcd144c5`;
+	// private readonly API_URL = `https://run.mocky.io/v3/d0982e36-7779-4c5a-953f-3b94dcd144c5`;
+	private readonly API_URL = `https://run.mocky.io/v3/eb1a9495-86bf-40ed-8a44-b8da03b9d489`;
 
 	constructor(
 		private readonly _http: HttpClient

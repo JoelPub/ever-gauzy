@@ -12,17 +12,17 @@ import { API_PREFIX } from '../constants/app.constants';
 	providedIn: 'root'
 })
 export class OrganizationExpenseCategoriesService {
-	constructor(private http: HttpClient) {}
+	constructor(private http: HttpClient) { }
 
 	create(
 		createInput: IOrganizationExpenseCategoryCreateInput
 	): Promise<IOrganizationExpenseCategory> {
 		return firstValueFrom(
 			this.http
-			.post<IOrganizationExpenseCategory>(
-				`${API_PREFIX}/expense-categories`,
-				createInput
-			)
+				.post<IOrganizationExpenseCategory>(
+					`${API_PREFIX}/expense-categories`,
+					createInput
+				)
 		);
 	}
 
@@ -34,27 +34,28 @@ export class OrganizationExpenseCategoriesService {
 
 		return firstValueFrom(
 			this.http
-			.get<{ items: IOrganizationExpenseCategory[]; total: number }>(
-				// `${API_PREFIX}/expense-categories`,
-				`https://run.mocky.io/v3/b7016467-499c-4f03-a2bc-fbc8c510e872`,
-				{
-					params: { data }
-				}
-			)
+				.get<{ items: IOrganizationExpenseCategory[]; total: number }>(
+					// `${API_PREFIX}/expense-categories`,
+					// `https://run.mocky.io/v3/b7016467-499c-4f03-a2bc-fbc8c510e872`,
+					`https://run.mocky.io/v3/ac6024ed-1978-41e3-9958-869a3856b953`,
+					{
+						params: { data }
+					}
+				)
 		);
 	}
 
 	update(id: string, updateInput: any): Promise<any> {
 		return firstValueFrom(
 			this.http
-			.put(`${API_PREFIX}/expense-categories/${id}`, updateInput)
+				.put(`${API_PREFIX}/expense-categories/${id}`, updateInput)
 		);
 	}
 
 	delete(id: string): Promise<any> {
 		return firstValueFrom(
 			this.http
-			.delete(`${API_PREFIX}/expense-categories/${id}`)
+				.delete(`${API_PREFIX}/expense-categories/${id}`)
 		);
 	}
 }

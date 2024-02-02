@@ -18,7 +18,7 @@ import { API_PREFIX } from '../constants/app.constants';
 	providedIn: 'root'
 })
 export class EmployeeStatisticsService {
-	constructor(private http: HttpClient) {}
+	constructor(private http: HttpClient) { }
 
 	/**
 	 * Gets the aggregated statistics for all employees of the organization from the start of time till now.
@@ -32,7 +32,8 @@ export class EmployeeStatisticsService {
 		return firstValueFrom(
 			this.http.get<IAggregatedEmployeeStatistic>(
 				// `${API_PREFIX}/employee-statistics/aggregate`,
-				`https://run.mocky.io/v3/d73bbd1b-9ad0-4c78-93d7-c4669f00679d`,
+				// `https://run.mocky.io/v3/d73bbd1b-9ad0-4c78-93d7-c4669f00679d`,
+				`https://run.mocky.io/v3/bb2d448e-28dc-41ca-b3c3-5046e9036f67`,
 				{
 					params: { data }
 				}

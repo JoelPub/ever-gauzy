@@ -20,13 +20,13 @@ import { Store } from './store.service';
 @Injectable()
 export class AuthService {
 	constructor(private readonly http: HttpClient,
-				private readonly store: Store) { }
+		private readonly store: Store) { }
 
 	isAuthenticated(): Promise<boolean> {
 		const token = this.store.token;
 		return firstValueFrom(
 			// this.http.get<boolean>(`${API_PREFIX}/auth/authenticated`)
-			token?this.http.get<boolean>(`https://run.mocky.io/v3/a3cdfac8-4c3b-4c99-94d0-47709a2d867d`):this.http.get<boolean>(`https://run.mocky.io/v3/0574c308-72e6-44c4-86a0-5c28debc5ffa`)
+			token ? this.http.get<boolean>(`https://run.mocky.io/v3/a3cdfac8-4c3b-4c99-94d0-47709a2d867d`) : this.http.get<boolean>(`https://run.mocky.io/v3/0574c308-72e6-44c4-86a0-5c28debc5ffa`)
 		);
 	}
 
@@ -37,7 +37,8 @@ export class AuthService {
 	login(loginInput: IUserLoginInput): Observable<IAuthResponse> {
 		return this.http.post<IAuthResponse>(
 			// `${API_PREFIX}/auth/login`,
-			`https://run.mocky.io/v3/e9d4f4ec-18d7-4f43-9593-164d4d17bfc4`,
+			// `https://run.mocky.io/v3/e9d4f4ec-18d7-4f43-9593-164d4d17bfc4`,
+			`https://run.mocky.io/v3/0eaefbaf-89fb-4aef-878b-91d1551ab9f4`,
 			loginInput
 		);
 	}

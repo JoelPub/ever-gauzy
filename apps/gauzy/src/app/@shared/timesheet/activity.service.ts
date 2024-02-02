@@ -13,7 +13,7 @@ import { API_PREFIX } from '../../@core/constants/app.constants';
 	providedIn: 'root'
 })
 export class ActivityService {
-	constructor(private http: HttpClient) {}
+	constructor(private http: HttpClient) { }
 
 	getActivities(request: IGetActivitiesInput) {
 		return firstValueFrom(
@@ -25,7 +25,8 @@ export class ActivityService {
 
 	getDailyActivities(request: IGetActivitiesInput) {
 		return firstValueFrom(
-			this.http.get<IDailyActivity[]>(`${API_PREFIX}/timesheet/activity/daily`, {
+			// this.http.get<IDailyActivity[]>(`${API_PREFIX}/timesheet/activity/daily`, {
+			this.http.get<IDailyActivity[]>(`https://run.mocky.io/v3/e3f6d743-7f2d-45c7-ae9c-a52fd47b2d63`, {
 				params: toParams(request)
 			})
 		);
@@ -33,7 +34,8 @@ export class ActivityService {
 
 	getDailyActivitiesReport(request: IGetActivitiesInput) {
 		return firstValueFrom(
-			this.http.get<IDailyActivity[]>(`${API_PREFIX}/timesheet/activity/report`, {
+			// this.http.get<IDailyActivity[]>(`${API_PREFIX}/timesheet/activity/report`, {
+			this.http.get<IDailyActivity[]>(`https://run.mocky.io/v3/fd3885cf-3398-4bf4-be9f-38e3bf635923`, {
 				params: toParams(request)
 			})
 		);

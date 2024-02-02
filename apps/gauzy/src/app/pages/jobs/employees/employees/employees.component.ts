@@ -132,7 +132,8 @@ export class EmployeesComponent extends PaginationFilterBaseComponent implements
 
 		// Create a new ServerDataSource for Smart Table
 		this.smartTableSource = new ServerDataSource(this.http, {
-			endPoint: `${API_PREFIX}/employee/job-statistics`,
+			// endPoint: `${API_PREFIX}/employee/job-statistics`,
+			endPoint: `https://run.mocky.io/v3/85faef34-ca27-4f95-b44d-323ccf1c9b64`,
 			relations: ['user'],
 			// Define query parameters for the API request
 			where: {

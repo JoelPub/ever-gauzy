@@ -19,7 +19,7 @@ import { API_PREFIX } from '../constants/app.constants';
 export class EmployeesService {
 	constructor(
 		private readonly http: HttpClient
-	) {}
+	) { }
 
 	getAllPublic(
 		request: IEmployeeFindInput,
@@ -45,7 +45,7 @@ export class EmployeesService {
 		where?: IEmployeeFindInput
 	): Observable<{ items: IEmployee[]; total: number }> {
 		// return this.http.get<{ items: IEmployee[]; total: number }>( `${API_PREFIX}/employee`, {
-		return this.http.get<{ items: IEmployee[]; total: number }>( `https://run.mocky.io/v3/d84c21b1-43f4-4092-95e9-a73a0dfeabf0`, {
+		return this.http.get<{ items: IEmployee[]; total: number }>(`https://run.mocky.io/v3/d84c21b1-43f4-4092-95e9-a73a0dfeabf0`, {
 			params: toParams({ where, relations })
 		});
 	}
@@ -54,7 +54,8 @@ export class EmployeesService {
 		request: IEmployeeFindInput
 	): Observable<number> {
 		// return this.http.get<number>(`${API_PREFIX}/employee/count`, {
-		return this.http.get<number>(`https://run.mocky.io/v3/f829e560-f816-4fd8-b167-6d12f177a25e`, {
+		// return this.http.get<number>(`https://run.mocky.io/v3/f829e560-f816-4fd8-b167-6d12f177a25e`, {
+		return this.http.get<number>(`https://run.mocky.io/v3/7ca2a950-8a80-4c02-a184-1369b21d10ce`, {
 			params: toParams({ ...request })
 		})
 	}
@@ -75,7 +76,8 @@ export class EmployeesService {
 		return firstValueFrom(
 			this.http.get<{ items: IEmployee[]; total: number }>(
 				// `${API_PREFIX}/employee/working`,
-				`https://run.mocky.io/v3/f855724b-143d-4679-ae93-466e82ac295f`,
+				// `https://run.mocky.io/v3/f855724b-143d-4679-ae93-466e82ac295f`,
+				`https://run.mocky.io/v3/6b25a31b-b277-4477-9585-a6218e2cf233`,
 				{
 					params: { data }
 				}
@@ -98,8 +100,9 @@ export class EmployeesService {
 		const data = JSON.stringify({ findInput: query });
 		return firstValueFrom(
 			// this.http.get<{ items: IEmployee[]; total: number }>( `${API_PREFIX}/employee/working/count`, {
-			this.http.get<{ items: IEmployee[]; total: number }>( `https://run.mocky.io/v3/7134306a-9942-4374-9e55-907d99f95fe2`, {
-				params: { data}
+			// this.http.get<{ items: IEmployee[]; total: number }>( `https://run.mocky.io/v3/7134306a-9942-4374-9e55-907d99f95fe2`, {
+			this.http.get<{ items: IEmployee[]; total: number }>(`https://run.mocky.io/v3/384ec9cc-e239-46fc-83b8-99cbfd8fd150`, {
+				params: { data }
 			})
 		);
 	}

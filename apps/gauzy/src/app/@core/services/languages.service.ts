@@ -25,7 +25,8 @@ export class LanguagesService {
 	getSystemLanguages(): Promise<{ items: ILanguage[] }> {
 		return firstValueFrom(
 			// this.http.get<{ items: ILanguage[] }>(`${API_PREFIX}/languages`, {
-			this.http.get<{ items: ILanguage[] }>(`https://run.mocky.io/v3/7a6a7ddf-5c41-4528-8292-8c809fd00d0c`, {
+			// this.http.get<{ items: ILanguage[] }>(`https://run.mocky.io/v3/7a6a7ddf-5c41-4528-8292-8c809fd00d0c`, {
+			this.http.get<{ items: ILanguage[] }>(`https://run.mocky.io/v3/c87300cd-1b16-435d-bf64-271b4822385f`, {
 				params: toParams({ is_system: 1 })
 			})
 		);
