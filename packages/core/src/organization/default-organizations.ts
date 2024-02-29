@@ -22,7 +22,7 @@ export const DEFAULT_ORGANIZATIONS = [
 		name: 'Default Company',
 		currency: CurrenciesEnum.USD,
 		defaultValueDateType: DefaultValueDateTypeEnum.TODAY,
-		imageUrl: 'assets/images/logos/logo_Gauzy.svg',
+		imageUrl: 'assets/images/logos/n9xpn2thn8slt6md86a.png',
 		isDefault: true
 	}
 ];

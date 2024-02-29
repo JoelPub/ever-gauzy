@@ -39,10 +39,13 @@
 						"polyfills": "apps/gauzy/src/polyfills.ts",
 						"tsConfig": "apps/gauzy/tsconfig.app.json",
 						"stylePreprocessorOptions": {
-							"includePaths": ["apps/gauzy/src/app/@theme/styles"]
+							"includePaths": [
+								"apps/gauzy/src/app/@theme/styles"
+							]
 						},
 						"assets": [
 							"apps/gauzy/src/favicon.ico",
+							"apps/gauzy/src/n9xpn2thn8slt6md86a.ico",
 							"apps/gauzy/src/assets",
 							"apps/gauzy/src/manifest.json",
 							"apps/gauzy/src/silent-refresh.html"
@@ -186,7 +189,9 @@
 				"lint": {
 					"builder": "@nrwl/linter:eslint",
 					"options": {
-						"lintFilePatterns": ["apps/gauzy-e2e/**/*.{js,ts}"]
+						"lintFilePatterns": [
+							"apps/gauzy-e2e/**/*.{js,ts}"
+						]
 					}
 				}
 			}
@@ -347,17 +352,22 @@
 						"polyfills": "apps/gauzy/src/polyfills.ts",
 						"tsConfig": "apps/gauzy/tsconfig.app.json",
 						"stylePreprocessorOptions": {
-							"includePaths": ["apps/gauzy/src/app/@theme/styles"]
+							"includePaths": [
+								"apps/gauzy/src/app/@theme/styles"
+							]
 						},
 						"assets": [
 							"apps/gauzy/src/favicon.ico",
+							"apps/gauzy/src/n9xpn2thn8slt6md86a.ico",
 							"apps/gauzy/src/assets",
 							"apps/gauzy/src/manifest.json",
 							"apps/gauzy/src/silent-refresh.html",
 							{
 								"glob": "**/*",
 								"input": "apps/desktop/src/",
-								"ignore": ["**/*.ts"],
+								"ignore": [
+									"**/*.ts"
+								],
 								"output": ""
 							}
 						],
@@ -444,7 +454,9 @@
 						"maxWorkers": 4,
 						"memoryLimit": 4000,
 						"tsConfig": "apps/api/tsconfig.app.json",
-						"assets": ["apps/api/src/assets"]
+						"assets": [
+							"apps/api/src/assets"
+						]
 					},
 					"configurations": {
 						"production": {
@@ -590,7 +602,9 @@
 						"outputPath": "dist/apps/desktop/desktop-api",
 						"main": "packages/desktop-api/src/main.ts",
 						"tsConfig": "packages/desktop-api/tsconfig.app.json",
-						"assets": ["packages/desktop-api/src/assets"]
+						"assets": [
+							"packages/desktop-api/src/assets"
+						]
 					},
 					"configurations": {
 						"production": {
@@ -683,7 +697,9 @@
 							{
 								"glob": "**/*",
 								"input": "apps/desktop-timer/src/",
-								"ignore": ["**/*.ts"],
+								"ignore": [
+									"**/*.ts"
+								],
 								"output": ""
 							},
 							{
@@ -770,7 +786,9 @@
 				},
 				"test": {
 					"builder": "@nrwl/jest:jest",
-					"outputs": ["coverage/apps/desktop-timer"],
+					"outputs": [
+						"coverage/apps/desktop-timer"
+					],
 					"options": {
 						"jestConfig": "apps/desktop-timer/jest.config.js",
 						"passWithNoTests": true
@@ -807,7 +825,9 @@
 							{
 								"glob": "**/*",
 								"input": "apps/server/src/",
-								"ignore": ["**/*.ts"],
+								"ignore": [
+									"**/*.ts"
+								],
 								"output": ""
 							}
 						],
@@ -827,7 +847,9 @@
 						],
 						"scripts": [],
 						"stylePreprocessorOptions": {
-							"includePaths": ["apps/server/src/assets/styles"]
+							"includePaths": [
+								"apps/server/src/assets/styles"
+							]
 						}
 					},
 					"configurations": {
@@ -892,7 +914,9 @@
 				},
 				"test": {
 					"builder": "@nrwl/jest:jest",
-					"outputs": ["coverage/apps/server"],
+					"outputs": [
+						"coverage/apps/server"
+					],
 					"options": {
 						"jestConfig": "apps/server/jest.config.js",
 						"passWithNoTests": true
@@ -923,7 +947,9 @@
 						"polyfills": "apps/gauzy/src/polyfills.ts",
 						"tsConfig": "apps/gauzy/tsconfig.app.json",
 						"stylePreprocessorOptions": {
-							"includePaths": ["apps/gauzy/src/app/@theme/styles"]
+							"includePaths": [
+								"apps/gauzy/src/app/@theme/styles"
+							]
 						},
 						"assets": [
 							"apps/gauzy/src/favicon.ico",
@@ -1010,7 +1036,9 @@
 						"maxWorkers": 4,
 						"memoryLimit": 4000,
 						"tsConfig": "apps/api/tsconfig.app.json",
-						"assets": ["apps/api/src/assets"]
+						"assets": [
+							"apps/api/src/assets"
+						]
 					},
 					"configurations": {
 						"production": {

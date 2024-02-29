@@ -189,7 +189,7 @@ export const env: Env = cleanEnv(
 
 		// Set default platform logo
 		PLATFORM_LOGO: str({
-			default: 'assets/images/logos/logo_Gauzy.svg',
+			default: 'assets/images/logos/n9xpn2thn8slt6md86a.png',
 		}),
 
 		//Set default gauzy desktop logo 512x512 pixels
@@ -235,7 +235,7 @@ export const env: Env = cleanEnv(
 			default: 'https://www.linkedin.com/company/ever-co',
 		}),
 		NO_INTERNET_LOGO: str({
-			default: 'assets/images/logos/logo_Gauzy.svg',
+			default: 'assets/images/logos/n9xpn2thn8slt6md86a.png',
 		}),
 		PROJECT_REPO: str({
 			default: 'https://github.com/ever-co/ever-gauzy.git',

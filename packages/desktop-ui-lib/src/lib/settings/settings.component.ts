@@ -65,8 +65,8 @@ export class SettingsComponent implements OnInit, AfterViewInit {
 	menus = [];
 	gauzyIcon: SafeResourceUrl =
 		this.isDesktopTimer || this.isServer
-			? './assets/images/logos/logo_Gauzy.svg'
-			: '../assets/images/logos/logo_Gauzy.svg';
+			? './assets/images/logos/n9xpn2thn8slt6md86a.png'
+			: '../assets/images/logos/n9xpn2thn8slt6md86a.png';
 
 	private _monitorsOption$: BehaviorSubject<any> = new BehaviorSubject([
 		{
