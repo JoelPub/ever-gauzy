@@ -109,35 +109,35 @@ export class PagesComponent extends TranslationBaseComponent
 					translationKey: 'MENU.ACCOUNTING'
 				},
 				children: [
-					{
-						title: 'Estimates',
-						icon: 'far fa-file',
-						link: '/pages/accounting/invoices/estimates',
-						data: {
-							translationKey: 'MENU.ESTIMATES',
-							permissionKeys: [
-								PermissionsEnum.ALL_ORG_VIEW,
-								PermissionsEnum.ESTIMATES_VIEW
-							],
-							featureKey: FeatureEnum.FEATURE_ESTIMATE,
-							...(this.store.hasAnyPermission(PermissionsEnum.ALL_ORG_EDIT, PermissionsEnum.ESTIMATES_EDIT)
-								? { add: '/pages/accounting/invoices/estimates/add' }
-								: {})
-						}
-					},
-					{
-						title: 'Estimates Received',
-						icon: 'fas fa-file-invoice',
-						link: '/pages/accounting/invoices/received-estimates',
-						data: {
-							translationKey: 'MENU.ESTIMATES_RECEIVED',
-							permissionKeys: [
-								PermissionsEnum.ALL_ORG_VIEW,
-								PermissionsEnum.ESTIMATES_VIEW
-							],
-							featureKey: FeatureEnum.FEATURE_ESTIMATE_RECEIVED
-						}
-					},
+					// {
+					// 	title: 'Estimates',
+					// 	icon: 'far fa-file',
+					// 	link: '/pages/accounting/invoices/estimates',
+					// 	data: {
+					// 		translationKey: 'MENU.ESTIMATES',
+					// 		permissionKeys: [
+					// 			PermissionsEnum.ALL_ORG_VIEW,
+					// 			PermissionsEnum.ESTIMATES_VIEW
+					// 		],
+					// 		featureKey: FeatureEnum.FEATURE_ESTIMATE,
+					// 		...(this.store.hasAnyPermission(PermissionsEnum.ALL_ORG_EDIT, PermissionsEnum.ESTIMATES_EDIT)
+					// 			? { add: '/pages/accounting/invoices/estimates/add' }
+					// 			: {})
+					// 	}
+					// },
+					// {
+					// 	title: 'Estimates Received',
+					// 	icon: 'fas fa-file-invoice',
+					// 	link: '/pages/accounting/invoices/received-estimates',
+					// 	data: {
+					// 		translationKey: 'MENU.ESTIMATES_RECEIVED',
+					// 		permissionKeys: [
+					// 			PermissionsEnum.ALL_ORG_VIEW,
+					// 			PermissionsEnum.ESTIMATES_VIEW
+					// 		],
+					// 		featureKey: FeatureEnum.FEATURE_ESTIMATE_RECEIVED
+					// 	}
+					// },
 					{
 						title: 'Invoices',
 						icon: 'far fa-file-alt',
@@ -183,306 +183,306 @@ export class PagesComponent extends TranslationBaseComponent
 							featureKey: FeatureEnum.FEATURE_INVOICE_RECEIVED
 						}
 					},
-					{
-						title: 'Income',
-						icon: 'fas fa-plus-circle',
-						link: '/pages/accounting/income',
-						data: {
-							translationKey: 'MENU.INCOME',
-							permissionKeys: [PermissionsEnum.ORG_INCOMES_VIEW],
-							featureKey: FeatureEnum.FEATURE_INCOME,
-							...(this.store.hasAnyPermission(
-								PermissionsEnum.ALL_ORG_EDIT,
-								PermissionsEnum.ORG_INCOMES_EDIT
-							)
-								? { add: '/pages/accounting/income?openAddDialog=true' }
-								: {})
-						}
-					},
-					{
-						title: 'Expenses',
-						icon: 'fas fa-minus-circle',
-						link: '/pages/accounting/expenses',
-						data: {
-							translationKey: 'MENU.EXPENSES',
-							permissionKeys: [PermissionsEnum.ORG_EXPENSES_VIEW],
-							featureKey: FeatureEnum.FEATURE_EXPENSE,
-							...(this.store.hasAnyPermission(
-								PermissionsEnum.ALL_ORG_EDIT,
-								PermissionsEnum.ORG_EXPENSES_EDIT
-							)
-								? { add: '/pages/accounting/expenses?openAddDialog=true' }
-								: {})
-						}
-					},
-					{
-						title: 'Expense Recurring',
-						icon: 'fas fa-exchange-alt fa-rotate-90',
-						link: '/pages/accounting/expense-recurring',
-						data: {
-							translationKey:
-								'ORGANIZATIONS_PAGE.EXPENSE_RECURRING',
-							permissionKeys: [PermissionsEnum.ORG_EXPENSES_VIEW],
-							featureKey:
-								FeatureEnum.FEATURE_ORGANIZATION_RECURRING_EXPENSE,
-							...(this.store.hasAnyPermission(
-								PermissionsEnum.ALL_ORG_EDIT,
-								PermissionsEnum.ORG_EXPENSES_EDIT
-							)
-								? { add: '/pages/accounting/expense-recurring?openAddDialog=true' }
-								: {})
-						}
-					},
-					{
-						title: 'Payments',
-						icon: 'fas fa-cash-register',
-						link: '/pages/accounting/payments',
-						data: {
-							translationKey: 'MENU.PAYMENTS',
-							permissionKeys: [PermissionsEnum.ORG_PAYMENT_VIEW],
-							featureKey: FeatureEnum.FEATURE_PAYMENT,
-							...(this.store.hasAnyPermission(
-								PermissionsEnum.ALL_ORG_EDIT,
-								PermissionsEnum.ORG_PAYMENT_ADD_EDIT
-							)
-								? { add: '/pages/accounting/payments?openAddDialog=true' }
-								: {})
-						}
-					}
+					// {
+					// 	title: 'Income',
+					// 	icon: 'fas fa-plus-circle',
+					// 	link: '/pages/accounting/income',
+					// 	data: {
+					// 		translationKey: 'MENU.INCOME',
+					// 		permissionKeys: [PermissionsEnum.ORG_INCOMES_VIEW],
+					// 		featureKey: FeatureEnum.FEATURE_INCOME,
+					// 		...(this.store.hasAnyPermission(
+					// 			PermissionsEnum.ALL_ORG_EDIT,
+					// 			PermissionsEnum.ORG_INCOMES_EDIT
+					// 		)
+					// 			? { add: '/pages/accounting/income?openAddDialog=true' }
+					// 			: {})
+					// 	}
+					// },
+					// {
+					// 	title: 'Expenses',
+					// 	icon: 'fas fa-minus-circle',
+					// 	link: '/pages/accounting/expenses',
+					// 	data: {
+					// 		translationKey: 'MENU.EXPENSES',
+					// 		permissionKeys: [PermissionsEnum.ORG_EXPENSES_VIEW],
+					// 		featureKey: FeatureEnum.FEATURE_EXPENSE,
+					// 		...(this.store.hasAnyPermission(
+					// 			PermissionsEnum.ALL_ORG_EDIT,
+					// 			PermissionsEnum.ORG_EXPENSES_EDIT
+					// 		)
+					// 			? { add: '/pages/accounting/expenses?openAddDialog=true' }
+					// 			: {})
+					// 	}
+					// },
+					// {
+					// 	title: 'Expense Recurring',
+					// 	icon: 'fas fa-exchange-alt fa-rotate-90',
+					// 	link: '/pages/accounting/expense-recurring',
+					// 	data: {
+					// 		translationKey:
+					// 			'ORGANIZATIONS_PAGE.EXPENSE_RECURRING',
+					// 		permissionKeys: [PermissionsEnum.ORG_EXPENSES_VIEW],
+					// 		featureKey:
+					// 			FeatureEnum.FEATURE_ORGANIZATION_RECURRING_EXPENSE,
+					// 		...(this.store.hasAnyPermission(
+					// 			PermissionsEnum.ALL_ORG_EDIT,
+					// 			PermissionsEnum.ORG_EXPENSES_EDIT
+					// 		)
+					// 			? { add: '/pages/accounting/expense-recurring?openAddDialog=true' }
+					// 			: {})
+					// 	}
+					// },
+					// {
+					// 	title: 'Payments',
+					// 	icon: 'fas fa-cash-register',
+					// 	link: '/pages/accounting/payments',
+					// 	data: {
+					// 		translationKey: 'MENU.PAYMENTS',
+					// 		permissionKeys: [PermissionsEnum.ORG_PAYMENT_VIEW],
+					// 		featureKey: FeatureEnum.FEATURE_PAYMENT,
+					// 		...(this.store.hasAnyPermission(
+					// 			PermissionsEnum.ALL_ORG_EDIT,
+					// 			PermissionsEnum.ORG_PAYMENT_ADD_EDIT
+					// 		)
+					// 			? { add: '/pages/accounting/payments?openAddDialog=true' }
+					// 			: {})
+					// 	}
+					// }
 				]
 			},
-			{
-				title: 'Sales',
-				icon: 'fas fa-chart-line',
-				link: '/pages/sales',
-				data: {
-					translationKey: 'MENU.SALES',
-					permissionKeys: [PermissionsEnum.ORG_PROPOSALS_VIEW]
-				},
-				children: [
-					{
-						title: 'Proposals',
-						icon: 'fas fa-paper-plane',
-						link: '/pages/sales/proposals',
-						data: {
-							translationKey: 'MENU.PROPOSALS',
-							permissionKeys: [
-								PermissionsEnum.ORG_PROPOSALS_VIEW
-							],
-							featureKey: FeatureEnum.FEATURE_PROPOSAL,
-							...(this.store.hasAnyPermission(
-								PermissionsEnum.ALL_ORG_EDIT,
-								PermissionsEnum.ORG_PROPOSALS_EDIT
-							)
-								? { add: '/pages/sales/proposals/register' }
-								: {})
-						}
-					},
-					{
-						title: 'Estimates',
-						icon: 'far fa-file',
-						link: '/pages/sales/invoices/estimates',
-						data: {
-							translationKey: 'MENU.ESTIMATES',
-							permissionKeys: [
-								PermissionsEnum.ALL_ORG_VIEW,
-								PermissionsEnum.ESTIMATES_VIEW
-							],
-							featureKey: FeatureEnum.FEATURE_PROPOSAL,
-							...(this.store.hasAnyPermission(
-								PermissionsEnum.ALL_ORG_EDIT,
-								PermissionsEnum.ESTIMATES_EDIT
-							)
-								? { add: '/pages/sales/invoices/estimates/add' }
-								: {})
-						}
-					},
-					{
-						title: 'Invoices',
-						icon: 'far fa-file-alt',
-						link: '/pages/sales/invoices',
-						data: {
-							translationKey: 'MENU.INVOICES',
-							permissionKeys: [
-								PermissionsEnum.ALL_ORG_VIEW,
-								PermissionsEnum.INVOICES_VIEW
-							],
-							featureKey: FeatureEnum.FEATURE_INVOICE,
-							...(this.store.hasAnyPermission(PermissionsEnum.ALL_ORG_EDIT, PermissionsEnum.INVOICES_EDIT)
-								? { add: '/pages/sales/invoices/add' }
-								: {})
-						}
-					},
-					{
-						title: 'Invoices Recurring',
-						icon: 'fas fa-exchange-alt fa-rotate-90',
-						link: '/pages/sales/invoices/recurring',
-						data: {
-							translationKey: 'MENU.RECURRING_INVOICES',
-							permissionKeys: [
-								PermissionsEnum.ALL_ORG_VIEW,
-								PermissionsEnum.INVOICES_VIEW
-							],
-							featureKey: FeatureEnum.FEATURE_INVOICE_RECURRING
-						}
-					},
-					{
-						title: 'Payments',
-						icon: 'fas fa-cash-register',
-						link: '/pages/sales/payments',
-						data: {
-							translationKey: 'MENU.PAYMENTS',
-							permissionKeys: [PermissionsEnum.ORG_PAYMENT_VIEW],
-							featureKey: FeatureEnum.FEATURE_PAYMENT,
-							...(this.store.hasAnyPermission(
-								PermissionsEnum.ALL_ORG_EDIT,
-								PermissionsEnum.ORG_PAYMENT_ADD_EDIT
-							)
-								? { add: '/pages/sales/payments?openAddDialog=true' }
-								: {})
-						}
-					},
-					{
-						title: 'Pipelines',
-						icon: 'fas fa-filter',
-						link: '/pages/sales/pipelines',
-						data: {
-							translationKey: 'MENU.PIPELINES',
-							permissionKeys: [
-								PermissionsEnum.VIEW_SALES_PIPELINES
-							],
-							featureKey: FeatureEnum.FEATURE_PIPELINE,
-							...(this.store.hasAnyPermission(
-								PermissionsEnum.ALL_ORG_EDIT,
-								PermissionsEnum.EDIT_SALES_PIPELINES
-							)
-								? { add: '/pages/sales/pipelines?openAddDialog=true' }
-								: {})
-						}
-					}
-				]
-			},
-			{
-				title: 'Tasks',
-				icon: 'fas fa-tasks',
-				link: '/pages/tasks',
-				data: {
-					translationKey: 'MENU.TASKS'
-				},
-				children: [
-					{
-						title: 'Dashboard',
-						icon: 'fas fa-th',
-						link: '/pages/tasks/dashboard',
-						data: {
-							translationKey: 'MENU.DASHBOARD',
-							permissionKeys: [
-								PermissionsEnum.ALL_ORG_VIEW,
-								PermissionsEnum.ORG_TASK_VIEW
-							],
-							featureKey: FeatureEnum.FEATURE_DASHBOARD_TASK,
-							...(this.store.hasAnyPermission(PermissionsEnum.ALL_ORG_EDIT, PermissionsEnum.ORG_TASK_ADD)
-								? { add: '/pages/tasks/dashboard?openAddDialog=true' }
-								: {})
-						}
-					},
-					{
-						title: 'My Tasks',
-						icon: 'fas fa-user',
-						link: '/pages/tasks/me',
-						data: {
-							translationKey: 'MENU.MY_TASKS',
-							hide: () => !this.isEmployee,
-							permissionKeys: [
-								PermissionsEnum.ALL_ORG_VIEW,
-								PermissionsEnum.ORG_TASK_VIEW
-							],
-							featureKey: FeatureEnum.FEATURE_MY_TASK,
-							...(this.store.hasAnyPermission(PermissionsEnum.ALL_ORG_EDIT, PermissionsEnum.ORG_TASK_ADD)
-								? { add: '/pages/tasks/me?openAddDialog=true' }
-								: {})
-						}
-					},
-					{
-						title: "Team's Tasks",
-						icon: 'fas fa-user-friends',
-						link: '/pages/tasks/team',
-						data: {
-							translationKey: 'MENU.TEAM_TASKS',
-							permissionKeys: [
-								PermissionsEnum.ALL_ORG_VIEW,
-								PermissionsEnum.ORG_TASK_VIEW
-							],
-							featureKey: FeatureEnum.FEATURE_TEAM_TASK,
-							...(this.store.hasAnyPermission(PermissionsEnum.ALL_ORG_EDIT, PermissionsEnum.ORG_TASK_ADD)
-								? { add: '/pages/tasks/team?openAddDialog=true' }
-								: {})
-						}
-					}
-				]
-			},
-			{
-				title: 'Jobs',
-				icon: 'fas fa-briefcase',
-				link: '/pages/jobs',
-				data: {
-					translationKey: 'MENU.JOBS',
-					featureKey: FeatureEnum.FEATURE_JOB
-				},
-				children: [
-					{
-						title: 'Employee',
-						icon: 'fas fa-user-friends',
-						link: '/pages/jobs/employee',
-						data: {
-							translationKey: 'MENU.EMPLOYEES',
-							permissionKeys: [
-								PermissionsEnum.ORG_JOB_EMPLOYEE_VIEW
-							]
-						}
-					},
-					{
-						title: 'Browse',
-						icon: 'fas fa-list',
-						link: '/pages/jobs/search',
-						data: {
-							translationKey: 'MENU.JOBS_SEARCH',
-							permissionKeys: [
-								PermissionsEnum.ORG_JOB_EMPLOYEE_VIEW,
-								PermissionsEnum.ORG_JOB_MATCHING_VIEW
-							]
-						}
-					},
-					{
-						title: 'Matching',
-						icon: 'fas fa-user',
-						link: '/pages/jobs/matching',
-						data: {
-							translationKey: 'MENU.JOBS_MATCHING',
-							permissionKeys: [
-								PermissionsEnum.ORG_JOB_MATCHING_VIEW
-							]
-						}
-					},
-					{
-						title: 'Proposal Template',
-						icon: 'far fa-file-alt',
-						link: '/pages/jobs/proposal-template',
-						data: {
-							translationKey: 'MENU.PROPOSAL_TEMPLATE',
-							permissionKeys: [
-								PermissionsEnum.ORG_PROPOSAL_TEMPLATES_VIEW
-							],
-							...(this.store.hasAnyPermission(
-								PermissionsEnum.ALL_ORG_EDIT,
-								PermissionsEnum.ORG_PROPOSAL_TEMPLATES_EDIT
-							)
-								? { add: '/pages/jobs/proposal-template?openAddDialog=true' }
-								: {})
-						}
-					}
-				]
-			},
+			// {
+			// 	title: 'Sales',
+			// 	icon: 'fas fa-chart-line',
+			// 	link: '/pages/sales',
+			// 	data: {
+			// 		translationKey: 'MENU.SALES',
+			// 		permissionKeys: [PermissionsEnum.ORG_PROPOSALS_VIEW]
+			// 	},
+			// 	children: [
+			// 		{
+			// 			title: 'Proposals',
+			// 			icon: 'fas fa-paper-plane',
+			// 			link: '/pages/sales/proposals',
+			// 			data: {
+			// 				translationKey: 'MENU.PROPOSALS',
+			// 				permissionKeys: [
+			// 					PermissionsEnum.ORG_PROPOSALS_VIEW
+			// 				],
+			// 				featureKey: FeatureEnum.FEATURE_PROPOSAL,
+			// 				...(this.store.hasAnyPermission(
+			// 					PermissionsEnum.ALL_ORG_EDIT,
+			// 					PermissionsEnum.ORG_PROPOSALS_EDIT
+			// 				)
+			// 					? { add: '/pages/sales/proposals/register' }
+			// 					: {})
+			// 			}
+			// 		},
+			// 		{
+			// 			title: 'Estimates',
+			// 			icon: 'far fa-file',
+			// 			link: '/pages/sales/invoices/estimates',
+			// 			data: {
+			// 				translationKey: 'MENU.ESTIMATES',
+			// 				permissionKeys: [
+			// 					PermissionsEnum.ALL_ORG_VIEW,
+			// 					PermissionsEnum.ESTIMATES_VIEW
+			// 				],
+			// 				featureKey: FeatureEnum.FEATURE_PROPOSAL,
+			// 				...(this.store.hasAnyPermission(
+			// 					PermissionsEnum.ALL_ORG_EDIT,
+			// 					PermissionsEnum.ESTIMATES_EDIT
+			// 				)
+			// 					? { add: '/pages/sales/invoices/estimates/add' }
+			// 					: {})
+			// 			}
+			// 		},
+			// 		{
+			// 			title: 'Invoices',
+			// 			icon: 'far fa-file-alt',
+			// 			link: '/pages/sales/invoices',
+			// 			data: {
+			// 				translationKey: 'MENU.INVOICES',
+			// 				permissionKeys: [
+			// 					PermissionsEnum.ALL_ORG_VIEW,
+			// 					PermissionsEnum.INVOICES_VIEW
+			// 				],
+			// 				featureKey: FeatureEnum.FEATURE_INVOICE,
+			// 				...(this.store.hasAnyPermission(PermissionsEnum.ALL_ORG_EDIT, PermissionsEnum.INVOICES_EDIT)
+			// 					? { add: '/pages/sales/invoices/add' }
+			// 					: {})
+			// 			}
+			// 		},
+			// 		{
+			// 			title: 'Invoices Recurring',
+			// 			icon: 'fas fa-exchange-alt fa-rotate-90',
+			// 			link: '/pages/sales/invoices/recurring',
+			// 			data: {
+			// 				translationKey: 'MENU.RECURRING_INVOICES',
+			// 				permissionKeys: [
+			// 					PermissionsEnum.ALL_ORG_VIEW,
+			// 					PermissionsEnum.INVOICES_VIEW
+			// 				],
+			// 				featureKey: FeatureEnum.FEATURE_INVOICE_RECURRING
+			// 			}
+			// 		},
+			// 		{
+			// 			title: 'Payments',
+			// 			icon: 'fas fa-cash-register',
+			// 			link: '/pages/sales/payments',
+			// 			data: {
+			// 				translationKey: 'MENU.PAYMENTS',
+			// 				permissionKeys: [PermissionsEnum.ORG_PAYMENT_VIEW],
+			// 				featureKey: FeatureEnum.FEATURE_PAYMENT,
+			// 				...(this.store.hasAnyPermission(
+			// 					PermissionsEnum.ALL_ORG_EDIT,
+			// 					PermissionsEnum.ORG_PAYMENT_ADD_EDIT
+			// 				)
+			// 					? { add: '/pages/sales/payments?openAddDialog=true' }
+			// 					: {})
+			// 			}
+			// 		},
+			// 		{
+			// 			title: 'Pipelines',
+			// 			icon: 'fas fa-filter',
+			// 			link: '/pages/sales/pipelines',
+			// 			data: {
+			// 				translationKey: 'MENU.PIPELINES',
+			// 				permissionKeys: [
+			// 					PermissionsEnum.VIEW_SALES_PIPELINES
+			// 				],
+			// 				featureKey: FeatureEnum.FEATURE_PIPELINE,
+			// 				...(this.store.hasAnyPermission(
+			// 					PermissionsEnum.ALL_ORG_EDIT,
+			// 					PermissionsEnum.EDIT_SALES_PIPELINES
+			// 				)
+			// 					? { add: '/pages/sales/pipelines?openAddDialog=true' }
+			// 					: {})
+			// 			}
+			// 		}
+			// 	]
+			// },
+			// {
+			// 	title: 'Tasks',
+			// 	icon: 'fas fa-tasks',
+			// 	link: '/pages/tasks',
+			// 	data: {
+			// 		translationKey: 'MENU.TASKS'
+			// 	},
+			// 	children: [
+			// 		{
+			// 			title: 'Dashboard',
+			// 			icon: 'fas fa-th',
+			// 			link: '/pages/tasks/dashboard',
+			// 			data: {
+			// 				translationKey: 'MENU.DASHBOARD',
+			// 				permissionKeys: [
+			// 					PermissionsEnum.ALL_ORG_VIEW,
+			// 					PermissionsEnum.ORG_TASK_VIEW
+			// 				],
+			// 				featureKey: FeatureEnum.FEATURE_DASHBOARD_TASK,
+			// 				...(this.store.hasAnyPermission(PermissionsEnum.ALL_ORG_EDIT, PermissionsEnum.ORG_TASK_ADD)
+			// 					? { add: '/pages/tasks/dashboard?openAddDialog=true' }
+			// 					: {})
+			// 			}
+			// 		},
+			// 		{
+			// 			title: 'My Tasks',
+			// 			icon: 'fas fa-user',
+			// 			link: '/pages/tasks/me',
+			// 			data: {
+			// 				translationKey: 'MENU.MY_TASKS',
+			// 				hide: () => !this.isEmployee,
+			// 				permissionKeys: [
+			// 					PermissionsEnum.ALL_ORG_VIEW,
+			// 					PermissionsEnum.ORG_TASK_VIEW
+			// 				],
+			// 				featureKey: FeatureEnum.FEATURE_MY_TASK,
+			// 				...(this.store.hasAnyPermission(PermissionsEnum.ALL_ORG_EDIT, PermissionsEnum.ORG_TASK_ADD)
+			// 					? { add: '/pages/tasks/me?openAddDialog=true' }
+			// 					: {})
+			// 			}
+			// 		},
+			// 		{
+			// 			title: "Team's Tasks",
+			// 			icon: 'fas fa-user-friends',
+			// 			link: '/pages/tasks/team',
+			// 			data: {
+			// 				translationKey: 'MENU.TEAM_TASKS',
+			// 				permissionKeys: [
+			// 					PermissionsEnum.ALL_ORG_VIEW,
+			// 					PermissionsEnum.ORG_TASK_VIEW
+			// 				],
+			// 				featureKey: FeatureEnum.FEATURE_TEAM_TASK,
+			// 				...(this.store.hasAnyPermission(PermissionsEnum.ALL_ORG_EDIT, PermissionsEnum.ORG_TASK_ADD)
+			// 					? { add: '/pages/tasks/team?openAddDialog=true' }
+			// 					: {})
+			// 			}
+			// 		}
+			// 	]
+			// },
+			// {
+			// 	title: 'Jobs',
+			// 	icon: 'fas fa-briefcase',
+			// 	link: '/pages/jobs',
+			// 	data: {
+			// 		translationKey: 'MENU.JOBS',
+			// 		featureKey: FeatureEnum.FEATURE_JOB
+			// 	},
+			// 	children: [
+			// 		{
+			// 			title: 'Employee',
+			// 			icon: 'fas fa-user-friends',
+			// 			link: '/pages/jobs/employee',
+			// 			data: {
+			// 				translationKey: 'MENU.EMPLOYEES',
+			// 				permissionKeys: [
+			// 					PermissionsEnum.ORG_JOB_EMPLOYEE_VIEW
+			// 				]
+			// 			}
+			// 		},
+			// 		{
+			// 			title: 'Browse',
+			// 			icon: 'fas fa-list',
+			// 			link: '/pages/jobs/search',
+			// 			data: {
+			// 				translationKey: 'MENU.JOBS_SEARCH',
+			// 				permissionKeys: [
+			// 					PermissionsEnum.ORG_JOB_EMPLOYEE_VIEW,
+			// 					PermissionsEnum.ORG_JOB_MATCHING_VIEW
+			// 				]
+			// 			}
+			// 		},
+			// 		{
+			// 			title: 'Matching',
+			// 			icon: 'fas fa-user',
+			// 			link: '/pages/jobs/matching',
+			// 			data: {
+			// 				translationKey: 'MENU.JOBS_MATCHING',
+			// 				permissionKeys: [
+			// 					PermissionsEnum.ORG_JOB_MATCHING_VIEW
+			// 				]
+			// 			}
+			// 		},
+			// 		{
+			// 			title: 'Proposal Template',
+			// 			icon: 'far fa-file-alt',
+			// 			link: '/pages/jobs/proposal-template',
+			// 			data: {
+			// 				translationKey: 'MENU.PROPOSAL_TEMPLATE',
+			// 				permissionKeys: [
+			// 					PermissionsEnum.ORG_PROPOSAL_TEMPLATES_VIEW
+			// 				],
+			// 				...(this.store.hasAnyPermission(
+			// 					PermissionsEnum.ALL_ORG_EDIT,
+			// 					PermissionsEnum.ORG_PROPOSAL_TEMPLATES_EDIT
+			// 				)
+			// 					? { add: '/pages/jobs/proposal-template?openAddDialog=true' }
+			// 					: {})
+			// 			}
+			// 		}
+			// 	]
+			// },
 			{
 				title: 'Employees',
 				icon: 'fas fa-user-friends',
@@ -503,44 +503,44 @@ export class PagesComponent extends TranslationBaseComponent
 							featureKey: FeatureEnum.FEATURE_EMPLOYEES
 						}
 					},
-					{
-						title: 'Time & Activity',
-						icon: 'fas fa-chart-line',
-						link: '/pages/employees/activity',
-						pathMatch: 'prefix',
-						data: {
-							translationKey: 'MENU.TIME_ACTIVITY',
-							permissionKeys: [
-								PermissionsEnum.ADMIN_DASHBOARD_VIEW,
-								PermissionsEnum.TIME_TRACKER
-							],
-							featureKey: FeatureEnum.FEATURE_EMPLOYEE_TIME_ACTIVITY
-						}
-					},
-					{
-						title: 'Timesheets',
-						icon: 'far fa-clock',
-						link: '/pages/employees/timesheets',
-						pathMatch: 'prefix',
-						data: {
-							translationKey: 'MENU.TIMESHEETS',
-							permissionKeys: [
-								PermissionsEnum.ADMIN_DASHBOARD_VIEW,
-								PermissionsEnum.TIME_TRACKER
-							],
-							featureKey: FeatureEnum.FEATURE_EMPLOYEE_TIMESHEETS
-						}
-					},
-					{
-						title: 'Appointments',
-						icon: 'fas fa-calendar-week',
-						link: '/pages/employees/appointments',
-						pathMatch: 'prefix',
-						data: {
-							translationKey: 'MENU.APPOINTMENTS',
-							featureKey: FeatureEnum.FEATURE_EMPLOYEE_APPOINTMENT
-						}
-					},
+					// {
+					// 	title: 'Time & Activity',
+					// 	icon: 'fas fa-chart-line',
+					// 	link: '/pages/employees/activity',
+					// 	pathMatch: 'prefix',
+					// 	data: {
+					// 		translationKey: 'MENU.TIME_ACTIVITY',
+					// 		permissionKeys: [
+					// 			PermissionsEnum.ADMIN_DASHBOARD_VIEW,
+					// 			PermissionsEnum.TIME_TRACKER
+					// 		],
+					// 		featureKey: FeatureEnum.FEATURE_EMPLOYEE_TIME_ACTIVITY
+					// 	}
+					// },
+					// {
+					// 	title: 'Timesheets',
+					// 	icon: 'far fa-clock',
+					// 	link: '/pages/employees/timesheets',
+					// 	pathMatch: 'prefix',
+					// 	data: {
+					// 		translationKey: 'MENU.TIMESHEETS',
+					// 		permissionKeys: [
+					// 			PermissionsEnum.ADMIN_DASHBOARD_VIEW,
+					// 			PermissionsEnum.TIME_TRACKER
+					// 		],
+					// 		featureKey: FeatureEnum.FEATURE_EMPLOYEE_TIMESHEETS
+					// 	}
+					// },
+					// {
+					// 	title: 'Appointments',
+					// 	icon: 'fas fa-calendar-week',
+					// 	link: '/pages/employees/appointments',
+					// 	pathMatch: 'prefix',
+					// 	data: {
+					// 		translationKey: 'MENU.APPOINTMENTS',
+					// 		featureKey: FeatureEnum.FEATURE_EMPLOYEE_APPOINTMENT
+					// 	}
+					// },
 					{
 						title: 'Approvals',
 						icon: 'fas fa-repeat',
@@ -559,16 +559,16 @@ export class PagesComponent extends TranslationBaseComponent
 								: {})
 						}
 					},
-					{
-						title: 'Employee Levels',
-						icon: 'fas fa-chart-bar',
-						link: `/pages/employees/employee-level`,
-						data: {
-							translationKey: 'MENU.EMPLOYEE_LEVEL',
-							permissionKeys: [PermissionsEnum.ALL_ORG_VIEW],
-							featureKey: FeatureEnum.FEATURE_EMPLOYEE_LEVEL
-						}
-					},
+					// {
+					// 	title: 'Employee Levels',
+					// 	icon: 'fas fa-chart-bar',
+					// 	link: `/pages/employees/employee-level`,
+					// 	data: {
+					// 		translationKey: 'MENU.EMPLOYEE_LEVEL',
+					// 		permissionKeys: [PermissionsEnum.ALL_ORG_VIEW],
+					// 		featureKey: FeatureEnum.FEATURE_EMPLOYEE_LEVEL
+					// 	}
+					// },
 					{
 						title: 'Positions',
 						icon: 'fas fa-award',
@@ -595,42 +595,42 @@ export class PagesComponent extends TranslationBaseComponent
 								: {})
 						}
 					},
-					{
-						title: 'Recurring Expenses',
-						icon: 'fas fa-exchange-alt fa-rotate-90',
-						link: '/pages/employees/recurring-expenses',
-						data: {
-							translationKey: 'MENU.RECURRING_EXPENSE',
-							permissionKeys: [
-								PermissionsEnum.EMPLOYEE_EXPENSES_VIEW
-							],
-							featureKey: FeatureEnum.FEATURE_EMPLOYEE_RECURRING_EXPENSE,
-							...(this.store.hasAnyPermission(
-								PermissionsEnum.ALL_ORG_EDIT,
-								PermissionsEnum.EMPLOYEE_EXPENSES_EDIT
-							)
-								? { add: '/pages/employees/recurring-expenses?openAddDialog=true' }
-								: {})
-						}
-					},
-					{
-						title: 'Candidates',
-						icon: 'fas fa-user-check',
-						link: '/pages/employees/candidates',
-						data: {
-							translationKey: 'MENU.CANDIDATES',
-							permissionKeys: [
-								PermissionsEnum.ORG_CANDIDATES_VIEW
-							],
-							featureKey: FeatureEnum.FEATURE_EMPLOYEE_CANDIDATE,
-							...(this.store.hasAnyPermission(
-								PermissionsEnum.ALL_ORG_EDIT,
-								PermissionsEnum.ORG_CANDIDATES_EDIT
-							)
-								? { add: '/pages/employees/candidates?openAddDialog=true' }
-								: {})
-						}
-					}
+					// {
+					// 	title: 'Recurring Expenses',
+					// 	icon: 'fas fa-exchange-alt fa-rotate-90',
+					// 	link: '/pages/employees/recurring-expenses',
+					// 	data: {
+					// 		translationKey: 'MENU.RECURRING_EXPENSE',
+					// 		permissionKeys: [
+					// 			PermissionsEnum.EMPLOYEE_EXPENSES_VIEW
+					// 		],
+					// 		featureKey: FeatureEnum.FEATURE_EMPLOYEE_RECURRING_EXPENSE,
+					// 		...(this.store.hasAnyPermission(
+					// 			PermissionsEnum.ALL_ORG_EDIT,
+					// 			PermissionsEnum.EMPLOYEE_EXPENSES_EDIT
+					// 		)
+					// 			? { add: '/pages/employees/recurring-expenses?openAddDialog=true' }
+					// 			: {})
+					// 	}
+					// },
+					// {
+					// 	title: 'Candidates',
+					// 	icon: 'fas fa-user-check',
+					// 	link: '/pages/employees/candidates',
+					// 	data: {
+					// 		translationKey: 'MENU.CANDIDATES',
+					// 		permissionKeys: [
+					// 			PermissionsEnum.ORG_CANDIDATES_VIEW
+					// 		],
+					// 		featureKey: FeatureEnum.FEATURE_EMPLOYEE_CANDIDATE,
+					// 		...(this.store.hasAnyPermission(
+					// 			PermissionsEnum.ALL_ORG_EDIT,
+					// 			PermissionsEnum.ORG_CANDIDATES_EDIT
+					// 		)
+					// 			? { add: '/pages/employees/candidates?openAddDialog=true' }
+					// 			: {})
+					// 	}
+					// }
 				]
 			},
 			{
@@ -654,90 +654,90 @@ export class PagesComponent extends TranslationBaseComponent
 							featureKey: FeatureEnum.FEATURE_ORGANIZATION
 						}
 					},
-					{
-						title: 'Equipment',
-						icon: 'fas fa-border-all',
-						link: '/pages/organization/equipment',
-						data: {
-							permissionKeys: [
-								PermissionsEnum.ALL_ORG_VIEW,
-								PermissionsEnum.ORG_EQUIPMENT_VIEW
-							],
-							translationKey: 'MENU.EQUIPMENT',
-							featureKey: FeatureEnum.FEATURE_ORGANIZATION_EQUIPMENT,
-							...(this.store.hasAnyPermission(
-								PermissionsEnum.ALL_ORG_EDIT,
-								PermissionsEnum.ORG_EQUIPMENT_EDIT
-							)
-								? { add: '/pages/organization/equipment?openAddDialog=true' }
-								: {})
-						}
-					},
-					{
-						title: 'Inventory',
-						icon: 'fas fa-grip-vertical',
-						link: '/pages/organization/inventory',
-						pathMatch: 'prefix',
-						data: {
-							translationKey: 'MENU.INVENTORY',
-							permissionKeys: [PermissionsEnum.ALL_ORG_VIEW],
-							featureKey: FeatureEnum.FEATURE_ORGANIZATION_INVENTORY,
-							...(this.store.hasAnyPermission(
-								PermissionsEnum.ALL_ORG_EDIT,
-								PermissionsEnum.INVENTORY_GALLERY_ADD
-							)
-								? { add: '/pages/organization/inventory/create' }
-								: {})
-						}
-					},
-					{
-						title: 'Tags',
-						icon: 'fas fa-tag',
-						link: '/pages/organization/tags',
-						data: {
-							translationKey: 'MENU.TAGS',
-							permissionKeys: [
-								PermissionsEnum.ALL_ORG_VIEW,
-								PermissionsEnum.ORG_TAGS_ADD
-							],
-							featureKey: FeatureEnum.FEATURE_ORGANIZATION_TAG,
-							...(this.store.hasAnyPermission(PermissionsEnum.ALL_ORG_EDIT, PermissionsEnum.ORG_TAGS_ADD)
-								? { add: '/pages/organization/tags?openAddDialog=true' }
-								: {})
-						}
-					},
-					{
-						title: 'Vendors',
-						icon: 'fas fa-truck',
-						link: '/pages/organization/vendors',
-						data: {
-							translationKey: 'ORGANIZATIONS_PAGE.VENDORS',
-							permissionKeys: [PermissionsEnum.ALL_ORG_EDIT],
-							featureKey: FeatureEnum.FEATURE_ORGANIZATION_VENDOR,
-							...(this.store.hasAnyPermission(PermissionsEnum.ALL_ORG_EDIT)
-								? { add: '/pages/organization/vendors?openAddDialog=true' }
-								: {})
-						}
-					},
-					{
-						title: 'Projects',
-						icon: 'fas fa-book',
-						link: `/pages/organization/projects`,
-						data: {
-							translationKey: 'ORGANIZATIONS_PAGE.PROJECTS',
-							permissionKeys: [
-								PermissionsEnum.ALL_ORG_EDIT,
-								PermissionsEnum.ORG_PROJECT_VIEW
-							],
-							featureKey: FeatureEnum.FEATURE_ORGANIZATION_PROJECT,
-							...(this.store.hasAnyPermission(
-								PermissionsEnum.ALL_ORG_EDIT,
-								PermissionsEnum.ORG_PROJECT_ADD
-							)
-								? { add: '/pages/organization/projects/create' }
-								: {})
-						}
-					},
+					// {
+					// 	title: 'Equipment',
+					// 	icon: 'fas fa-border-all',
+					// 	link: '/pages/organization/equipment',
+					// 	data: {
+					// 		permissionKeys: [
+					// 			PermissionsEnum.ALL_ORG_VIEW,
+					// 			PermissionsEnum.ORG_EQUIPMENT_VIEW
+					// 		],
+					// 		translationKey: 'MENU.EQUIPMENT',
+					// 		featureKey: FeatureEnum.FEATURE_ORGANIZATION_EQUIPMENT,
+					// 		...(this.store.hasAnyPermission(
+					// 			PermissionsEnum.ALL_ORG_EDIT,
+					// 			PermissionsEnum.ORG_EQUIPMENT_EDIT
+					// 		)
+					// 			? { add: '/pages/organization/equipment?openAddDialog=true' }
+					// 			: {})
+					// 	}
+					// },
+					// {
+					// 	title: 'Inventory',
+					// 	icon: 'fas fa-grip-vertical',
+					// 	link: '/pages/organization/inventory',
+					// 	pathMatch: 'prefix',
+					// 	data: {
+					// 		translationKey: 'MENU.INVENTORY',
+					// 		permissionKeys: [PermissionsEnum.ALL_ORG_VIEW],
+					// 		featureKey: FeatureEnum.FEATURE_ORGANIZATION_INVENTORY,
+					// 		...(this.store.hasAnyPermission(
+					// 			PermissionsEnum.ALL_ORG_EDIT,
+					// 			PermissionsEnum.INVENTORY_GALLERY_ADD
+					// 		)
+					// 			? { add: '/pages/organization/inventory/create' }
+					// 			: {})
+					// 	}
+					// },
+					// {
+					// 	title: 'Tags',
+					// 	icon: 'fas fa-tag',
+					// 	link: '/pages/organization/tags',
+					// 	data: {
+					// 		translationKey: 'MENU.TAGS',
+					// 		permissionKeys: [
+					// 			PermissionsEnum.ALL_ORG_VIEW,
+					// 			PermissionsEnum.ORG_TAGS_ADD
+					// 		],
+					// 		featureKey: FeatureEnum.FEATURE_ORGANIZATION_TAG,
+					// 		...(this.store.hasAnyPermission(PermissionsEnum.ALL_ORG_EDIT, PermissionsEnum.ORG_TAGS_ADD)
+					// 			? { add: '/pages/organization/tags?openAddDialog=true' }
+					// 			: {})
+					// 	}
+					// },
+					// {
+					// 	title: 'Vendors',
+					// 	icon: 'fas fa-truck',
+					// 	link: '/pages/organization/vendors',
+					// 	data: {
+					// 		translationKey: 'ORGANIZATIONS_PAGE.VENDORS',
+					// 		permissionKeys: [PermissionsEnum.ALL_ORG_EDIT],
+					// 		featureKey: FeatureEnum.FEATURE_ORGANIZATION_VENDOR,
+					// 		...(this.store.hasAnyPermission(PermissionsEnum.ALL_ORG_EDIT)
+					// 			? { add: '/pages/organization/vendors?openAddDialog=true' }
+					// 			: {})
+					// 	}
+					// },
+					// {
+					// 	title: 'Projects',
+					// 	icon: 'fas fa-book',
+					// 	link: `/pages/organization/projects`,
+					// 	data: {
+					// 		translationKey: 'ORGANIZATIONS_PAGE.PROJECTS',
+					// 		permissionKeys: [
+					// 			PermissionsEnum.ALL_ORG_EDIT,
+					// 			PermissionsEnum.ORG_PROJECT_VIEW
+					// 		],
+					// 		featureKey: FeatureEnum.FEATURE_ORGANIZATION_PROJECT,
+					// 		...(this.store.hasAnyPermission(
+					// 			PermissionsEnum.ALL_ORG_EDIT,
+					// 			PermissionsEnum.ORG_PROJECT_ADD
+					// 		)
+					// 			? { add: '/pages/organization/projects/create' }
+					// 			: {})
+					// 	}
+					// },
 					{
 						title: 'Departments',
 						icon: ' fas fa-briefcase',
@@ -767,169 +767,169 @@ export class PagesComponent extends TranslationBaseComponent
 								: {})
 						}
 					},
-					{
-						title: 'Documents',
-						icon: 'far fa-file-alt',
-						link: `/pages/organization/documents`,
-						data: {
-							translationKey: 'ORGANIZATIONS_PAGE.DOCUMENTS',
-							permissionKeys: [PermissionsEnum.ALL_ORG_EDIT],
-							featureKey: FeatureEnum.FEATURE_ORGANIZATION_DOCUMENT,
-							...(this.store.hasAnyPermission(PermissionsEnum.ALL_ORG_EDIT)
-								? { add: '/pages/organization/documents?openAddDialog=true' }
-								: {})
-						}
-					},
-					{
-						title: 'Employment Types',
-						icon: 'fas fa-layer-group',
-						link: `/pages/organization/employment-types`,
-						data: {
-							translationKey:
-								'ORGANIZATIONS_PAGE.EMPLOYMENT_TYPES',
-							permissionKeys: [PermissionsEnum.ALL_ORG_EDIT],
-							featureKey: FeatureEnum.FEATURE_ORGANIZATION_EMPLOYMENT_TYPE,
-							...(this.store.hasAnyPermission(PermissionsEnum.ALL_ORG_EDIT)
-								? { add: '/pages/organization/employment-types?openAddDialog=true' }
-								: {})
-						}
-					},
-					{
-						title: 'Expense Recurring',
-						icon: 'fas fa-exchange-alt fa-rotate-90',
-						link: '/pages/organization/expense-recurring',
-						data: {
-							translationKey:
-								'ORGANIZATIONS_PAGE.EXPENSE_RECURRING',
-							permissionKeys: [PermissionsEnum.ORG_EXPENSES_VIEW],
-							featureKey: FeatureEnum.FEATURE_ORGANIZATION_RECURRING_EXPENSE,
-							...(this.store.hasAnyPermission(
-								PermissionsEnum.ALL_ORG_EDIT,
-								PermissionsEnum.ORG_EXPENSES_EDIT
-							)
-								? { add: '/pages/organization/expense-recurring?openAddDialog=true' }
-								: {})
-						}
-					},
-					{
-						title: 'Help Center',
-						icon: 'far fa-question-circle',
-						link: '/pages/organization/help-center',
-						data: {
-							translationKey: 'ORGANIZATIONS_PAGE.HELP_CENTER',
-							featureKey:
-								FeatureEnum.FEATURE_ORGANIZATION_HELP_CENTER
-						}
-					}
+					// {
+					// 	title: 'Documents',
+					// 	icon: 'far fa-file-alt',
+					// 	link: `/pages/organization/documents`,
+					// 	data: {
+					// 		translationKey: 'ORGANIZATIONS_PAGE.DOCUMENTS',
+					// 		permissionKeys: [PermissionsEnum.ALL_ORG_EDIT],
+					// 		featureKey: FeatureEnum.FEATURE_ORGANIZATION_DOCUMENT,
+					// 		...(this.store.hasAnyPermission(PermissionsEnum.ALL_ORG_EDIT)
+					// 			? { add: '/pages/organization/documents?openAddDialog=true' }
+					// 			: {})
+					// 	}
+					// },
+					// {
+					// 	title: 'Employment Types',
+					// 	icon: 'fas fa-layer-group',
+					// 	link: `/pages/organization/employment-types`,
+					// 	data: {
+					// 		translationKey:
+					// 			'ORGANIZATIONS_PAGE.EMPLOYMENT_TYPES',
+					// 		permissionKeys: [PermissionsEnum.ALL_ORG_EDIT],
+					// 		featureKey: FeatureEnum.FEATURE_ORGANIZATION_EMPLOYMENT_TYPE,
+					// 		...(this.store.hasAnyPermission(PermissionsEnum.ALL_ORG_EDIT)
+					// 			? { add: '/pages/organization/employment-types?openAddDialog=true' }
+					// 			: {})
+					// 	}
+					// },
+					// {
+					// 	title: 'Expense Recurring',
+					// 	icon: 'fas fa-exchange-alt fa-rotate-90',
+					// 	link: '/pages/organization/expense-recurring',
+					// 	data: {
+					// 		translationKey:
+					// 			'ORGANIZATIONS_PAGE.EXPENSE_RECURRING',
+					// 		permissionKeys: [PermissionsEnum.ORG_EXPENSES_VIEW],
+					// 		featureKey: FeatureEnum.FEATURE_ORGANIZATION_RECURRING_EXPENSE,
+					// 		...(this.store.hasAnyPermission(
+					// 			PermissionsEnum.ALL_ORG_EDIT,
+					// 			PermissionsEnum.ORG_EXPENSES_EDIT
+					// 		)
+					// 			? { add: '/pages/organization/expense-recurring?openAddDialog=true' }
+					// 			: {})
+					// 	}
+					// },
+					// {
+					// 	title: 'Help Center',
+					// 	icon: 'far fa-question-circle',
+					// 	link: '/pages/organization/help-center',
+					// 	data: {
+					// 		translationKey: 'ORGANIZATIONS_PAGE.HELP_CENTER',
+					// 		featureKey:
+					// 			FeatureEnum.FEATURE_ORGANIZATION_HELP_CENTER
+					// 	}
+					// }
 				]
 			},
-			{
-				title: 'Contacts',
-				icon: 'far fa-address-book',
-				data: {
-					translationKey: 'MENU.CONTACTS',
-					permissionKeys: [
-						PermissionsEnum.ORG_CONTACT_VIEW,
-						PermissionsEnum.ALL_ORG_VIEW
-					],
-					featureKey: FeatureEnum.FEATURE_CONTACT
-				},
-				children: [
-					{
-						title: 'Visitors',
-						icon: 'fas fa-id-badge',
-						link: `/pages/contacts/visitors`,
-						data: {
-							translationKey: 'CONTACTS_PAGE.VISITORS'
-						}
-					},
-					{
-						title: 'Leads',
-						icon: 'fas fa-id-badge',
-						link: `/pages/contacts/leads`,
-						data: {
-							translationKey: 'CONTACTS_PAGE.LEADS',
-							...(this.store.hasAnyPermission(
-								PermissionsEnum.ALL_ORG_EDIT,
-								PermissionsEnum.ORG_CONTACT_EDIT
-							)
-								? {
-									add: '/pages/contacts/leads?openAddDialog=true'
-								}
-								: {})
-						}
-					},
-					{
-						title: 'Customers',
-						icon: 'fas fa-id-badge',
-						link: `/pages/contacts/customers`,
-						data: {
-							translationKey: 'CONTACTS_PAGE.CUSTOMERS',
-							...(this.store.hasAnyPermission(
-								PermissionsEnum.ALL_ORG_EDIT,
-								PermissionsEnum.ORG_CONTACT_EDIT
-							)
-								? {
-									add: '/pages/contacts/customers?openAddDialog=true'
-								}
-								: {})
-						}
-					},
-					{
-						title: 'Clients',
-						icon: 'fas fa-id-badge',
-						link: `/pages/contacts/clients`,
-						data: {
-							translationKey: 'CONTACTS_PAGE.CLIENTS',
-							...(this.store.hasAnyPermission(
-								PermissionsEnum.ALL_ORG_EDIT,
-								PermissionsEnum.ORG_CONTACT_EDIT
-							)
-								? {
-									add: '/pages/contacts/clients?openAddDialog=true'
-								}
-								: {})
-						}
-					}
-				]
-			},
-			{
-				title: 'Goals',
-				icon: 'fab fa-font-awesome-flag',
-				data: {
-					translationKey: 'MENU.GOALS'
-				},
-				children: [
-					{
-						title: 'Manage',
-						link: '/pages/goals',
-						pathMatch: 'full',
-						icon: 'fas fa-list',
-						data: {
-							translationKey: 'MENU.MANAGE',
-							featureKey: FeatureEnum.FEATURE_GOAL
-						}
-					},
-					{
-						title: 'Report',
-						link: '/pages/goals/reports',
-						icon: 'far fa-file-alt',
-						data: {
-							translationKey: 'MENU.REPORTS',
-							featureKey: FeatureEnum.FEATURE_GOAL_REPORT
-						}
-					},
-					{
-						title: 'Settings',
-						link: '/pages/goals/settings',
-						icon: 'fas fa-cog',
-						data: {
-							translationKey: 'MENU.SETTINGS',
-							featureKey: FeatureEnum.FEATURE_GOAL_SETTING
-						}
-					}
-				]
-			},
+			// {
+			// 	title: 'Contacts',
+			// 	icon: 'far fa-address-book',
+			// 	data: {
+			// 		translationKey: 'MENU.CONTACTS',
+			// 		permissionKeys: [
+			// 			PermissionsEnum.ORG_CONTACT_VIEW,
+			// 			PermissionsEnum.ALL_ORG_VIEW
+			// 		],
+			// 		featureKey: FeatureEnum.FEATURE_CONTACT
+			// 	},
+			// 	children: [
+			// 		{
+			// 			title: 'Visitors',
+			// 			icon: 'fas fa-id-badge',
+			// 			link: `/pages/contacts/visitors`,
+			// 			data: {
+			// 				translationKey: 'CONTACTS_PAGE.VISITORS'
+			// 			}
+			// 		},
+			// 		{
+			// 			title: 'Leads',
+			// 			icon: 'fas fa-id-badge',
+			// 			link: `/pages/contacts/leads`,
+			// 			data: {
+			// 				translationKey: 'CONTACTS_PAGE.LEADS',
+			// 				...(this.store.hasAnyPermission(
+			// 					PermissionsEnum.ALL_ORG_EDIT,
+			// 					PermissionsEnum.ORG_CONTACT_EDIT
+			// 				)
+			// 					? {
+			// 						add: '/pages/contacts/leads?openAddDialog=true'
+			// 					}
+			// 					: {})
+			// 			}
+			// 		},
+			// 		{
+			// 			title: 'Customers',
+			// 			icon: 'fas fa-id-badge',
+			// 			link: `/pages/contacts/customers`,
+			// 			data: {
+			// 				translationKey: 'CONTACTS_PAGE.CUSTOMERS',
+			// 				...(this.store.hasAnyPermission(
+			// 					PermissionsEnum.ALL_ORG_EDIT,
+			// 					PermissionsEnum.ORG_CONTACT_EDIT
+			// 				)
+			// 					? {
+			// 						add: '/pages/contacts/customers?openAddDialog=true'
+			// 					}
+			// 					: {})
+			// 			}
+			// 		},
+			// 		{
+			// 			title: 'Clients',
+			// 			icon: 'fas fa-id-badge',
+			// 			link: `/pages/contacts/clients`,
+			// 			data: {
+			// 				translationKey: 'CONTACTS_PAGE.CLIENTS',
+			// 				...(this.store.hasAnyPermission(
+			// 					PermissionsEnum.ALL_ORG_EDIT,
+			// 					PermissionsEnum.ORG_CONTACT_EDIT
+			// 				)
+			// 					? {
+			// 						add: '/pages/contacts/clients?openAddDialog=true'
+			// 					}
+			// 					: {})
+			// 			}
+			// 		}
+			// 	]
+			// },
+			// {
+			// 	title: 'Goals',
+			// 	icon: 'fab fa-font-awesome-flag',
+			// 	data: {
+			// 		translationKey: 'MENU.GOALS'
+			// 	},
+			// 	children: [
+			// 		{
+			// 			title: 'Manage',
+			// 			link: '/pages/goals',
+			// 			pathMatch: 'full',
+			// 			icon: 'fas fa-list',
+			// 			data: {
+			// 				translationKey: 'MENU.MANAGE',
+			// 				featureKey: FeatureEnum.FEATURE_GOAL
+			// 			}
+			// 		},
+			// 		{
+			// 			title: 'Report',
+			// 			link: '/pages/goals/reports',
+			// 			icon: 'far fa-file-alt',
+			// 			data: {
+			// 				translationKey: 'MENU.REPORTS',
+			// 				featureKey: FeatureEnum.FEATURE_GOAL_REPORT
+			// 			}
+			// 		},
+			// 		{
+			// 			title: 'Settings',
+			// 			link: '/pages/goals/settings',
+			// 			icon: 'fas fa-cog',
+			// 			data: {
+			// 				translationKey: 'MENU.SETTINGS',
+			// 				featureKey: FeatureEnum.FEATURE_GOAL_SETTING
+			// 			}
+			// 		}
+			// 	]
+			// },
 			{
 				title: 'Reports',
 				icon: 'fas fa-chart-pie',
@@ -939,14 +939,14 @@ export class PagesComponent extends TranslationBaseComponent
 					featureKey: FeatureEnum.FEATURE_REPORT
 				},
 				children: [
-					{
-						title: 'All Reports',
-						link: '/pages/reports/all',
-						icon: 'fas fa-chart-bar',
-						data: {
-							translationKey: 'MENU.ALL_REPORTS'
-						}
-					},
+					// {
+					// 	title: 'All Reports',
+					// 	link: '/pages/reports/all',
+					// 	icon: 'fas fa-chart-bar',
+					// 	data: {
+					// 		translationKey: 'MENU.ALL_REPORTS'
+					// 	}
+					// },
 					...this.reportMenuItems
 				]
 			}

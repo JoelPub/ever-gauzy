@@ -32,7 +32,7 @@ export class GauzyLogoComponent implements AfterViewInit, OnInit, OnDestroy {
 	logoUrl: SafeResourceUrl;
 
 	@Input() controlled: boolean = true;
-	@Input() isAccordion: boolean = true;
+	@Input() isAccordion: boolean = false;
 
 	@Output() onCollapsed: EventEmitter<boolean> = new EventEmitter<boolean>(
 		this.isCollapse

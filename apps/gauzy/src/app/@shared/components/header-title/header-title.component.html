@@ -9,17 +9,19 @@
 
 <ng-template [ngIf]="organization?.id">
     <span class="name">
-        <ng-template [ngIf]="allowEmployee && employee?.id" [ngIfElse]="forTitle">
+        <!-- <ng-template [ngIf]="allowEmployee && employee?.id" [ngIfElse]="forTitle">
             <ng-template [ngxPermissionsOnly]="PermissionsEnum.CHANGE_SELECTED_EMPLOYEE">
                 {{ 'HEADER_TITLE.FROM' | translate }}
             </ng-template>
             <ng-template [ngxPermissionsExcept]="PermissionsEnum.CHANGE_SELECTED_EMPLOYEE">
                 {{ 'HEADER_TITLE.FOR' | translate }}
             </ng-template>
-        </ng-template>
+        </ng-template> -->
+        在
     </span>
     <span class="org-name">
-        {{ organization?.name }}
+        <!-- {{ organization?.name }} -->
+        Mobi+
     </span>
 </ng-template>
 
