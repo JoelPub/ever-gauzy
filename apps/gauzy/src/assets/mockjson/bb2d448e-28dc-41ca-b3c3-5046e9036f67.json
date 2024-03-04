@@ -1,0 +1,427 @@
+{
+    "total": {
+        "income": 43299,
+        "expense": 0,
+        "bonus": 4329.9,
+        "profit": 43299
+    },
+    "employees": [
+        {
+            "income": 0,
+            "expense": 0,
+            "bonus": 0,
+            "profit": 0,
+            "employee": {
+                "id": "917d0b14-4f48-4aac-8fcd-f091927c3984",
+                "user": {
+                    "createdAt": "2024-02-02T06:46:05.638Z",
+                    "updatedAt": "2024-02-02T06:46:05.638Z",
+                    "id": "1fbeb42d-2435-47a9-9998-0e25b9651e43",
+                    "firstName": "Default",
+                    "lastName": "Employee",
+                    "email": "employee@ever.co",
+                    "imageUrl": "assets/images/avatars/avatar-default.svg",
+                    "image": null,
+                    "name": "Default Employee",
+                    "employeeId": null,
+                    "isEmailVerified": false
+                }
+            }
+        },
+        {
+            "income": 4553,
+            "expense": 0,
+            "bonus": 455.3,
+            "profit": 4553,
+            "employee": {
+                "id": "00d48703-1321-45c8-aa4d-7f5c2d926cf6",
+                "user": {
+                    "createdAt": "2024-02-02T06:46:05.639Z",
+                    "updatedAt": "2024-02-02T06:46:05.639Z",
+                    "id": "ef36326d-2e47-4406-b73d-70b717bd5bb7",
+                    "firstName": "Alish",
+                    "lastName": "M.",
+                    "email": "alish@example-ever.co",
+                    "imageUrl": "assets/images/avatars/alish.jpg",
+                    "image": null,
+                    "name": "Alish M.",
+                    "employeeId": null,
+                    "isEmailVerified": false
+                }
+            }
+        },
+        {
+            "income": 398,
+            "expense": 0,
+            "bonus": 39.8,
+            "profit": 398,
+            "employee": {
+                "id": "8a90450a-300a-4bd0-94bc-05e7b15948dc",
+                "user": {
+                    "createdAt": "2024-02-02T06:46:05.639Z",
+                    "updatedAt": "2024-02-02T06:46:05.639Z",
+                    "id": "95a6d917-af20-4f7e-acb0-6e69ff1bb9ce",
+                    "firstName": "Booster",
+                    "lastName": "P.",
+                    "email": "booster@example-ever.co",
+                    "imageUrl": "assets/images/avatars/avatar-default.svg",
+                    "image": null,
+                    "name": "Booster P.",
+                    "employeeId": null,
+                    "isEmailVerified": false
+                }
+            }
+        },
+        {
+            "income": 1474,
+            "expense": 0,
+            "bonus": 147.4,
+            "profit": 1474,
+            "employee": {
+                "id": "d56228ab-9cb0-4cb1-8daf-cbe183074849",
+                "user": {
+                    "createdAt": "2024-02-02T06:46:05.639Z",
+                    "updatedAt": "2024-02-02T06:46:05.639Z",
+                    "id": "6556967f-9317-41d7-a474-df6274beb73b",
+                    "firstName": "Yoster",
+                    "lastName": "F.",
+                    "email": "yoster@example-ever.co",
+                    "imageUrl": "assets/images/avatars/avatar-default.svg",
+                    "image": null,
+                    "name": "Yoster F.",
+                    "employeeId": null,
+                    "isEmailVerified": false
+                }
+            }
+        },
+        {
+            "income": 2765,
+            "expense": 0,
+            "bonus": 276.5,
+            "profit": 2765,
+            "employee": {
+                "id": "e6fae14a-8197-4594-ba7d-c248e7822a19",
+                "user": {
+                    "createdAt": "2024-02-02T06:46:05.640Z",
+                    "updatedAt": "2024-02-02T06:46:05.640Z",
+                    "id": "c3d73ca6-0204-41b4-8b60-8aa19793eaeb",
+                    "firstName": "Hoster",
+                    "lastName": "H.",
+                    "email": "hoster@example-ever.co",
+                    "imageUrl": "assets/images/avatars/avatar-default.svg",
+                    "image": null,
+                    "name": "Hoster H.",
+                    "employeeId": null,
+                    "isEmailVerified": false
+                }
+            }
+        },
+        {
+            "income": 363,
+            "expense": 0,
+            "bonus": 36.3,
+            "profit": 363,
+            "employee": {
+                "id": "a0362bdb-7c45-4de9-80a4-2e23fd68d028",
+                "user": {
+                    "createdAt": "2024-02-02T06:46:05.640Z",
+                    "updatedAt": "2024-02-02T06:46:05.640Z",
+                    "id": "5c44cc47-7c49-46c1-8fae-7a178593d895",
+                    "firstName": "Aster",
+                    "lastName": "A.",
+                    "email": "aster@example-ever.co",
+                    "imageUrl": "assets/images/avatars/avatar-default.svg",
+                    "image": null,
+                    "name": "Aster A.",
+                    "employeeId": null,
+                    "isEmailVerified": false
+                }
+            }
+        },
+        {
+            "income": 3285,
+            "expense": 0,
+            "bonus": 328.5,
+            "profit": 3285,
+            "employee": {
+                "id": "3b934b38-3d42-47b2-ada8-a22557183ccc",
+                "user": {
+                    "createdAt": "2024-02-02T06:46:05.640Z",
+                    "updatedAt": "2024-02-02T06:46:05.640Z",
+                    "id": "58aeeb65-c8c9-4b61-9708-8cd3dce0d395",
+                    "firstName": "Roster",
+                    "lastName": "R.",
+                    "email": "roster@example-ever.co",
+                    "imageUrl": "assets/images/avatars/avatar-default.svg",
+                    "image": null,
+                    "name": "Roster R.",
+                    "employeeId": null,
+                    "isEmailVerified": false
+                }
+            }
+        },
+        {
+            "income": 2619,
+            "expense": 0,
+            "bonus": 261.9,
+            "profit": 2619,
+            "employee": {
+                "id": "1be4c5f7-dad9-494b-9eb3-a8c62539b414",
+                "user": {
+                    "createdAt": "2024-02-02T06:46:05.640Z",
+                    "updatedAt": "2024-02-02T06:46:05.640Z",
+                    "id": "929af802-23dc-40f5-92f2-514549b82143",
+                    "firstName": "Dister",
+                    "lastName": "D.",
+                    "email": "dister@example-ever.co",
+                    "imageUrl": "assets/images/avatars/avatar-default.svg",
+                    "image": null,
+                    "name": "Dister D.",
+                    "employeeId": null,
+                    "isEmailVerified": false
+                }
+            }
+        },
+        {
+            "income": 1523,
+            "expense": 0,
+            "bonus": 152.3,
+            "profit": 1523,
+            "employee": {
+                "id": "ee18584a-3a36-4baf-9c9f-c7fe66d3e27e",
+                "user": {
+                    "createdAt": "2024-02-02T06:46:05.641Z",
+                    "updatedAt": "2024-02-02T06:46:05.641Z",
+                    "id": "92a6940f-d10e-46c2-9ef1-07692d5f586f",
+                    "firstName": "Postern",
+                    "lastName": "P.",
+                    "email": "postern@example-ever.co",
+                    "imageUrl": "assets/images/avatars/avatar-default.svg",
+                    "image": null,
+                    "name": "Postern P.",
+                    "employeeId": null,
+                    "isEmailVerified": false
+                }
+            }
+        },
+        {
+            "income": 3165,
+            "expense": 0,
+            "bonus": 316.5,
+            "profit": 3165,
+            "employee": {
+                "id": "675449d0-0cf8-45af-ae4c-89e9fa6fe07a",
+                "user": {
+                    "createdAt": "2024-02-02T06:46:05.641Z",
+                    "updatedAt": "2024-02-02T06:46:05.641Z",
+                    "id": "1791fd27-13ed-4195-b825-6f6a0066d05f",
+                    "firstName": "Kyoster",
+                    "lastName": "K.",
+                    "email": "kyoster@example-ever.co",
+                    "imageUrl": "assets/images/avatars/avatar-default.svg",
+                    "image": null,
+                    "name": "Kyoster K.",
+                    "employeeId": null,
+                    "isEmailVerified": false
+                }
+            }
+        },
+        {
+            "income": 1510,
+            "expense": 0,
+            "bonus": 151,
+            "profit": 1510,
+            "employee": {
+                "id": "36511afa-2fde-4e71-bfee-43e9f8ec4f45",
+                "user": {
+                    "createdAt": "2024-02-02T06:46:05.641Z",
+                    "updatedAt": "2024-02-02T06:46:05.641Z",
+                    "id": "8ab1ece5-1348-4dc8-9ec3-4977f8665ed4",
+                    "firstName": "Taster",
+                    "lastName": "T.",
+                    "email": "taster@example-ever.co",
+                    "imageUrl": "assets/images/avatars/avatar-default.svg",
+                    "image": null,
+                    "name": "Taster T.",
+                    "employeeId": null,
+                    "isEmailVerified": false
+                }
+            }
+        },
+        {
+            "income": 4516,
+            "expense": 0,
+            "bonus": 451.6,
+            "profit": 4516,
+            "employee": {
+                "id": "5dc7f41d-35f0-4925-98cc-de4d27895054",
+                "user": {
+                    "createdAt": "2024-02-02T06:46:05.641Z",
+                    "updatedAt": "2024-02-02T06:46:05.641Z",
+                    "id": "5ddb6078-b6d1-4e79-a709-5149e1bc9c7f",
+                    "firstName": "Mustero",
+                    "lastName": "M.",
+                    "email": "mustero@smooper.xyz",
+                    "imageUrl": "assets/images/avatars/avatar-default.svg",
+                    "image": null,
+                    "name": "Mustero M.",
+                    "employeeId": null,
+                    "isEmailVerified": false
+                }
+            }
+        },
+        {
+            "income": 4771,
+            "expense": 0,
+            "bonus": 477.1,
+            "profit": 4771,
+            "employee": {
+                "id": "b6c2eb27-3575-4042-8b93-e510da30ff85",
+                "user": {
+                    "createdAt": "2024-02-02T06:46:05.641Z",
+                    "updatedAt": "2024-02-02T06:46:05.641Z",
+                    "id": "a71c61a4-6bc6-4ec2-b4ac-5f49b1b48172",
+                    "firstName": "Desterrro",
+                    "lastName": "D.",
+                    "email": "desterrro@hotmail.com",
+                    "imageUrl": "assets/images/avatars/avatar-default.svg",
+                    "image": null,
+                    "name": "Desterrro D.",
+                    "employeeId": null,
+                    "isEmailVerified": false
+                }
+            }
+        },
+        {
+            "income": 2259,
+            "expense": 0,
+            "bonus": 225.9,
+            "profit": 2259,
+            "employee": {
+                "id": "955ebe28-eca0-4078-9f6b-7a3d2fccec55",
+                "user": {
+                    "createdAt": "2024-02-02T06:46:05.642Z",
+                    "updatedAt": "2024-02-02T06:46:05.642Z",
+                    "id": "0d898b80-82b0-4b85-adc5-bed9bb2f6d2d",
+                    "firstName": "Chetan",
+                    "lastName": "K.",
+                    "email": "ckhandla94@gmail.com",
+                    "imageUrl": "assets/images/avatars/chetan.png",
+                    "image": null,
+                    "name": "Chetan K.",
+                    "employeeId": null,
+                    "isEmailVerified": false
+                }
+            }
+        },
+        {
+            "income": 8732,
+            "expense": 0,
+            "bonus": 873.2,
+            "profit": 8732,
+            "employee": {
+                "id": "bc615ee5-ef56-4aa6-bc17-711f885ef15e",
+                "user": {
+                    "createdAt": "2024-02-02T06:46:05.642Z",
+                    "updatedAt": "2024-02-02T06:46:05.642Z",
+                    "id": "61eb5921-db82-4f22-a788-71eec5a16cb1",
+                    "firstName": "Julia",
+                    "lastName": "K.",
+                    "email": "julia@example-ever.co",
+                    "imageUrl": "assets/images/avatars/julia.png",
+                    "image": null,
+                    "name": "Julia K.",
+                    "employeeId": null,
+                    "isEmailVerified": false
+                }
+            }
+        },
+        {
+            "income": 1366,
+            "expense": 0,
+            "bonus": 136.6,
+            "profit": 1366,
+            "employee": {
+                "id": "2a0945ca-0420-4134-8386-5f6100feca15",
+                "user": {
+                    "createdAt": "2024-02-02T06:46:05.643Z",
+                    "updatedAt": "2024-02-02T06:46:05.643Z",
+                    "id": "ea0a6d1b-8352-4fd3-b32b-c41057af8fc3",
+                    "firstName": "Yostorono",
+                    "lastName": "Y.",
+                    "email": "yostorono@example-ever.co",
+                    "imageUrl": "assets/images/avatars/avatar-default.svg",
+                    "image": null,
+                    "name": "Yostorono Y.",
+                    "employeeId": null,
+                    "isEmailVerified": false
+                }
+            }
+        }
+    ],
+    "chart": [
+        {
+            "dates": "January 28, 2024",
+            "statistics": {
+                "income": 7120,
+                "expense": 0,
+                "bonus": 712,
+                "profit": 7120
+            }
+        },
+        {
+            "dates": "January 29, 2024",
+            "statistics": {
+                "income": 8199,
+                "expense": 0,
+                "bonus": 819.9,
+                "profit": 8199
+            }
+        },
+        {
+            "dates": "January 30, 2024",
+            "statistics": {
+                "income": 5615,
+                "expense": 0,
+                "bonus": 561.5,
+                "profit": 5615
+            }
+        },
+        {
+            "dates": "January 31, 2024",
+            "statistics": {
+                "income": 6025,
+                "expense": 0,
+                "bonus": 602.5,
+                "profit": 6025
+            }
+        },
+        {
+            "dates": "February 1, 2024",
+            "statistics": {
+                "income": 3356,
+                "expense": 0,
+                "bonus": 335.6,
+                "profit": 3356
+            }
+        },
+        {
+            "dates": "February 2, 2024",
+            "statistics": {
+                "income": 7215,
+                "expense": 0,
+                "bonus": 721.5,
+                "profit": 7215
+            }
+        },
+        {
+            "dates": "February 3, 2024",
+            "statistics": {
+                "income": 5769,
+                "expense": 0,
+                "bonus": 576.9,
+                "profit": 5769
+            }
+        }
+    ]
+}

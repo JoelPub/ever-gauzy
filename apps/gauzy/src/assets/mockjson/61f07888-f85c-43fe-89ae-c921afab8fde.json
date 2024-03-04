@@ -1,0 +1,421 @@
+[
+    {
+        "id": "8a90450a-300a-4bd0-94bc-05e7b15948dc",
+        "duration": 227613,
+        "weekTime": {
+            "employeeId": "8a90450a-300a-4bd0-94bc-05e7b15948dc",
+            "duration": 22439,
+            "overall": "48.8"
+        },
+        "user": {
+            "name": "Booster P.",
+            "imageUrl": "assets/images/avatars/avatar-default.svg"
+        },
+        "weekHours": [
+            {
+                "duration": 110402,
+                "day": "1"
+            },
+            {
+                "duration": 45327,
+                "day": "3"
+            },
+            {
+                "duration": 71883,
+                "day": "4"
+            }
+        ]
+    },
+    {
+        "id": "2a0945ca-0420-4134-8386-5f6100feca15",
+        "duration": 203972,
+        "weekTime": {
+            "employeeId": "2a0945ca-0420-4134-8386-5f6100feca15",
+            "duration": 18433,
+            "overall": "50.7"
+        },
+        "user": {
+            "name": "Yostorono Y.",
+            "imageUrl": "assets/images/avatars/avatar-default.svg"
+        },
+        "weekHours": [
+            {
+                "duration": 66019,
+                "day": "1"
+            },
+            {
+                "duration": 56101,
+                "day": "2"
+            },
+            {
+                "duration": 81851,
+                "day": "4"
+            }
+        ]
+    },
+    {
+        "id": "00d48703-1321-45c8-aa4d-7f5c2d926cf6",
+        "duration": 192189,
+        "weekTime": {
+            "employeeId": "00d48703-1321-45c8-aa4d-7f5c2d926cf6",
+            "duration": 22242,
+            "overall": "51.5"
+        },
+        "user": {
+            "name": "Alish M.",
+            "imageUrl": "assets/images/avatars/alish.jpg"
+        },
+        "weekHours": [
+            {
+                "duration": 75763,
+                "day": "1"
+            },
+            {
+                "duration": 43391,
+                "day": "2"
+            },
+            {
+                "duration": 59948,
+                "day": "3"
+            },
+            {
+                "duration": 13087,
+                "day": "4"
+            }
+        ]
+    },
+    {
+        "id": "ee18584a-3a36-4baf-9c9f-c7fe66d3e27e",
+        "duration": 161678,
+        "weekTime": {
+            "employeeId": "ee18584a-3a36-4baf-9c9f-c7fe66d3e27e",
+            "duration": 13473,
+            "overall": "46.4"
+        },
+        "user": {
+            "name": "Postern P.",
+            "imageUrl": "assets/images/avatars/avatar-default.svg"
+        },
+        "weekHours": [
+            {
+                "duration": 79221,
+                "day": "1"
+            },
+            {
+                "duration": 82457,
+                "day": "3"
+            }
+        ]
+    },
+    {
+        "id": "b6c2eb27-3575-4042-8b93-e510da30ff85",
+        "duration": 131015,
+        "weekTime": {
+            "employeeId": "b6c2eb27-3575-4042-8b93-e510da30ff85",
+            "duration": 12451,
+            "overall": "54.1"
+        },
+        "user": {
+            "name": "Desterrro D.",
+            "imageUrl": "assets/images/avatars/avatar-default.svg"
+        },
+        "weekHours": [
+            {
+                "duration": 131015,
+                "day": "1"
+            }
+        ]
+    },
+    {
+        "id": "bc615ee5-ef56-4aa6-bc17-711f885ef15e",
+        "duration": 131002,
+        "weekTime": {
+            "employeeId": "bc615ee5-ef56-4aa6-bc17-711f885ef15e",
+            "duration": 14278,
+            "overall": "48.4"
+        },
+        "user": {
+            "name": "Julia K.",
+            "imageUrl": "assets/images/avatars/julia.png"
+        },
+        "weekHours": [
+            {
+                "duration": 110637,
+                "day": "1"
+            },
+            {
+                "duration": 20364,
+                "day": "2"
+            }
+        ]
+    },
+    {
+        "id": "e6fae14a-8197-4594-ba7d-c248e7822a19",
+        "duration": 124045,
+        "weekTime": {
+            "employeeId": "e6fae14a-8197-4594-ba7d-c248e7822a19",
+            "duration": 13286,
+            "overall": "45.6"
+        },
+        "user": {
+            "name": "Hoster H.",
+            "imageUrl": "assets/images/avatars/avatar-default.svg"
+        },
+        "weekHours": [
+            {
+                "duration": 76825,
+                "day": "1"
+            },
+            {
+                "duration": 47220,
+                "day": "4"
+            }
+        ]
+    },
+    {
+        "id": "5dc7f41d-35f0-4925-98cc-de4d27895054",
+        "duration": 89807,
+        "weekTime": {
+            "employeeId": "5dc7f41d-35f0-4925-98cc-de4d27895054",
+            "duration": 11037,
+            "overall": "47.7"
+        },
+        "user": {
+            "name": "Mustero M.",
+            "imageUrl": "assets/images/avatars/avatar-default.svg"
+        },
+        "weekHours": [
+            {
+                "duration": 86158,
+                "day": "1"
+            },
+            {
+                "duration": 3650,
+                "day": "3"
+            }
+        ]
+    },
+    {
+        "id": "a0362bdb-7c45-4de9-80a4-2e23fd68d028",
+        "duration": 87524,
+        "weekTime": {
+            "employeeId": "a0362bdb-7c45-4de9-80a4-2e23fd68d028",
+            "duration": 11489,
+            "overall": "52.2"
+        },
+        "user": {
+            "name": "Aster A.",
+            "imageUrl": "assets/images/avatars/avatar-default.svg"
+        },
+        "weekHours": [
+            {
+                "duration": 43577,
+                "day": "1"
+            },
+            {
+                "duration": 34714,
+                "day": "2"
+            },
+            {
+                "duration": 9233,
+                "day": "4"
+            }
+        ]
+    },
+    {
+        "id": "955ebe28-eca0-4078-9f6b-7a3d2fccec55",
+        "duration": 84070,
+        "weekTime": {
+            "employeeId": "955ebe28-eca0-4078-9f6b-7a3d2fccec55",
+            "duration": 9535,
+            "overall": "48.3"
+        },
+        "user": {
+            "name": "Chetan K.",
+            "imageUrl": "assets/images/avatars/chetan.png"
+        },
+        "weekHours": [
+            {
+                "duration": 57757,
+                "day": "1"
+            },
+            {
+                "duration": 26313,
+                "day": "4"
+            }
+        ]
+    },
+    {
+        "id": "3b934b38-3d42-47b2-ada8-a22557183ccc",
+        "duration": 62972,
+        "weekTime": {
+            "employeeId": "3b934b38-3d42-47b2-ada8-a22557183ccc",
+            "duration": 7451,
+            "overall": "52.6"
+        },
+        "user": {
+            "name": "Roster R.",
+            "imageUrl": "assets/images/avatars/avatar-default.svg"
+        },
+        "weekHours": [
+            {
+                "duration": 4212,
+                "day": "1"
+            },
+            {
+                "duration": 58759,
+                "day": "2"
+            }
+        ]
+    },
+    {
+        "id": "1be4c5f7-dad9-494b-9eb3-a8c62539b414",
+        "duration": 57127,
+        "weekTime": {
+            "employeeId": "1be4c5f7-dad9-494b-9eb3-a8c62539b414",
+            "duration": 5713,
+            "overall": "55.3"
+        },
+        "user": {
+            "name": "Dister D.",
+            "imageUrl": "assets/images/avatars/avatar-default.svg"
+        },
+        "weekHours": [
+            {
+                "duration": 57127,
+                "day": "1"
+            }
+        ]
+    },
+    {
+        "id": "675449d0-0cf8-45af-ae4c-89e9fa6fe07a",
+        "duration": 55207,
+        "weekTime": {
+            "employeeId": "675449d0-0cf8-45af-ae4c-89e9fa6fe07a",
+            "duration": 7359,
+            "overall": "50.4"
+        },
+        "user": {
+            "name": "Kyoster K.",
+            "imageUrl": "assets/images/avatars/avatar-default.svg"
+        },
+        "weekHours": [
+            {
+                "duration": 47899,
+                "day": "1"
+            },
+            {
+                "duration": 7308,
+                "day": "4"
+            }
+        ]
+    },
+    {
+        "id": "917d0b14-4f48-4aac-8fcd-f091927c3984",
+        "duration": 52079,
+        "weekTime": {
+            "employeeId": "917d0b14-4f48-4aac-8fcd-f091927c3984",
+            "duration": 7358,
+            "overall": "58.7"
+        },
+        "user": {
+            "name": "Default Employee",
+            "imageUrl": "assets/images/avatars/avatar-default.svg"
+        },
+        "weekHours": [
+            {
+                "duration": 148,
+                "day": "1"
+            },
+            {
+                "duration": 8163,
+                "day": "2"
+            },
+            {
+                "duration": 344,
+                "day": "3"
+            },
+            {
+                "duration": 43425,
+                "day": "4"
+            }
+        ]
+    },
+    {
+        "id": "d56228ab-9cb0-4cb1-8daf-cbe183074849",
+        "duration": 48274,
+        "weekTime": {
+            "employeeId": "d56228ab-9cb0-4cb1-8daf-cbe183074849",
+            "duration": 5937,
+            "overall": "52.5"
+        },
+        "user": {
+            "name": "Yoster F.",
+            "imageUrl": "assets/images/avatars/avatar-default.svg"
+        },
+        "weekHours": [
+            {
+                "duration": 1474,
+                "day": "1"
+            },
+            {
+                "duration": 46800,
+                "day": "4"
+            }
+        ]
+    },
+    {
+        "id": "39f637b4-e511-4a5e-926e-63c35c88e0e0",
+        "duration": 35035,
+        "weekTime": {
+            "employeeId": "39f637b4-e511-4a5e-926e-63c35c88e0e0",
+            "duration": 6663,
+            "overall": "53.2"
+        },
+        "user": {
+            "name": "Ruslan K.",
+            "imageUrl": "assets/images/avatars/ruslan.jpg"
+        },
+        "weekHours": [
+            {
+                "duration": 26126,
+                "day": "1"
+            },
+            {
+                "duration": 8589,
+                "day": "2"
+            },
+            {
+                "duration": 319,
+                "day": "4"
+            }
+        ]
+    },
+    {
+        "id": "36511afa-2fde-4e71-bfee-43e9f8ec4f45",
+        "duration": 20974,
+        "weekTime": {
+            "employeeId": "36511afa-2fde-4e71-bfee-43e9f8ec4f45",
+            "duration": 5302,
+            "overall": "50.3"
+        },
+        "user": {
+            "name": "Taster T.",
+            "imageUrl": "assets/images/avatars/avatar-default.svg"
+        },
+        "weekHours": [
+            {
+                "duration": 4220,
+                "day": "1"
+            },
+            {
+                "duration": 4082,
+                "day": "2"
+            },
+            {
+                "duration": 12672,
+                "day": "3"
+            }
+        ]
+    }
+]

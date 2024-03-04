@@ -1,0 +1,56 @@
+{
+    "items": [
+        {
+            "createdAt": "2024-02-01T23:57:51.000Z",
+            "updatedAt": "2024-02-01T23:57:51.000Z",
+            "id": "12cd23d2-4b34-4376-84b8-e771ae7aa385",
+            "deletedAt": null,
+            "isActive": true,
+            "isArchived": false,
+            "tenantId": null,
+            "organizationId": null,
+            "icon": "cube-outline",
+            "title": "See new features",
+            "date": "2024-02-01T23:57:23.787Z",
+            "content": "Now you can read latest features changelog directly in Gauzy",
+            "isFeature": false,
+            "learnMoreUrl": "",
+            "imageUrl": ""
+        },
+        {
+            "createdAt": "2024-02-01T23:57:51.000Z",
+            "updatedAt": "2024-02-01T23:57:51.000Z",
+            "id": "f1a43cd4-b66d-4f04-b4b9-f9b8b2aacf10",
+            "deletedAt": null,
+            "isActive": true,
+            "isArchived": false,
+            "tenantId": null,
+            "organizationId": null,
+            "icon": "globe-outline",
+            "title": "Ready to give Gauzy a try?",
+            "date": "2024-02-01T23:57:23.787Z",
+            "content": "Customer relationship management, enterprise resource planning, sales management, supply chain management and production management",
+            "isFeature": false,
+            "learnMoreUrl": "",
+            "imageUrl": ""
+        },
+        {
+            "createdAt": "2024-02-01T23:57:51.000Z",
+            "updatedAt": "2024-02-01T23:57:51.000Z",
+            "id": "cdaa5fee-cb8d-4b74-a50b-ee92752b8543",
+            "deletedAt": null,
+            "isActive": true,
+            "isArchived": false,
+            "tenantId": null,
+            "organizationId": null,
+            "icon": "flash-outline",
+            "title": "Visit our website for more information.",
+            "date": "2024-02-01T23:57:23.787Z",
+            "content": "You are welcome to check more information about the platform at our official website.",
+            "isFeature": false,
+            "learnMoreUrl": "https://gauzy.co/",
+            "imageUrl": ""
+        }
+    ],
+    "total": 3
+}

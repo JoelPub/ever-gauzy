@@ -1,0 +1,66 @@
+[
+    {
+        "organizationContact": {
+            "createdAt": "2024-02-02T09:26:21.899Z",
+            "updatedAt": "2024-02-02T09:26:21.899Z",
+            "id": "48c89237-e78e-4657-9de0-db80d7390fcc",
+            "name": "Nettie Hamill",
+            "budget": 1221,
+            "image": null,
+            "imageUrl": "https://dummyimage.com/330x300/269aff/ffffff.jpg&text=N"
+        },
+        "budgetType": "cost",
+        "budget": 1221,
+        "spent": 3008.33,
+        "remainingBudget": 0,
+        "spentPercentage": 246.38
+    },
+    {
+        "organizationContact": {
+            "createdAt": "2024-02-02T09:26:21.987Z",
+            "updatedAt": "2024-02-02T09:26:21.987Z",
+            "id": "63836e77-3976-4ab6-9b6f-f8cff632b39b",
+            "name": "Weldon Frami",
+            "budget": 522,
+            "image": null,
+            "imageUrl": "https://dummyimage.com/330x300/0ecc9D/ffffff.jpg&text=W"
+        },
+        "budgetType": "cost",
+        "budget": 522,
+        "spent": 2454.44,
+        "remainingBudget": 0,
+        "spentPercentage": 470.2
+    },
+    {
+        "organizationContact": {
+            "createdAt": "2024-02-02T09:26:22.020Z",
+            "updatedAt": "2024-02-02T09:26:22.020Z",
+            "id": "ae95c800-51f8-4341-9a63-eb797d945bb1",
+            "name": "Keven Zieme",
+            "budget": 4131,
+            "image": null,
+            "imageUrl": "https://dummyimage.com/330x300/0ecc9D/ffffff.jpg&text=K"
+        },
+        "budgetType": "cost",
+        "budget": 4131,
+        "spent": 3270.64,
+        "remainingBudget": 860.36,
+        "spentPercentage": 79.17
+    },
+    {
+        "organizationContact": {
+            "createdAt": "2024-02-02T09:26:22.060Z",
+            "updatedAt": "2024-02-02T09:26:22.060Z",
+            "id": "b35f8d52-bc14-4e68-9bd3-dd3dbb0dd26d",
+            "name": "Zula Harber",
+            "budget": 350,
+            "image": null,
+            "imageUrl": "https://dummyimage.com/330x300/269aff/ffffff.jpg&text=Z"
+        },
+        "budgetType": "hours",
+        "budget": 350,
+        "spent": 100.96,
+        "remainingBudget": 249.04,
+        "spentPercentage": 28.85
+    }
+]

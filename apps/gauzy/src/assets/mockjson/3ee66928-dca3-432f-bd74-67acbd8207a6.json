@@ -1,0 +1,1452 @@
+[
+    {
+        "date": "2024-01-29",
+        "employees": [
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.486Z",
+                    "updatedAt": "2024-02-02T09:17:28.486Z",
+                    "id": "a5c975eb-d155-4d7c-9b69-75c6408226fb",
+                    "billRateValue": 22,
+                    "userId": "ff1e2a1f-06ab-43a2-a99d-e93c447b05a2",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.486Z",
+                        "updatedAt": "2024-02-02T09:17:28.486Z",
+                        "id": "ff1e2a1f-06ab-43a2-a99d-e93c447b05a2",
+                        "firstName": "Default",
+                        "lastName": "Employee",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Default Employee",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Default Employee",
+                    "isDeleted": false
+                },
+                "amount": 47.7,
+                "duration": 7800
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.489Z",
+                    "updatedAt": "2024-02-02T09:17:28.489Z",
+                    "id": "08f78ee0-15d1-4404-94c1-4e3271d91d8b",
+                    "billRateValue": 28,
+                    "userId": "18fd55d1-dd74-43ba-9020-82ba153ff453",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.489Z",
+                        "updatedAt": "2024-02-02T09:17:28.489Z",
+                        "id": "18fd55d1-dd74-43ba-9020-82ba153ff453",
+                        "firstName": "Ruslan",
+                        "lastName": "K.",
+                        "imageUrl": "assets/images/avatars/ruslan.jpg",
+                        "image": null,
+                        "name": "Ruslan K.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Ruslan K.",
+                    "isDeleted": false
+                },
+                "amount": 39.3,
+                "duration": 5058
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.489Z",
+                    "updatedAt": "2024-02-02T09:17:28.489Z",
+                    "id": "6223c39a-21c3-4e78-a918-94c11432c024",
+                    "billRateValue": 30,
+                    "userId": "8d886d16-2138-45a4-9d3b-4696343d48d8",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.489Z",
+                        "updatedAt": "2024-02-02T09:17:28.489Z",
+                        "id": "8d886d16-2138-45a4-9d3b-4696343d48d8",
+                        "firstName": "Alish",
+                        "lastName": "M.",
+                        "imageUrl": "assets/images/avatars/alish.jpg",
+                        "image": null,
+                        "name": "Alish M.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Alish M.",
+                    "isDeleted": false
+                },
+                "amount": 25.3,
+                "duration": 3033
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.489Z",
+                    "updatedAt": "2024-02-02T09:17:28.489Z",
+                    "id": "bcc9f6d5-7876-46a2-adf0-989e45f81ceb",
+                    "billRateValue": 38,
+                    "userId": "594fd4eb-005c-418f-9cdd-619f00bd41d6",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.489Z",
+                        "updatedAt": "2024-02-02T09:17:28.489Z",
+                        "id": "594fd4eb-005c-418f-9cdd-619f00bd41d6",
+                        "firstName": "Booster",
+                        "lastName": "P.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Booster P.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Booster P.",
+                    "isDeleted": false
+                },
+                "amount": 85.9,
+                "duration": 8137
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.490Z",
+                    "updatedAt": "2024-02-02T09:17:28.490Z",
+                    "id": "3bdeccbb-3685-4eb6-bcde-979b404ffa89",
+                    "billRateValue": 32,
+                    "userId": "c1cd42dd-388f-4092-bfa0-f2a29f1bc7d0",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.490Z",
+                        "updatedAt": "2024-02-02T09:17:28.490Z",
+                        "id": "c1cd42dd-388f-4092-bfa0-f2a29f1bc7d0",
+                        "firstName": "Yoster",
+                        "lastName": "F.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Yoster F.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Yoster F.",
+                    "isDeleted": false
+                },
+                "amount": 28.1,
+                "duration": 3158
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.490Z",
+                    "updatedAt": "2024-02-02T09:17:28.490Z",
+                    "id": "2382efc7-930f-4095-9ddc-978bf44a38eb",
+                    "billRateValue": 18,
+                    "userId": "f12d6e47-f4c5-472b-81e9-8f2e9c16fd89",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.490Z",
+                        "updatedAt": "2024-02-02T09:17:28.490Z",
+                        "id": "f12d6e47-f4c5-472b-81e9-8f2e9c16fd89",
+                        "firstName": "Hoster",
+                        "lastName": "H.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Hoster H.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Hoster H.",
+                    "isDeleted": false
+                },
+                "amount": 23,
+                "duration": 4603
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.490Z",
+                    "updatedAt": "2024-02-02T09:17:28.490Z",
+                    "id": "3bf0d4bd-bcd1-4290-b2e4-00b7d01422f1",
+                    "billRateValue": 19,
+                    "userId": "26d74f43-b1ac-419b-9a12-742d128067b3",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.490Z",
+                        "updatedAt": "2024-02-02T09:17:28.490Z",
+                        "id": "26d74f43-b1ac-419b-9a12-742d128067b3",
+                        "firstName": "Aster",
+                        "lastName": "A.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Aster A.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Aster A.",
+                    "isDeleted": false
+                },
+                "amount": 39.4,
+                "duration": 7469
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.491Z",
+                    "updatedAt": "2024-02-02T09:17:28.491Z",
+                    "id": "0420041a-7b28-477a-a516-a50cdb0d7162",
+                    "billRateValue": 40,
+                    "userId": "8ab4b62d-a551-45e9-b738-6e11542bd717",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.491Z",
+                        "updatedAt": "2024-02-02T09:17:28.491Z",
+                        "id": "8ab4b62d-a551-45e9-b738-6e11542bd717",
+                        "firstName": "Roster",
+                        "lastName": "R.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Roster R.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Roster R.",
+                    "isDeleted": false
+                },
+                "amount": 97.2,
+                "duration": 8744
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.492Z",
+                    "updatedAt": "2024-02-02T09:17:28.492Z",
+                    "id": "a2607828-76e5-465e-b9c1-d370efa9179c",
+                    "billRateValue": 36,
+                    "userId": "e17e9434-522d-4ed7-a18f-471a4c0def20",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.492Z",
+                        "updatedAt": "2024-02-02T09:17:28.492Z",
+                        "id": "e17e9434-522d-4ed7-a18f-471a4c0def20",
+                        "firstName": "Dister",
+                        "lastName": "D.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Dister D.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Dister D.",
+                    "isDeleted": false
+                },
+                "amount": 8.8,
+                "duration": 876
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.492Z",
+                    "updatedAt": "2024-02-02T09:17:28.492Z",
+                    "id": "bdcb5d18-a425-46e1-b234-ef573e2f0062",
+                    "billRateValue": 20,
+                    "userId": "2eb87bcb-fa19-402f-afb7-eb6988b34835",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.492Z",
+                        "updatedAt": "2024-02-02T09:17:28.492Z",
+                        "id": "2eb87bcb-fa19-402f-afb7-eb6988b34835",
+                        "firstName": "Postern",
+                        "lastName": "P.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Postern P.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Postern P.",
+                    "isDeleted": false
+                },
+                "amount": 3.5,
+                "duration": 630
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.493Z",
+                    "updatedAt": "2024-02-02T09:17:28.493Z",
+                    "id": "dfbcc1e5-939b-4dd1-b65d-832221649fe9",
+                    "billRateValue": 37,
+                    "userId": "ef007c08-bcdf-45f2-a831-a4fee074d971",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.493Z",
+                        "updatedAt": "2024-02-02T09:17:28.493Z",
+                        "id": "ef007c08-bcdf-45f2-a831-a4fee074d971",
+                        "firstName": "Kyoster",
+                        "lastName": "K.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Kyoster K.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Kyoster K.",
+                    "isDeleted": false
+                },
+                "amount": 47,
+                "duration": 4572
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.493Z",
+                    "updatedAt": "2024-02-02T09:17:28.493Z",
+                    "id": "4a616545-a853-4d98-9efb-833cb7883e89",
+                    "billRateValue": 21,
+                    "userId": "917cf9d4-4e39-48b5-91cb-7cea4547ee57",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.493Z",
+                        "updatedAt": "2024-02-02T09:17:28.493Z",
+                        "id": "917cf9d4-4e39-48b5-91cb-7cea4547ee57",
+                        "firstName": "Taster",
+                        "lastName": "T.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Taster T.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Taster T.",
+                    "isDeleted": false
+                },
+                "amount": 42.4,
+                "duration": 7277
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.494Z",
+                    "updatedAt": "2024-02-02T09:17:28.494Z",
+                    "id": "f4eb4c66-9149-4600-8f99-31b7499add3e",
+                    "billRateValue": 17,
+                    "userId": "454ec19d-5cb2-45d2-9c7d-9d53ab36b153",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.494Z",
+                        "updatedAt": "2024-02-02T09:17:28.494Z",
+                        "id": "454ec19d-5cb2-45d2-9c7d-9d53ab36b153",
+                        "firstName": "Mustero",
+                        "lastName": "M.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Mustero M.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Mustero M.",
+                    "isDeleted": false
+                },
+                "amount": 9.5,
+                "duration": 2002
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.494Z",
+                    "updatedAt": "2024-02-02T09:17:28.494Z",
+                    "id": "13ddd7b5-7f5f-4381-974b-0d0470cbf9d6",
+                    "billRateValue": 27,
+                    "userId": "e0ae7a4c-fd4e-4d8a-a8b8-86515b3e8760",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.494Z",
+                        "updatedAt": "2024-02-02T09:17:28.494Z",
+                        "id": "e0ae7a4c-fd4e-4d8a-a8b8-86515b3e8760",
+                        "firstName": "Desterrro",
+                        "lastName": "D.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Desterrro D.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Desterrro D.",
+                    "isDeleted": false
+                },
+                "amount": 40.7,
+                "duration": 5433
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.494Z",
+                    "updatedAt": "2024-02-02T09:17:28.494Z",
+                    "id": "2c478a6c-964d-4ed7-be1d-0d016f87fe25",
+                    "billRateValue": 35,
+                    "userId": "3a91e25c-7e4f-49f2-99c6-d907e1d6d59d",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.494Z",
+                        "updatedAt": "2024-02-02T09:17:28.494Z",
+                        "id": "3a91e25c-7e4f-49f2-99c6-d907e1d6d59d",
+                        "firstName": "Chetan",
+                        "lastName": "K.",
+                        "imageUrl": "assets/images/avatars/chetan.png",
+                        "image": null,
+                        "name": "Chetan K.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Chetan K.",
+                    "isDeleted": false
+                },
+                "amount": 4.6,
+                "duration": 475
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.494Z",
+                    "updatedAt": "2024-02-02T09:17:28.494Z",
+                    "id": "4b55238f-cd63-4cba-b701-28aecd024ac6",
+                    "billRateValue": 33,
+                    "userId": "b475da7d-91e2-4fad-8f56-9c2d4f2820fa",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.494Z",
+                        "updatedAt": "2024-02-02T09:17:28.494Z",
+                        "id": "b475da7d-91e2-4fad-8f56-9c2d4f2820fa",
+                        "firstName": "Julia",
+                        "lastName": "K.",
+                        "imageUrl": "assets/images/avatars/julia.png",
+                        "image": null,
+                        "name": "Julia K.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Julia K.",
+                    "isDeleted": false
+                },
+                "amount": 24,
+                "duration": 2623
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.494Z",
+                    "updatedAt": "2024-02-02T09:17:28.494Z",
+                    "id": "ad9a9c0e-2c9e-4475-a569-f9b0f537338f",
+                    "billRateValue": 30,
+                    "userId": "314f497f-9a89-4da2-a60c-788ce2790d11",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.495Z",
+                        "updatedAt": "2024-02-02T09:17:28.495Z",
+                        "id": "314f497f-9a89-4da2-a60c-788ce2790d11",
+                        "firstName": "Yostorono",
+                        "lastName": "Y.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Yostorono Y.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Yostorono Y.",
+                    "isDeleted": false
+                },
+                "amount": 58.6,
+                "duration": 7034
+            }
+        ]
+    },
+    {
+        "date": "2024-01-30",
+        "employees": [
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.495Z",
+                    "updatedAt": "2024-02-02T09:17:28.495Z",
+                    "id": "a5c975eb-d155-4d7c-9b69-75c6408226fb",
+                    "billRateValue": 22,
+                    "userId": "ff1e2a1f-06ab-43a2-a99d-e93c447b05a2",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.495Z",
+                        "updatedAt": "2024-02-02T09:17:28.495Z",
+                        "id": "ff1e2a1f-06ab-43a2-a99d-e93c447b05a2",
+                        "firstName": "Default",
+                        "lastName": "Employee",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Default Employee",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Default Employee",
+                    "isDeleted": false
+                },
+                "amount": 10.6,
+                "duration": 1735
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.495Z",
+                    "updatedAt": "2024-02-02T09:17:28.495Z",
+                    "id": "08f78ee0-15d1-4404-94c1-4e3271d91d8b",
+                    "billRateValue": 28,
+                    "userId": "18fd55d1-dd74-43ba-9020-82ba153ff453",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.495Z",
+                        "updatedAt": "2024-02-02T09:17:28.495Z",
+                        "id": "18fd55d1-dd74-43ba-9020-82ba153ff453",
+                        "firstName": "Ruslan",
+                        "lastName": "K.",
+                        "imageUrl": "assets/images/avatars/ruslan.jpg",
+                        "image": null,
+                        "name": "Ruslan K.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Ruslan K.",
+                    "isDeleted": false
+                },
+                "amount": 8.9,
+                "duration": 1141
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.496Z",
+                    "updatedAt": "2024-02-02T09:17:28.496Z",
+                    "id": "3bdeccbb-3685-4eb6-bcde-979b404ffa89",
+                    "billRateValue": 32,
+                    "userId": "c1cd42dd-388f-4092-bfa0-f2a29f1bc7d0",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.496Z",
+                        "updatedAt": "2024-02-02T09:17:28.496Z",
+                        "id": "c1cd42dd-388f-4092-bfa0-f2a29f1bc7d0",
+                        "firstName": "Yoster",
+                        "lastName": "F.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Yoster F.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Yoster F.",
+                    "isDeleted": false
+                },
+                "amount": 45.6,
+                "duration": 5133
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.496Z",
+                    "updatedAt": "2024-02-02T09:17:28.496Z",
+                    "id": "2382efc7-930f-4095-9ddc-978bf44a38eb",
+                    "billRateValue": 18,
+                    "userId": "f12d6e47-f4c5-472b-81e9-8f2e9c16fd89",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.496Z",
+                        "updatedAt": "2024-02-02T09:17:28.496Z",
+                        "id": "f12d6e47-f4c5-472b-81e9-8f2e9c16fd89",
+                        "firstName": "Hoster",
+                        "lastName": "H.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Hoster H.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Hoster H.",
+                    "isDeleted": false
+                },
+                "amount": 32.5,
+                "duration": 6506
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.496Z",
+                    "updatedAt": "2024-02-02T09:17:28.496Z",
+                    "id": "3bf0d4bd-bcd1-4290-b2e4-00b7d01422f1",
+                    "billRateValue": 19,
+                    "userId": "26d74f43-b1ac-419b-9a12-742d128067b3",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.496Z",
+                        "updatedAt": "2024-02-02T09:17:28.496Z",
+                        "id": "26d74f43-b1ac-419b-9a12-742d128067b3",
+                        "firstName": "Aster",
+                        "lastName": "A.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Aster A.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Aster A.",
+                    "isDeleted": false
+                },
+                "amount": 7.2,
+                "duration": 1359
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.497Z",
+                    "updatedAt": "2024-02-02T09:17:28.497Z",
+                    "id": "a2607828-76e5-465e-b9c1-d370efa9179c",
+                    "billRateValue": 36,
+                    "userId": "e17e9434-522d-4ed7-a18f-471a4c0def20",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.497Z",
+                        "updatedAt": "2024-02-02T09:17:28.497Z",
+                        "id": "e17e9434-522d-4ed7-a18f-471a4c0def20",
+                        "firstName": "Dister",
+                        "lastName": "D.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Dister D.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Dister D.",
+                    "isDeleted": false
+                },
+                "amount": 45.6,
+                "duration": 4559
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.497Z",
+                    "updatedAt": "2024-02-02T09:17:28.497Z",
+                    "id": "dfbcc1e5-939b-4dd1-b65d-832221649fe9",
+                    "billRateValue": 37,
+                    "userId": "ef007c08-bcdf-45f2-a831-a4fee074d971",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.497Z",
+                        "updatedAt": "2024-02-02T09:17:28.497Z",
+                        "id": "ef007c08-bcdf-45f2-a831-a4fee074d971",
+                        "firstName": "Kyoster",
+                        "lastName": "K.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Kyoster K.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Kyoster K.",
+                    "isDeleted": false
+                },
+                "amount": 42.5,
+                "duration": 4133
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.497Z",
+                    "updatedAt": "2024-02-02T09:17:28.497Z",
+                    "id": "f4eb4c66-9149-4600-8f99-31b7499add3e",
+                    "billRateValue": 17,
+                    "userId": "454ec19d-5cb2-45d2-9c7d-9d53ab36b153",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.497Z",
+                        "updatedAt": "2024-02-02T09:17:28.497Z",
+                        "id": "454ec19d-5cb2-45d2-9c7d-9d53ab36b153",
+                        "firstName": "Mustero",
+                        "lastName": "M.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Mustero M.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Mustero M.",
+                    "isDeleted": false
+                },
+                "amount": 13.6,
+                "duration": 2881
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.497Z",
+                    "updatedAt": "2024-02-02T09:17:28.497Z",
+                    "id": "13ddd7b5-7f5f-4381-974b-0d0470cbf9d6",
+                    "billRateValue": 27,
+                    "userId": "e0ae7a4c-fd4e-4d8a-a8b8-86515b3e8760",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.497Z",
+                        "updatedAt": "2024-02-02T09:17:28.497Z",
+                        "id": "e0ae7a4c-fd4e-4d8a-a8b8-86515b3e8760",
+                        "firstName": "Desterrro",
+                        "lastName": "D.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Desterrro D.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Desterrro D.",
+                    "isDeleted": false
+                },
+                "amount": 32.4,
+                "duration": 4324
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.498Z",
+                    "updatedAt": "2024-02-02T09:17:28.498Z",
+                    "id": "4b55238f-cd63-4cba-b701-28aecd024ac6",
+                    "billRateValue": 33,
+                    "userId": "b475da7d-91e2-4fad-8f56-9c2d4f2820fa",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.498Z",
+                        "updatedAt": "2024-02-02T09:17:28.498Z",
+                        "id": "b475da7d-91e2-4fad-8f56-9c2d4f2820fa",
+                        "firstName": "Julia",
+                        "lastName": "K.",
+                        "imageUrl": "assets/images/avatars/julia.png",
+                        "image": null,
+                        "name": "Julia K.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Julia K.",
+                    "isDeleted": false
+                },
+                "amount": 34.6,
+                "duration": 3779
+            }
+        ]
+    },
+    {
+        "date": "2024-01-31",
+        "employees": [
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.498Z",
+                    "updatedAt": "2024-02-02T09:17:28.498Z",
+                    "id": "a5c975eb-d155-4d7c-9b69-75c6408226fb",
+                    "billRateValue": 22,
+                    "userId": "ff1e2a1f-06ab-43a2-a99d-e93c447b05a2",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.498Z",
+                        "updatedAt": "2024-02-02T09:17:28.498Z",
+                        "id": "ff1e2a1f-06ab-43a2-a99d-e93c447b05a2",
+                        "firstName": "Default",
+                        "lastName": "Employee",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Default Employee",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Default Employee",
+                    "isDeleted": false
+                },
+                "amount": 26.8,
+                "duration": 4381
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.498Z",
+                    "updatedAt": "2024-02-02T09:17:28.498Z",
+                    "id": "6223c39a-21c3-4e78-a918-94c11432c024",
+                    "billRateValue": 30,
+                    "userId": "8d886d16-2138-45a4-9d3b-4696343d48d8",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.498Z",
+                        "updatedAt": "2024-02-02T09:17:28.498Z",
+                        "id": "8d886d16-2138-45a4-9d3b-4696343d48d8",
+                        "firstName": "Alish",
+                        "lastName": "M.",
+                        "imageUrl": "assets/images/avatars/alish.jpg",
+                        "image": null,
+                        "name": "Alish M.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Alish M.",
+                    "isDeleted": false
+                },
+                "amount": 37.8,
+                "duration": 4540
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.498Z",
+                    "updatedAt": "2024-02-02T09:17:28.498Z",
+                    "id": "bcc9f6d5-7876-46a2-adf0-989e45f81ceb",
+                    "billRateValue": 38,
+                    "userId": "594fd4eb-005c-418f-9cdd-619f00bd41d6",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.498Z",
+                        "updatedAt": "2024-02-02T09:17:28.498Z",
+                        "id": "594fd4eb-005c-418f-9cdd-619f00bd41d6",
+                        "firstName": "Booster",
+                        "lastName": "P.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Booster P.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Booster P.",
+                    "isDeleted": false
+                },
+                "amount": 51.5,
+                "duration": 4881
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.499Z",
+                    "updatedAt": "2024-02-02T09:17:28.499Z",
+                    "id": "3bdeccbb-3685-4eb6-bcde-979b404ffa89",
+                    "billRateValue": 32,
+                    "userId": "c1cd42dd-388f-4092-bfa0-f2a29f1bc7d0",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.499Z",
+                        "updatedAt": "2024-02-02T09:17:28.499Z",
+                        "id": "c1cd42dd-388f-4092-bfa0-f2a29f1bc7d0",
+                        "firstName": "Yoster",
+                        "lastName": "F.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Yoster F.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Yoster F.",
+                    "isDeleted": false
+                },
+                "amount": 21.4,
+                "duration": 2412
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.500Z",
+                    "updatedAt": "2024-02-02T09:17:28.500Z",
+                    "id": "3bf0d4bd-bcd1-4290-b2e4-00b7d01422f1",
+                    "billRateValue": 19,
+                    "userId": "26d74f43-b1ac-419b-9a12-742d128067b3",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.500Z",
+                        "updatedAt": "2024-02-02T09:17:28.500Z",
+                        "id": "26d74f43-b1ac-419b-9a12-742d128067b3",
+                        "firstName": "Aster",
+                        "lastName": "A.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Aster A.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Aster A.",
+                    "isDeleted": false
+                },
+                "amount": 24.2,
+                "duration": 4580
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.500Z",
+                    "updatedAt": "2024-02-02T09:17:28.500Z",
+                    "id": "a2607828-76e5-465e-b9c1-d370efa9179c",
+                    "billRateValue": 36,
+                    "userId": "e17e9434-522d-4ed7-a18f-471a4c0def20",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.500Z",
+                        "updatedAt": "2024-02-02T09:17:28.500Z",
+                        "id": "e17e9434-522d-4ed7-a18f-471a4c0def20",
+                        "firstName": "Dister",
+                        "lastName": "D.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Dister D.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Dister D.",
+                    "isDeleted": false
+                },
+                "amount": 61.2,
+                "duration": 6121
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.500Z",
+                    "updatedAt": "2024-02-02T09:17:28.500Z",
+                    "id": "bdcb5d18-a425-46e1-b234-ef573e2f0062",
+                    "billRateValue": 20,
+                    "userId": "2eb87bcb-fa19-402f-afb7-eb6988b34835",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.500Z",
+                        "updatedAt": "2024-02-02T09:17:28.500Z",
+                        "id": "2eb87bcb-fa19-402f-afb7-eb6988b34835",
+                        "firstName": "Postern",
+                        "lastName": "P.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Postern P.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Postern P.",
+                    "isDeleted": false
+                },
+                "amount": 16.7,
+                "duration": 3010
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.500Z",
+                    "updatedAt": "2024-02-02T09:17:28.500Z",
+                    "id": "dfbcc1e5-939b-4dd1-b65d-832221649fe9",
+                    "billRateValue": 37,
+                    "userId": "ef007c08-bcdf-45f2-a831-a4fee074d971",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.500Z",
+                        "updatedAt": "2024-02-02T09:17:28.500Z",
+                        "id": "ef007c08-bcdf-45f2-a831-a4fee074d971",
+                        "firstName": "Kyoster",
+                        "lastName": "K.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Kyoster K.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Kyoster K.",
+                    "isDeleted": false
+                },
+                "amount": 38.4,
+                "duration": 3739
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.501Z",
+                    "updatedAt": "2024-02-02T09:17:28.501Z",
+                    "id": "4a616545-a853-4d98-9efb-833cb7883e89",
+                    "billRateValue": 21,
+                    "userId": "917cf9d4-4e39-48b5-91cb-7cea4547ee57",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.501Z",
+                        "updatedAt": "2024-02-02T09:17:28.501Z",
+                        "id": "917cf9d4-4e39-48b5-91cb-7cea4547ee57",
+                        "firstName": "Taster",
+                        "lastName": "T.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Taster T.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Taster T.",
+                    "isDeleted": false
+                },
+                "amount": 15.4,
+                "duration": 2645
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.501Z",
+                    "updatedAt": "2024-02-02T09:17:28.501Z",
+                    "id": "f4eb4c66-9149-4600-8f99-31b7499add3e",
+                    "billRateValue": 17,
+                    "userId": "454ec19d-5cb2-45d2-9c7d-9d53ab36b153",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.501Z",
+                        "updatedAt": "2024-02-02T09:17:28.501Z",
+                        "id": "454ec19d-5cb2-45d2-9c7d-9d53ab36b153",
+                        "firstName": "Mustero",
+                        "lastName": "M.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Mustero M.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Mustero M.",
+                    "isDeleted": false
+                },
+                "amount": 25.5,
+                "duration": 5400
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.501Z",
+                    "updatedAt": "2024-02-02T09:17:28.501Z",
+                    "id": "2c478a6c-964d-4ed7-be1d-0d016f87fe25",
+                    "billRateValue": 35,
+                    "userId": "3a91e25c-7e4f-49f2-99c6-d907e1d6d59d",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.501Z",
+                        "updatedAt": "2024-02-02T09:17:28.501Z",
+                        "id": "3a91e25c-7e4f-49f2-99c6-d907e1d6d59d",
+                        "firstName": "Chetan",
+                        "lastName": "K.",
+                        "imageUrl": "assets/images/avatars/chetan.png",
+                        "image": null,
+                        "name": "Chetan K.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Chetan K.",
+                    "isDeleted": false
+                },
+                "amount": 27.9,
+                "duration": 2868
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.501Z",
+                    "updatedAt": "2024-02-02T09:17:28.501Z",
+                    "id": "4b55238f-cd63-4cba-b701-28aecd024ac6",
+                    "billRateValue": 33,
+                    "userId": "b475da7d-91e2-4fad-8f56-9c2d4f2820fa",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.501Z",
+                        "updatedAt": "2024-02-02T09:17:28.501Z",
+                        "id": "b475da7d-91e2-4fad-8f56-9c2d4f2820fa",
+                        "firstName": "Julia",
+                        "lastName": "K.",
+                        "imageUrl": "assets/images/avatars/julia.png",
+                        "image": null,
+                        "name": "Julia K.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Julia K.",
+                    "isDeleted": false
+                },
+                "amount": 12.7,
+                "duration": 1384
+            }
+        ]
+    },
+    {
+        "date": "2024-02-01",
+        "employees": [
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.502Z",
+                    "updatedAt": "2024-02-02T09:17:28.502Z",
+                    "id": "a5c975eb-d155-4d7c-9b69-75c6408226fb",
+                    "billRateValue": 22,
+                    "userId": "ff1e2a1f-06ab-43a2-a99d-e93c447b05a2",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.502Z",
+                        "updatedAt": "2024-02-02T09:17:28.502Z",
+                        "id": "ff1e2a1f-06ab-43a2-a99d-e93c447b05a2",
+                        "firstName": "Default",
+                        "lastName": "Employee",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Default Employee",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Default Employee",
+                    "isDeleted": false
+                },
+                "amount": 25.2,
+                "duration": 4122
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.502Z",
+                    "updatedAt": "2024-02-02T09:17:28.502Z",
+                    "id": "08f78ee0-15d1-4404-94c1-4e3271d91d8b",
+                    "billRateValue": 28,
+                    "userId": "18fd55d1-dd74-43ba-9020-82ba153ff453",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.502Z",
+                        "updatedAt": "2024-02-02T09:17:28.502Z",
+                        "id": "18fd55d1-dd74-43ba-9020-82ba153ff453",
+                        "firstName": "Ruslan",
+                        "lastName": "K.",
+                        "imageUrl": "assets/images/avatars/ruslan.jpg",
+                        "image": null,
+                        "name": "Ruslan K.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Ruslan K.",
+                    "isDeleted": false
+                },
+                "amount": 32,
+                "duration": 4115
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.502Z",
+                    "updatedAt": "2024-02-02T09:17:28.502Z",
+                    "id": "6223c39a-21c3-4e78-a918-94c11432c024",
+                    "billRateValue": 30,
+                    "userId": "8d886d16-2138-45a4-9d3b-4696343d48d8",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.502Z",
+                        "updatedAt": "2024-02-02T09:17:28.502Z",
+                        "id": "8d886d16-2138-45a4-9d3b-4696343d48d8",
+                        "firstName": "Alish",
+                        "lastName": "M.",
+                        "imageUrl": "assets/images/avatars/alish.jpg",
+                        "image": null,
+                        "name": "Alish M.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Alish M.",
+                    "isDeleted": false
+                },
+                "amount": 54,
+                "duration": 6480
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.502Z",
+                    "updatedAt": "2024-02-02T09:17:28.502Z",
+                    "id": "bcc9f6d5-7876-46a2-adf0-989e45f81ceb",
+                    "billRateValue": 38,
+                    "userId": "594fd4eb-005c-418f-9cdd-619f00bd41d6",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.502Z",
+                        "updatedAt": "2024-02-02T09:17:28.502Z",
+                        "id": "594fd4eb-005c-418f-9cdd-619f00bd41d6",
+                        "firstName": "Booster",
+                        "lastName": "P.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Booster P.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Booster P.",
+                    "isDeleted": false
+                },
+                "amount": 40,
+                "duration": 3787
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.503Z",
+                    "updatedAt": "2024-02-02T09:17:28.503Z",
+                    "id": "2382efc7-930f-4095-9ddc-978bf44a38eb",
+                    "billRateValue": 18,
+                    "userId": "f12d6e47-f4c5-472b-81e9-8f2e9c16fd89",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.503Z",
+                        "updatedAt": "2024-02-02T09:17:28.503Z",
+                        "id": "f12d6e47-f4c5-472b-81e9-8f2e9c16fd89",
+                        "firstName": "Hoster",
+                        "lastName": "H.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Hoster H.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Hoster H.",
+                    "isDeleted": false
+                },
+                "amount": 23.5,
+                "duration": 4706
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.503Z",
+                    "updatedAt": "2024-02-02T09:17:28.503Z",
+                    "id": "3bf0d4bd-bcd1-4290-b2e4-00b7d01422f1",
+                    "billRateValue": 19,
+                    "userId": "26d74f43-b1ac-419b-9a12-742d128067b3",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.503Z",
+                        "updatedAt": "2024-02-02T09:17:28.503Z",
+                        "id": "26d74f43-b1ac-419b-9a12-742d128067b3",
+                        "firstName": "Aster",
+                        "lastName": "A.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Aster A.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Aster A.",
+                    "isDeleted": false
+                },
+                "amount": 29.6,
+                "duration": 5603
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.504Z",
+                    "updatedAt": "2024-02-02T09:17:28.504Z",
+                    "id": "0420041a-7b28-477a-a516-a50cdb0d7162",
+                    "billRateValue": 40,
+                    "userId": "8ab4b62d-a551-45e9-b738-6e11542bd717",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.504Z",
+                        "updatedAt": "2024-02-02T09:17:28.504Z",
+                        "id": "8ab4b62d-a551-45e9-b738-6e11542bd717",
+                        "firstName": "Roster",
+                        "lastName": "R.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Roster R.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Roster R.",
+                    "isDeleted": false
+                },
+                "amount": 78.9,
+                "duration": 7097
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.504Z",
+                    "updatedAt": "2024-02-02T09:17:28.504Z",
+                    "id": "a2607828-76e5-465e-b9c1-d370efa9179c",
+                    "billRateValue": 36,
+                    "userId": "e17e9434-522d-4ed7-a18f-471a4c0def20",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.504Z",
+                        "updatedAt": "2024-02-02T09:17:28.504Z",
+                        "id": "e17e9434-522d-4ed7-a18f-471a4c0def20",
+                        "firstName": "Dister",
+                        "lastName": "D.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Dister D.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Dister D.",
+                    "isDeleted": false
+                },
+                "amount": 22.4,
+                "duration": 2236
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.504Z",
+                    "updatedAt": "2024-02-02T09:17:28.504Z",
+                    "id": "f4eb4c66-9149-4600-8f99-31b7499add3e",
+                    "billRateValue": 17,
+                    "userId": "454ec19d-5cb2-45d2-9c7d-9d53ab36b153",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.504Z",
+                        "updatedAt": "2024-02-02T09:17:28.504Z",
+                        "id": "454ec19d-5cb2-45d2-9c7d-9d53ab36b153",
+                        "firstName": "Mustero",
+                        "lastName": "M.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Mustero M.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Mustero M.",
+                    "isDeleted": false
+                },
+                "amount": 8.1,
+                "duration": 1709
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.505Z",
+                    "updatedAt": "2024-02-02T09:17:28.505Z",
+                    "id": "13ddd7b5-7f5f-4381-974b-0d0470cbf9d6",
+                    "billRateValue": 27,
+                    "userId": "e0ae7a4c-fd4e-4d8a-a8b8-86515b3e8760",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.505Z",
+                        "updatedAt": "2024-02-02T09:17:28.505Z",
+                        "id": "e0ae7a4c-fd4e-4d8a-a8b8-86515b3e8760",
+                        "firstName": "Desterrro",
+                        "lastName": "D.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Desterrro D.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Desterrro D.",
+                    "isDeleted": false
+                },
+                "amount": 0.2,
+                "duration": 28
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.505Z",
+                    "updatedAt": "2024-02-02T09:17:28.505Z",
+                    "id": "2c478a6c-964d-4ed7-be1d-0d016f87fe25",
+                    "billRateValue": 35,
+                    "userId": "3a91e25c-7e4f-49f2-99c6-d907e1d6d59d",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.505Z",
+                        "updatedAt": "2024-02-02T09:17:28.505Z",
+                        "id": "3a91e25c-7e4f-49f2-99c6-d907e1d6d59d",
+                        "firstName": "Chetan",
+                        "lastName": "K.",
+                        "imageUrl": "assets/images/avatars/chetan.png",
+                        "image": null,
+                        "name": "Chetan K.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Chetan K.",
+                    "isDeleted": false
+                },
+                "amount": 47.6,
+                "duration": 4895
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.505Z",
+                    "updatedAt": "2024-02-02T09:17:28.505Z",
+                    "id": "ad9a9c0e-2c9e-4475-a569-f9b0f537338f",
+                    "billRateValue": 30,
+                    "userId": "314f497f-9a89-4da2-a60c-788ce2790d11",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.505Z",
+                        "updatedAt": "2024-02-02T09:17:28.505Z",
+                        "id": "314f497f-9a89-4da2-a60c-788ce2790d11",
+                        "firstName": "Yostorono",
+                        "lastName": "Y.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Yostorono Y.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Yostorono Y.",
+                    "isDeleted": false
+                },
+                "amount": 16.9,
+                "duration": 2033
+            }
+        ]
+    },
+    {
+        "date": "2024-02-02",
+        "employees": [
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.505Z",
+                    "updatedAt": "2024-02-02T09:17:28.505Z",
+                    "id": "bcc9f6d5-7876-46a2-adf0-989e45f81ceb",
+                    "billRateValue": 38,
+                    "userId": "594fd4eb-005c-418f-9cdd-619f00bd41d6",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.505Z",
+                        "updatedAt": "2024-02-02T09:17:28.505Z",
+                        "id": "594fd4eb-005c-418f-9cdd-619f00bd41d6",
+                        "firstName": "Booster",
+                        "lastName": "P.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Booster P.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Booster P.",
+                    "isDeleted": false
+                },
+                "amount": 59.2,
+                "duration": 5611
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.506Z",
+                    "updatedAt": "2024-02-02T09:17:28.506Z",
+                    "id": "3bdeccbb-3685-4eb6-bcde-979b404ffa89",
+                    "billRateValue": 32,
+                    "userId": "c1cd42dd-388f-4092-bfa0-f2a29f1bc7d0",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.506Z",
+                        "updatedAt": "2024-02-02T09:17:28.506Z",
+                        "id": "c1cd42dd-388f-4092-bfa0-f2a29f1bc7d0",
+                        "firstName": "Yoster",
+                        "lastName": "F.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Yoster F.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Yoster F.",
+                    "isDeleted": false
+                },
+                "amount": 39.5,
+                "duration": 4439
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.506Z",
+                    "updatedAt": "2024-02-02T09:17:28.506Z",
+                    "id": "bdcb5d18-a425-46e1-b234-ef573e2f0062",
+                    "billRateValue": 20,
+                    "userId": "2eb87bcb-fa19-402f-afb7-eb6988b34835",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.506Z",
+                        "updatedAt": "2024-02-02T09:17:28.506Z",
+                        "id": "2eb87bcb-fa19-402f-afb7-eb6988b34835",
+                        "firstName": "Postern",
+                        "lastName": "P.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Postern P.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Postern P.",
+                    "isDeleted": false
+                },
+                "amount": 23.1,
+                "duration": 4156
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.506Z",
+                    "updatedAt": "2024-02-02T09:17:28.506Z",
+                    "id": "13ddd7b5-7f5f-4381-974b-0d0470cbf9d6",
+                    "billRateValue": 27,
+                    "userId": "e0ae7a4c-fd4e-4d8a-a8b8-86515b3e8760",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.506Z",
+                        "updatedAt": "2024-02-02T09:17:28.506Z",
+                        "id": "e0ae7a4c-fd4e-4d8a-a8b8-86515b3e8760",
+                        "firstName": "Desterrro",
+                        "lastName": "D.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Desterrro D.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Desterrro D.",
+                    "isDeleted": false
+                },
+                "amount": 29.2,
+                "duration": 3887
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.506Z",
+                    "updatedAt": "2024-02-02T09:17:28.506Z",
+                    "id": "4b55238f-cd63-4cba-b701-28aecd024ac6",
+                    "billRateValue": 33,
+                    "userId": "b475da7d-91e2-4fad-8f56-9c2d4f2820fa",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.506Z",
+                        "updatedAt": "2024-02-02T09:17:28.506Z",
+                        "id": "b475da7d-91e2-4fad-8f56-9c2d4f2820fa",
+                        "firstName": "Julia",
+                        "lastName": "K.",
+                        "imageUrl": "assets/images/avatars/julia.png",
+                        "image": null,
+                        "name": "Julia K.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Julia K.",
+                    "isDeleted": false
+                },
+                "amount": 64,
+                "duration": 6977
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:17:28.507Z",
+                    "updatedAt": "2024-02-02T09:17:28.507Z",
+                    "id": "ad9a9c0e-2c9e-4475-a569-f9b0f537338f",
+                    "billRateValue": 30,
+                    "userId": "314f497f-9a89-4da2-a60c-788ce2790d11",
+                    "user": {
+                        "createdAt": "2024-02-02T09:17:28.507Z",
+                        "updatedAt": "2024-02-02T09:17:28.507Z",
+                        "id": "314f497f-9a89-4da2-a60c-788ce2790d11",
+                        "firstName": "Yostorono",
+                        "lastName": "Y.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Yostorono Y.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Yostorono Y.",
+                    "isDeleted": false
+                },
+                "amount": 34.4,
+                "duration": 4132
+            }
+        ]
+    }
+]

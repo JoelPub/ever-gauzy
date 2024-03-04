@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Gauzy Platform (Open-Source)",
+        "id": "7df03629-dff0-492c-ad01-ebb0ff3c177f",
+        "duration": 43785,
+        "durationPercentage": 22.52
+    },
+    {
+        "name": "Gauzy Platform SaaS",
+        "id": "bc853e34-6da0-44c9-9012-11f9aa3cf9d4",
+        "duration": 39746,
+        "durationPercentage": 20.44
+    },
+    {
+        "name": "Gauzy Platform DevOps",
+        "id": "4bf432c0-b3d6-443a-abd5-eb329cedb8fd",
+        "duration": 36403,
+        "durationPercentage": 18.72
+    },
+    {
+        "name": "Gauzy Web Site",
+        "id": "0a7da595-04bf-4b71-9961-3a0c7fdeaf71",
+        "duration": 74512,
+        "durationPercentage": 38.32
+    }
+]

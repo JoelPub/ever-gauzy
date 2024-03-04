@@ -1,0 +1,434 @@
+[
+    {
+        "sessions": 1,
+        "duration": 45,
+        "employeeId": "a2607828-76e5-465e-b9c1-d370efa9179c",
+        "date": "2024-02-01",
+        "time": "00:29:13",
+        "title": "Chrome"
+    },
+    {
+        "sessions": 1,
+        "duration": 35,
+        "employeeId": "a2607828-76e5-465e-b9c1-d370efa9179c",
+        "date": "2024-02-01",
+        "time": "01:30:25",
+        "title": "PgAdmin"
+    },
+    {
+        "sessions": 1,
+        "duration": 34,
+        "employeeId": "a5c975eb-d155-4d7c-9b69-75c6408226fb",
+        "date": "2024-02-01",
+        "time": "01:34:36",
+        "title": "Chrome"
+    },
+    {
+        "sessions": 1,
+        "duration": 60,
+        "employeeId": "08f78ee0-15d1-4404-94c1-4e3271d91d8b",
+        "date": "2024-02-01",
+        "time": "01:49:24",
+        "title": "Mail"
+    },
+    {
+        "sessions": 1,
+        "duration": 72,
+        "employeeId": "08f78ee0-15d1-4404-94c1-4e3271d91d8b",
+        "date": "2024-02-01",
+        "time": "02:02:51",
+        "title": "Sublime Text"
+    },
+    {
+        "sessions": 1,
+        "duration": 66,
+        "employeeId": "4b55238f-cd63-4cba-b701-28aecd024ac6",
+        "date": "2024-02-01",
+        "time": "02:47:00",
+        "title": "PgAdmin"
+    },
+    {
+        "sessions": 1,
+        "duration": 11,
+        "employeeId": "bdcb5d18-a425-46e1-b234-ef573e2f0062",
+        "date": "2024-02-01",
+        "time": "03:03:40",
+        "title": "PgAdmin"
+    },
+    {
+        "sessions": 1,
+        "duration": 4,
+        "employeeId": "a5c975eb-d155-4d7c-9b69-75c6408226fb",
+        "date": "2024-02-01",
+        "time": "03:20:10",
+        "title": "PgAdmin"
+    },
+    {
+        "sessions": 1,
+        "duration": 47,
+        "employeeId": "3bdeccbb-3685-4eb6-bcde-979b404ffa89",
+        "date": "2024-02-01",
+        "time": "03:34:57",
+        "title": "Mail"
+    },
+    {
+        "sessions": 1,
+        "duration": 80,
+        "employeeId": "a5c975eb-d155-4d7c-9b69-75c6408226fb",
+        "date": "2024-02-01",
+        "time": "04:04:07",
+        "title": "Mail"
+    },
+    {
+        "sessions": 1,
+        "duration": 82,
+        "employeeId": "a2607828-76e5-465e-b9c1-d370efa9179c",
+        "date": "2024-02-01",
+        "time": "04:12:47",
+        "title": "Sublime Text"
+    },
+    {
+        "sessions": 1,
+        "duration": 83,
+        "employeeId": "08f78ee0-15d1-4404-94c1-4e3271d91d8b",
+        "date": "2024-02-01",
+        "time": "05:11:12",
+        "title": "Chrome"
+    },
+    {
+        "sessions": 1,
+        "duration": 47,
+        "employeeId": "3bdeccbb-3685-4eb6-bcde-979b404ffa89",
+        "date": "2024-02-01",
+        "time": "05:21:50",
+        "title": "PgAdmin"
+    },
+    {
+        "sessions": 1,
+        "duration": 42,
+        "employeeId": "ad9a9c0e-2c9e-4475-a569-f9b0f537338f",
+        "date": "2024-02-01",
+        "time": "05:50:57",
+        "title": "PgAdmin"
+    },
+    {
+        "sessions": 1,
+        "duration": 27,
+        "employeeId": "a2607828-76e5-465e-b9c1-d370efa9179c",
+        "date": "2024-02-01",
+        "time": "06:40:13",
+        "title": "Mail"
+    },
+    {
+        "sessions": 1,
+        "duration": 16,
+        "employeeId": "4a616545-a853-4d98-9efb-833cb7883e89",
+        "date": "2024-02-01",
+        "time": "06:59:52",
+        "title": "PgAdmin"
+    },
+    {
+        "sessions": 1,
+        "duration": 93,
+        "employeeId": "4a616545-a853-4d98-9efb-833cb7883e89",
+        "date": "2024-02-01",
+        "time": "07:05:31",
+        "title": "Chrome"
+    },
+    {
+        "sessions": 1,
+        "duration": 5,
+        "employeeId": "0420041a-7b28-477a-a516-a50cdb0d7162",
+        "date": "2024-02-01",
+        "time": "07:21:59",
+        "title": "Sublime Text"
+    },
+    {
+        "sessions": 1,
+        "duration": 80,
+        "employeeId": "f4eb4c66-9149-4600-8f99-31b7499add3e",
+        "date": "2024-02-01",
+        "time": "07:24:21",
+        "title": "PgAdmin"
+    },
+    {
+        "sessions": 1,
+        "duration": 58,
+        "employeeId": "2382efc7-930f-4095-9ddc-978bf44a38eb",
+        "date": "2024-02-01",
+        "time": "07:26:58",
+        "title": "Mail"
+    },
+    {
+        "sessions": 1,
+        "duration": 81,
+        "employeeId": "4b55238f-cd63-4cba-b701-28aecd024ac6",
+        "date": "2024-02-01",
+        "time": "07:54:32",
+        "title": "Sublime Text"
+    },
+    {
+        "sessions": 1,
+        "duration": 88,
+        "employeeId": "3bf0d4bd-bcd1-4290-b2e4-00b7d01422f1",
+        "date": "2024-02-01",
+        "time": "08:34:16",
+        "title": "PgAdmin"
+    },
+    {
+        "sessions": 1,
+        "duration": 50,
+        "employeeId": "3bf0d4bd-bcd1-4290-b2e4-00b7d01422f1",
+        "date": "2024-02-01",
+        "time": "08:43:15",
+        "title": "Mail"
+    },
+    {
+        "sessions": 1,
+        "duration": 100,
+        "employeeId": "08f78ee0-15d1-4404-94c1-4e3271d91d8b",
+        "date": "2024-02-01",
+        "time": "09:13:18",
+        "title": "PgAdmin"
+    },
+    {
+        "sessions": 1,
+        "duration": 81,
+        "employeeId": "2382efc7-930f-4095-9ddc-978bf44a38eb",
+        "date": "2024-02-01",
+        "time": "09:22:02",
+        "title": "PgAdmin"
+    },
+    {
+        "sessions": 1,
+        "duration": 0,
+        "employeeId": "13ddd7b5-7f5f-4381-974b-0d0470cbf9d6",
+        "date": "2024-02-01",
+        "time": "09:43:28",
+        "title": "PgAdmin"
+    },
+    {
+        "sessions": 1,
+        "duration": 76,
+        "employeeId": "bcc9f6d5-7876-46a2-adf0-989e45f81ceb",
+        "date": "2024-02-01",
+        "time": "09:45:23",
+        "title": "Sublime Text"
+    },
+    {
+        "sessions": 1,
+        "duration": 60,
+        "employeeId": "6223c39a-21c3-4e78-a918-94c11432c024",
+        "date": "2024-02-01",
+        "time": "10:13:58",
+        "title": "Chrome"
+    },
+    {
+        "sessions": 1,
+        "duration": 86,
+        "employeeId": "6223c39a-21c3-4e78-a918-94c11432c024",
+        "date": "2024-02-01",
+        "time": "10:14:21",
+        "title": "Mail"
+    },
+    {
+        "sessions": 1,
+        "duration": 51,
+        "employeeId": "bdcb5d18-a425-46e1-b234-ef573e2f0062",
+        "date": "2024-02-01",
+        "time": "11:56:43",
+        "title": "Sublime Text"
+    },
+    {
+        "sessions": 1,
+        "duration": 30,
+        "employeeId": "6223c39a-21c3-4e78-a918-94c11432c024",
+        "date": "2024-02-01",
+        "time": "12:06:40",
+        "title": "Sublime Text"
+    },
+    {
+        "sessions": 1,
+        "duration": 88,
+        "employeeId": "08f78ee0-15d1-4404-94c1-4e3271d91d8b",
+        "date": "2024-02-01",
+        "time": "12:45:20",
+        "title": "Terminal"
+    },
+    {
+        "sessions": 1,
+        "duration": 29,
+        "employeeId": "3bdeccbb-3685-4eb6-bcde-979b404ffa89",
+        "date": "2024-02-01",
+        "time": "12:54:27",
+        "title": "Sublime Text"
+    },
+    {
+        "sessions": 1,
+        "duration": 51,
+        "employeeId": "6223c39a-21c3-4e78-a918-94c11432c024",
+        "date": "2024-02-01",
+        "time": "13:41:00",
+        "title": "PgAdmin"
+    },
+    {
+        "sessions": 1,
+        "duration": 25,
+        "employeeId": "2382efc7-930f-4095-9ddc-978bf44a38eb",
+        "date": "2024-02-01",
+        "time": "14:18:12",
+        "title": "Chrome"
+    },
+    {
+        "sessions": 1,
+        "duration": 50,
+        "employeeId": "2c478a6c-964d-4ed7-be1d-0d016f87fe25",
+        "date": "2024-02-01",
+        "time": "14:55:47",
+        "title": "Mail"
+    },
+    {
+        "sessions": 1,
+        "duration": 9,
+        "employeeId": "2382efc7-930f-4095-9ddc-978bf44a38eb",
+        "date": "2024-02-01",
+        "time": "15:02:41",
+        "title": "Skype"
+    },
+    {
+        "sessions": 1,
+        "duration": 33,
+        "employeeId": "a5c975eb-d155-4d7c-9b69-75c6408226fb",
+        "date": "2024-02-01",
+        "time": "15:27:11",
+        "title": "Sublime Text"
+    },
+    {
+        "sessions": 1,
+        "duration": 51,
+        "employeeId": "a5c975eb-d155-4d7c-9b69-75c6408226fb",
+        "date": "2024-01-31",
+        "time": "16:30:15",
+        "title": "Sublime Text"
+    },
+    {
+        "sessions": 1,
+        "duration": 14,
+        "employeeId": "13ddd7b5-7f5f-4381-974b-0d0470cbf9d6",
+        "date": "2024-01-31",
+        "time": "17:13:54",
+        "title": "Sublime Text"
+    },
+    {
+        "sessions": 1,
+        "duration": 84,
+        "employeeId": "a2607828-76e5-465e-b9c1-d370efa9179c",
+        "date": "2024-01-31",
+        "time": "18:00:59",
+        "title": "Sublime Text"
+    },
+    {
+        "sessions": 1,
+        "duration": 74,
+        "employeeId": "f4eb4c66-9149-4600-8f99-31b7499add3e",
+        "date": "2024-01-31",
+        "time": "18:01:04",
+        "title": "PgAdmin"
+    },
+    {
+        "sessions": 1,
+        "duration": 92,
+        "employeeId": "a5c975eb-d155-4d7c-9b69-75c6408226fb",
+        "date": "2024-01-31",
+        "time": "18:54:18",
+        "title": "Mail"
+    },
+    {
+        "sessions": 1,
+        "duration": 43,
+        "employeeId": "dfbcc1e5-939b-4dd1-b65d-832221649fe9",
+        "date": "2024-01-31",
+        "time": "18:57:44",
+        "title": "Sublime Text"
+    },
+    {
+        "sessions": 1,
+        "duration": 99,
+        "employeeId": "2382efc7-930f-4095-9ddc-978bf44a38eb",
+        "date": "2024-01-31",
+        "time": "19:23:26",
+        "title": "PgAdmin"
+    },
+    {
+        "sessions": 1,
+        "duration": 1,
+        "employeeId": "6223c39a-21c3-4e78-a918-94c11432c024",
+        "date": "2024-01-31",
+        "time": "20:36:26",
+        "title": "Sublime Text"
+    },
+    {
+        "sessions": 1,
+        "duration": 60,
+        "employeeId": "08f78ee0-15d1-4404-94c1-4e3271d91d8b",
+        "date": "2024-01-31",
+        "time": "21:01:00",
+        "title": "Sublime Text"
+    },
+    {
+        "sessions": 1,
+        "duration": 38,
+        "employeeId": "ad9a9c0e-2c9e-4475-a569-f9b0f537338f",
+        "date": "2024-01-31",
+        "time": "21:03:07",
+        "title": "Sublime Text"
+    },
+    {
+        "sessions": 1,
+        "duration": 28,
+        "employeeId": "f4eb4c66-9149-4600-8f99-31b7499add3e",
+        "date": "2024-01-31",
+        "time": "21:05:32",
+        "title": "Git Desktop"
+    },
+    {
+        "sessions": 1,
+        "duration": 25,
+        "employeeId": "2382efc7-930f-4095-9ddc-978bf44a38eb",
+        "date": "2024-01-31",
+        "time": "21:07:32",
+        "title": "Git Desktop"
+    },
+    {
+        "sessions": 1,
+        "duration": 24,
+        "employeeId": "3bf0d4bd-bcd1-4290-b2e4-00b7d01422f1",
+        "date": "2024-01-31",
+        "time": "22:39:27",
+        "title": "Sublime Text"
+    },
+    {
+        "sessions": 1,
+        "duration": 43,
+        "employeeId": "bcc9f6d5-7876-46a2-adf0-989e45f81ceb",
+        "date": "2024-01-31",
+        "time": "22:59:51",
+        "title": "Sublime Text"
+    },
+    {
+        "sessions": 1,
+        "duration": 41,
+        "employeeId": "4b55238f-cd63-4cba-b701-28aecd024ac6",
+        "date": "2024-01-31",
+        "time": "23:44:45",
+        "title": "PgAdmin"
+    },
+    {
+        "sessions": 1,
+        "duration": 89,
+        "employeeId": "3bdeccbb-3685-4eb6-bcde-979b404ffa89",
+        "date": "2024-01-31",
+        "time": "23:50:51",
+        "title": "Sublime Text"
+    }
+]

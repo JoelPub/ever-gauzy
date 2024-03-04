@@ -225,7 +225,8 @@ Together with Gauzy, Docker Compose will run the following:
 - Login with email `admin@mobiplushrs.com` and password: `admin` for Super Admin user.
 - Login with email `employee@mobiplushrs.com` and password: `123456` for Employee user.
 - Enjoy!
-
+- yarn build:gauzy 或 yarn build:gauzy:prod (看哪个生成新的文件) \ever-gauzy\dist\apps\gauzy 做静态页面发布
+- 静态页面使用的mock api备份在\ever-gauzy\apps\gauzy\src\assets\mockjson 下
 Notes:
 
 -   during the first API start, DB will be automatically seeded with a minimum set of initial data if no users are found.

@@ -1,0 +1,29 @@
+{
+    "items": [
+        {
+            "createdAt": "2024-02-01T23:57:51.171Z",
+            "updatedAt": "2024-02-01T23:57:51.171Z",
+            "id": "d30a095f-120c-428b-8d98-328f634f540c",
+            "deletedAt": null,
+            "isActive": true,
+            "isArchived": false,
+            "tenantId": "0a9cd15c-03e4-446a-8271-46ddb1429668",
+            "organizationId": "1f224d1d-7123-447f-8b2a-7f8229272b6b",
+            "isDefault": true,
+            "userId": "2b4b0c9c-2f34-4597-96d5-03224754bb7e"
+        },
+        {
+            "createdAt": "2024-02-01T23:57:51.171Z",
+            "updatedAt": "2024-02-01T23:57:51.171Z",
+            "id": "13e93013-96ac-4aa5-b59d-801f71682d66",
+            "deletedAt": null,
+            "isActive": true,
+            "isArchived": false,
+            "tenantId": "0a9cd15c-03e4-446a-8271-46ddb1429668",
+            "organizationId": "675c737f-c1c2-4d3b-9a75-f22c177c2d28",
+            "isDefault": true,
+            "userId": "2b4b0c9c-2f34-4597-96d5-03224754bb7e"
+        }
+    ],
+    "total": 2
+}

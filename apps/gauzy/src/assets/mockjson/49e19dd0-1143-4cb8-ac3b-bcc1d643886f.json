@@ -1,0 +1,34 @@
+[
+    {
+        "createdAt": "2024-02-01T23:57:54.781Z",
+        "updatedAt": "2024-02-01T23:57:54.781Z",
+        "id": "070e1683-ae47-472f-b893-fb76ba8936c7",
+        "deletedAt": null,
+        "isActive": true,
+        "isArchived": false,
+        "name": "Weekly",
+        "slug": "weekly",
+        "description": "See team members' time worked, activity levels, and amount earned per week",
+        "image": "reports/weekly.png",
+        "iconClass": "fas fa-calendar-alt",
+        "showInMenu": true,
+        "categoryId": "53abd26c-ddd1-4bd7-b3eb-f11c81f1f057",
+        "imageUrl": "https://apidemo.gauzy.co/public/reports/weekly.png"
+    },
+    {
+        "createdAt": "2024-02-01T23:57:54.781Z",
+        "updatedAt": "2024-02-01T23:57:54.781Z",
+        "id": "66f03d9a-95f1-4001-a338-ebd9eb482576",
+        "deletedAt": null,
+        "isActive": true,
+        "isArchived": false,
+        "name": "Manual time edits",
+        "slug": "manual-time-edits",
+        "description": "See team members' time worked, project, task, and reason for each manual time entry",
+        "image": "reports/manual-time-edits.png",
+        "iconClass": "far fa-window-maximize",
+        "showInMenu": false,
+        "categoryId": "53abd26c-ddd1-4bd7-b3eb-f11c81f1f057",
+        "imageUrl": "https://apidemo.gauzy.co/public/reports/manual-time-edits.png"
+    }
+]

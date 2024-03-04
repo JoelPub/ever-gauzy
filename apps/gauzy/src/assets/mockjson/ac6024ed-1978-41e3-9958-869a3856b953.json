@@ -1,0 +1,137 @@
+{
+    "items": [
+        {
+            "createdAt": "2024-02-02T07:27:32.082Z",
+            "updatedAt": "2024-02-02T07:27:32.082Z",
+            "id": "08ab38c2-f1b7-4ced-8c3a-b6506e50d052",
+            "deletedAt": null,
+            "isActive": true,
+            "isArchived": false,
+            "tenantId": "a5bae428-b9e4-4271-a340-703dfbe78a58",
+            "organizationId": "8941090c-4daf-479b-8cb7-24e406399672",
+            "name": "Software"
+        },
+        {
+            "createdAt": "2024-02-02T07:27:32.082Z",
+            "updatedAt": "2024-02-02T07:27:32.082Z",
+            "id": "4d8d2382-668e-4390-92ec-250307537717",
+            "deletedAt": null,
+            "isActive": true,
+            "isArchived": false,
+            "tenantId": "a5bae428-b9e4-4271-a340-703dfbe78a58",
+            "organizationId": "8941090c-4daf-479b-8cb7-24e406399672",
+            "name": "Employees Benefits"
+        },
+        {
+            "createdAt": "2024-02-02T07:27:32.082Z",
+            "updatedAt": "2024-02-02T07:27:32.082Z",
+            "id": "c3e162aa-dbba-4fe6-a56f-0d96b13b8085",
+            "deletedAt": null,
+            "isActive": true,
+            "isArchived": false,
+            "tenantId": "a5bae428-b9e4-4271-a340-703dfbe78a58",
+            "organizationId": "8941090c-4daf-479b-8cb7-24e406399672",
+            "name": "Courses"
+        },
+        {
+            "createdAt": "2024-02-02T07:27:32.082Z",
+            "updatedAt": "2024-02-02T07:27:32.082Z",
+            "id": "941541fa-7f36-456e-b633-439445c9b8eb",
+            "deletedAt": null,
+            "isActive": true,
+            "isArchived": false,
+            "tenantId": "a5bae428-b9e4-4271-a340-703dfbe78a58",
+            "organizationId": "8941090c-4daf-479b-8cb7-24e406399672",
+            "name": "Subscriptions"
+        },
+        {
+            "createdAt": "2024-02-02T07:27:32.082Z",
+            "updatedAt": "2024-02-02T07:27:32.082Z",
+            "id": "789e8c50-cd6b-4c64-84e1-0a95e20e40e0",
+            "deletedAt": null,
+            "isActive": true,
+            "isArchived": false,
+            "tenantId": "a5bae428-b9e4-4271-a340-703dfbe78a58",
+            "organizationId": "8941090c-4daf-479b-8cb7-24e406399672",
+            "name": "Rent"
+        },
+        {
+            "createdAt": "2024-02-02T07:27:32.082Z",
+            "updatedAt": "2024-02-02T07:27:32.082Z",
+            "id": "61a4fd4c-f02d-4605-9332-48f9645be083",
+            "deletedAt": null,
+            "isActive": true,
+            "isArchived": false,
+            "tenantId": "a5bae428-b9e4-4271-a340-703dfbe78a58",
+            "organizationId": "8941090c-4daf-479b-8cb7-24e406399672",
+            "name": "Service Fee"
+        },
+        {
+            "createdAt": "2024-02-02T07:27:32.082Z",
+            "updatedAt": "2024-02-02T07:27:32.082Z",
+            "id": "19fe264a-9e6f-4064-8f27-ed563cda0f6f",
+            "deletedAt": null,
+            "isActive": true,
+            "isArchived": false,
+            "tenantId": "a5bae428-b9e4-4271-a340-703dfbe78a58",
+            "organizationId": "0f5e2db8-63d4-44da-bfca-e125f1097530",
+            "name": "Software"
+        },
+        {
+            "createdAt": "2024-02-02T07:27:32.082Z",
+            "updatedAt": "2024-02-02T07:27:32.082Z",
+            "id": "df6c5289-2fa1-425b-a8d4-f80f115e9521",
+            "deletedAt": null,
+            "isActive": true,
+            "isArchived": false,
+            "tenantId": "a5bae428-b9e4-4271-a340-703dfbe78a58",
+            "organizationId": "0f5e2db8-63d4-44da-bfca-e125f1097530",
+            "name": "Employees Benefits"
+        },
+        {
+            "createdAt": "2024-02-02T07:27:32.082Z",
+            "updatedAt": "2024-02-02T07:27:32.082Z",
+            "id": "4ac8dd3d-667a-4068-8f3a-502da0d820b7",
+            "deletedAt": null,
+            "isActive": true,
+            "isArchived": false,
+            "tenantId": "a5bae428-b9e4-4271-a340-703dfbe78a58",
+            "organizationId": "0f5e2db8-63d4-44da-bfca-e125f1097530",
+            "name": "Courses"
+        },
+        {
+            "createdAt": "2024-02-02T07:27:32.082Z",
+            "updatedAt": "2024-02-02T07:27:32.082Z",
+            "id": "8927e996-0744-4436-83bc-a2844dfc6d3d",
+            "deletedAt": null,
+            "isActive": true,
+            "isArchived": false,
+            "tenantId": "a5bae428-b9e4-4271-a340-703dfbe78a58",
+            "organizationId": "0f5e2db8-63d4-44da-bfca-e125f1097530",
+            "name": "Subscriptions"
+        },
+        {
+            "createdAt": "2024-02-02T07:27:32.082Z",
+            "updatedAt": "2024-02-02T07:27:32.082Z",
+            "id": "3f7c8ce6-aa30-42ff-95b9-6e788e899178",
+            "deletedAt": null,
+            "isActive": true,
+            "isArchived": false,
+            "tenantId": "a5bae428-b9e4-4271-a340-703dfbe78a58",
+            "organizationId": "0f5e2db8-63d4-44da-bfca-e125f1097530",
+            "name": "Rent"
+        },
+        {
+            "createdAt": "2024-02-02T07:27:32.082Z",
+            "updatedAt": "2024-02-02T07:27:32.082Z",
+            "id": "e2693c78-c28a-4e75-9ef5-de47eb914ea5",
+            "deletedAt": null,
+            "isActive": true,
+            "isArchived": false,
+            "tenantId": "a5bae428-b9e4-4271-a340-703dfbe78a58",
+            "organizationId": "0f5e2db8-63d4-44da-bfca-e125f1097530",
+            "name": "Service Fee"
+        }
+    ],
+    "total": 12
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "title": "[Bug] Pagination isn't working",
+        "id": "c2bd52da-0bdb-4650-a71b-f2c7e2093be7",
+        "duration": 6002,
+        "todayDuration": 0,
+        "updatedAt": "2024-02-01 23:58:16.639",
+        "durationPercentage": 3.09
+    },
+    {
+        "title": "yarn bootstrap throw exception (node-gyp error)",
+        "id": "1959c354-cbf8-450c-9fea-53b69317175d",
+        "duration": 8932,
+        "todayDuration": 0,
+        "updatedAt": "2024-02-01 23:58:16.639",
+        "durationPercentage": 4.59
+    },
+    {
+        "title": "[Feature] Integrate better API docs",
+        "id": "e0d840ff-ff49-426e-a2cb-02a7258e6305",
+        "duration": 18416,
+        "todayDuration": 0,
+        "updatedAt": "2024-02-01 23:58:16.639",
+        "durationPercentage": 9.47
+    },
+    {
+        "title": "[DevOps] more docker compose and k8s related work",
+        "id": "cfb7c0e0-bafd-4d9b-99ee-d260dc7bd7e9",
+        "duration": 15347,
+        "todayDuration": 0,
+        "updatedAt": "2024-02-01 23:58:16.639",
+        "durationPercentage": 7.89
+    },
+    {
+        "title": "[DevOps] Hosting with Caddy Server and docker compose",
+        "id": "dec77cf3-5586-4295-9c39-f712486740e7",
+        "duration": 28291,
+        "todayDuration": 0,
+        "updatedAt": "2024-02-01 23:58:16.638",
+        "durationPercentage": 14.55
+    }
+]

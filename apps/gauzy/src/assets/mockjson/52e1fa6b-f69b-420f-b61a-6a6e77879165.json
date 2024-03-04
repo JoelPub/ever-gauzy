@@ -1,0 +1,473 @@
+[
+    {
+        "date": "2024-01-28",
+        "employees": []
+    },
+    {
+        "date": "2024-01-29",
+        "employees": [
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:20:54.643Z",
+                    "updatedAt": "2024-02-02T09:20:54.643Z",
+                    "id": "a5c975eb-d155-4d7c-9b69-75c6408226fb",
+                    "reWeeklyLimit": 23,
+                    "userId": "ff1e2a1f-06ab-43a2-a99d-e93c447b05a2",
+                    "user": {
+                        "createdAt": "2024-02-02T09:20:54.643Z",
+                        "updatedAt": "2024-02-02T09:20:54.643Z",
+                        "id": "ff1e2a1f-06ab-43a2-a99d-e93c447b05a2",
+                        "firstName": "Default",
+                        "lastName": "Employee",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Default Employee",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Default Employee",
+                    "isDeleted": false
+                },
+                "duration": 18038,
+                "durationPercentage": "21.79",
+                "limit": 82800
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:20:54.646Z",
+                    "updatedAt": "2024-02-02T09:20:54.646Z",
+                    "id": "08f78ee0-15d1-4404-94c1-4e3271d91d8b",
+                    "reWeeklyLimit": 38,
+                    "userId": "18fd55d1-dd74-43ba-9020-82ba153ff453",
+                    "user": {
+                        "createdAt": "2024-02-02T09:20:54.646Z",
+                        "updatedAt": "2024-02-02T09:20:54.646Z",
+                        "id": "18fd55d1-dd74-43ba-9020-82ba153ff453",
+                        "firstName": "Ruslan",
+                        "lastName": "K.",
+                        "imageUrl": "assets/images/avatars/ruslan.jpg",
+                        "image": null,
+                        "name": "Ruslan K.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Ruslan K.",
+                    "isDeleted": false
+                },
+                "duration": 10314,
+                "durationPercentage": "7.54",
+                "limit": 136800
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:20:54.646Z",
+                    "updatedAt": "2024-02-02T09:20:54.646Z",
+                    "id": "6223c39a-21c3-4e78-a918-94c11432c024",
+                    "reWeeklyLimit": 38,
+                    "userId": "8d886d16-2138-45a4-9d3b-4696343d48d8",
+                    "user": {
+                        "createdAt": "2024-02-02T09:20:54.646Z",
+                        "updatedAt": "2024-02-02T09:20:54.646Z",
+                        "id": "8d886d16-2138-45a4-9d3b-4696343d48d8",
+                        "firstName": "Alish",
+                        "lastName": "M.",
+                        "imageUrl": "assets/images/avatars/alish.jpg",
+                        "image": null,
+                        "name": "Alish M.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Alish M.",
+                    "isDeleted": false
+                },
+                "duration": 14053,
+                "durationPercentage": "10.27",
+                "limit": 136800
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:20:54.646Z",
+                    "updatedAt": "2024-02-02T09:20:54.646Z",
+                    "id": "bcc9f6d5-7876-46a2-adf0-989e45f81ceb",
+                    "reWeeklyLimit": 12,
+                    "userId": "594fd4eb-005c-418f-9cdd-619f00bd41d6",
+                    "user": {
+                        "createdAt": "2024-02-02T09:20:54.646Z",
+                        "updatedAt": "2024-02-02T09:20:54.646Z",
+                        "id": "594fd4eb-005c-418f-9cdd-619f00bd41d6",
+                        "firstName": "Booster",
+                        "lastName": "P.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Booster P.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Booster P.",
+                    "isDeleted": false
+                },
+                "duration": 22416,
+                "durationPercentage": "51.89",
+                "limit": 43200
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:20:54.647Z",
+                    "updatedAt": "2024-02-02T09:20:54.647Z",
+                    "id": "3bdeccbb-3685-4eb6-bcde-979b404ffa89",
+                    "reWeeklyLimit": 17,
+                    "userId": "c1cd42dd-388f-4092-bfa0-f2a29f1bc7d0",
+                    "user": {
+                        "createdAt": "2024-02-02T09:20:54.647Z",
+                        "updatedAt": "2024-02-02T09:20:54.647Z",
+                        "id": "c1cd42dd-388f-4092-bfa0-f2a29f1bc7d0",
+                        "firstName": "Yoster",
+                        "lastName": "F.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Yoster F.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Yoster F.",
+                    "isDeleted": false
+                },
+                "duration": 15142,
+                "durationPercentage": "24.74",
+                "limit": 61200
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:20:54.647Z",
+                    "updatedAt": "2024-02-02T09:20:54.647Z",
+                    "id": "2382efc7-930f-4095-9ddc-978bf44a38eb",
+                    "reWeeklyLimit": 30,
+                    "userId": "f12d6e47-f4c5-472b-81e9-8f2e9c16fd89",
+                    "user": {
+                        "createdAt": "2024-02-02T09:20:54.647Z",
+                        "updatedAt": "2024-02-02T09:20:54.647Z",
+                        "id": "f12d6e47-f4c5-472b-81e9-8f2e9c16fd89",
+                        "firstName": "Hoster",
+                        "lastName": "H.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Hoster H.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Hoster H.",
+                    "isDeleted": false
+                },
+                "duration": 15815,
+                "durationPercentage": "14.64",
+                "limit": 108000
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:20:54.648Z",
+                    "updatedAt": "2024-02-02T09:20:54.648Z",
+                    "id": "3bf0d4bd-bcd1-4290-b2e4-00b7d01422f1",
+                    "reWeeklyLimit": 30,
+                    "userId": "26d74f43-b1ac-419b-9a12-742d128067b3",
+                    "user": {
+                        "createdAt": "2024-02-02T09:20:54.648Z",
+                        "updatedAt": "2024-02-02T09:20:54.648Z",
+                        "id": "26d74f43-b1ac-419b-9a12-742d128067b3",
+                        "firstName": "Aster",
+                        "lastName": "A.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Aster A.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Aster A.",
+                    "isDeleted": false
+                },
+                "duration": 19011,
+                "durationPercentage": "17.60",
+                "limit": 108000
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:20:54.649Z",
+                    "updatedAt": "2024-02-02T09:20:54.649Z",
+                    "id": "0420041a-7b28-477a-a516-a50cdb0d7162",
+                    "reWeeklyLimit": 21,
+                    "userId": "8ab4b62d-a551-45e9-b738-6e11542bd717",
+                    "user": {
+                        "createdAt": "2024-02-02T09:20:54.649Z",
+                        "updatedAt": "2024-02-02T09:20:54.649Z",
+                        "id": "8ab4b62d-a551-45e9-b738-6e11542bd717",
+                        "firstName": "Roster",
+                        "lastName": "R.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Roster R.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Roster R.",
+                    "isDeleted": false
+                },
+                "duration": 15841,
+                "durationPercentage": "20.95",
+                "limit": 75600
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:20:54.649Z",
+                    "updatedAt": "2024-02-02T09:20:54.649Z",
+                    "id": "a2607828-76e5-465e-b9c1-d370efa9179c",
+                    "reWeeklyLimit": 37,
+                    "userId": "e17e9434-522d-4ed7-a18f-471a4c0def20",
+                    "user": {
+                        "createdAt": "2024-02-02T09:20:54.649Z",
+                        "updatedAt": "2024-02-02T09:20:54.649Z",
+                        "id": "e17e9434-522d-4ed7-a18f-471a4c0def20",
+                        "firstName": "Dister",
+                        "lastName": "D.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Dister D.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Dister D.",
+                    "isDeleted": false
+                },
+                "duration": 13792,
+                "durationPercentage": "10.35",
+                "limit": 133200
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:20:54.650Z",
+                    "updatedAt": "2024-02-02T09:20:54.650Z",
+                    "id": "bdcb5d18-a425-46e1-b234-ef573e2f0062",
+                    "reWeeklyLimit": 21,
+                    "userId": "2eb87bcb-fa19-402f-afb7-eb6988b34835",
+                    "user": {
+                        "createdAt": "2024-02-02T09:20:54.650Z",
+                        "updatedAt": "2024-02-02T09:20:54.650Z",
+                        "id": "2eb87bcb-fa19-402f-afb7-eb6988b34835",
+                        "firstName": "Postern",
+                        "lastName": "P.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Postern P.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Postern P.",
+                    "isDeleted": false
+                },
+                "duration": 7796,
+                "durationPercentage": "10.31",
+                "limit": 75600
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:20:54.650Z",
+                    "updatedAt": "2024-02-02T09:20:54.650Z",
+                    "id": "dfbcc1e5-939b-4dd1-b65d-832221649fe9",
+                    "reWeeklyLimit": 28,
+                    "userId": "ef007c08-bcdf-45f2-a831-a4fee074d971",
+                    "user": {
+                        "createdAt": "2024-02-02T09:20:54.650Z",
+                        "updatedAt": "2024-02-02T09:20:54.650Z",
+                        "id": "ef007c08-bcdf-45f2-a831-a4fee074d971",
+                        "firstName": "Kyoster",
+                        "lastName": "K.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Kyoster K.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Kyoster K.",
+                    "isDeleted": false
+                },
+                "duration": 12444,
+                "durationPercentage": "12.35",
+                "limit": 100800
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:20:54.650Z",
+                    "updatedAt": "2024-02-02T09:20:54.650Z",
+                    "id": "4a616545-a853-4d98-9efb-833cb7883e89",
+                    "reWeeklyLimit": 18,
+                    "userId": "917cf9d4-4e39-48b5-91cb-7cea4547ee57",
+                    "user": {
+                        "createdAt": "2024-02-02T09:20:54.650Z",
+                        "updatedAt": "2024-02-02T09:20:54.650Z",
+                        "id": "917cf9d4-4e39-48b5-91cb-7cea4547ee57",
+                        "firstName": "Taster",
+                        "lastName": "T.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Taster T.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Taster T.",
+                    "isDeleted": false
+                },
+                "duration": 9922,
+                "durationPercentage": "15.31",
+                "limit": 64800
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:20:54.651Z",
+                    "updatedAt": "2024-02-02T09:20:54.651Z",
+                    "id": "f4eb4c66-9149-4600-8f99-31b7499add3e",
+                    "reWeeklyLimit": 13,
+                    "userId": "454ec19d-5cb2-45d2-9c7d-9d53ab36b153",
+                    "user": {
+                        "createdAt": "2024-02-02T09:20:54.651Z",
+                        "updatedAt": "2024-02-02T09:20:54.651Z",
+                        "id": "454ec19d-5cb2-45d2-9c7d-9d53ab36b153",
+                        "firstName": "Mustero",
+                        "lastName": "M.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Mustero M.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Mustero M.",
+                    "isDeleted": false
+                },
+                "duration": 11992,
+                "durationPercentage": "25.62",
+                "limit": 46800
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:20:54.651Z",
+                    "updatedAt": "2024-02-02T09:20:54.651Z",
+                    "id": "13ddd7b5-7f5f-4381-974b-0d0470cbf9d6",
+                    "reWeeklyLimit": 30,
+                    "userId": "e0ae7a4c-fd4e-4d8a-a8b8-86515b3e8760",
+                    "user": {
+                        "createdAt": "2024-02-02T09:20:54.651Z",
+                        "updatedAt": "2024-02-02T09:20:54.651Z",
+                        "id": "e0ae7a4c-fd4e-4d8a-a8b8-86515b3e8760",
+                        "firstName": "Desterrro",
+                        "lastName": "D.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Desterrro D.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Desterrro D.",
+                    "isDeleted": false
+                },
+                "duration": 13672,
+                "durationPercentage": "12.66",
+                "limit": 108000
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:20:54.651Z",
+                    "updatedAt": "2024-02-02T09:20:54.651Z",
+                    "id": "2c478a6c-964d-4ed7-be1d-0d016f87fe25",
+                    "reWeeklyLimit": 12,
+                    "userId": "3a91e25c-7e4f-49f2-99c6-d907e1d6d59d",
+                    "user": {
+                        "createdAt": "2024-02-02T09:20:54.651Z",
+                        "updatedAt": "2024-02-02T09:20:54.651Z",
+                        "id": "3a91e25c-7e4f-49f2-99c6-d907e1d6d59d",
+                        "firstName": "Chetan",
+                        "lastName": "K.",
+                        "imageUrl": "assets/images/avatars/chetan.png",
+                        "image": null,
+                        "name": "Chetan K.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Chetan K.",
+                    "isDeleted": false
+                },
+                "duration": 8238,
+                "durationPercentage": "19.07",
+                "limit": 43200
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:20:54.652Z",
+                    "updatedAt": "2024-02-02T09:20:54.652Z",
+                    "id": "4b55238f-cd63-4cba-b701-28aecd024ac6",
+                    "reWeeklyLimit": 31,
+                    "userId": "b475da7d-91e2-4fad-8f56-9c2d4f2820fa",
+                    "user": {
+                        "createdAt": "2024-02-02T09:20:54.652Z",
+                        "updatedAt": "2024-02-02T09:20:54.652Z",
+                        "id": "b475da7d-91e2-4fad-8f56-9c2d4f2820fa",
+                        "firstName": "Julia",
+                        "lastName": "K.",
+                        "imageUrl": "assets/images/avatars/julia.png",
+                        "image": null,
+                        "name": "Julia K.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Julia K.",
+                    "isDeleted": false
+                },
+                "duration": 14763,
+                "durationPercentage": "13.23",
+                "limit": 111600
+            },
+            {
+                "employee": {
+                    "createdAt": "2024-02-02T09:20:54.652Z",
+                    "updatedAt": "2024-02-02T09:20:54.652Z",
+                    "id": "ad9a9c0e-2c9e-4475-a569-f9b0f537338f",
+                    "reWeeklyLimit": 28,
+                    "userId": "314f497f-9a89-4da2-a60c-788ce2790d11",
+                    "user": {
+                        "createdAt": "2024-02-02T09:20:54.652Z",
+                        "updatedAt": "2024-02-02T09:20:54.652Z",
+                        "id": "314f497f-9a89-4da2-a60c-788ce2790d11",
+                        "firstName": "Yostorono",
+                        "lastName": "Y.",
+                        "imageUrl": "assets/images/avatars/avatar-default.svg",
+                        "image": null,
+                        "name": "Yostorono Y.",
+                        "employeeId": null,
+                        "isEmailVerified": false
+                    },
+                    "fullName": "Yostorono Y.",
+                    "isDeleted": false
+                },
+                "duration": 13199,
+                "durationPercentage": "13.09",
+                "limit": 100800
+            }
+        ]
+    },
+    {
+        "date": "2024-01-30",
+        "employees": []
+    },
+    {
+        "date": "2024-01-31",
+        "employees": []
+    },
+    {
+        "date": "2024-02-01",
+        "employees": []
+    },
+    {
+        "date": "2024-02-02",
+        "employees": []
+    },
+    {
+        "date": "2024-02-03",
+        "employees": []
+    }
+]

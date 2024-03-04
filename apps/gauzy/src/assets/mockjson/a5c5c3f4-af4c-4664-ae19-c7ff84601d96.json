@@ -1,0 +1,497 @@
+[
+    {
+        "date": "2024-02-01",
+        "logs": [
+            {
+                "project": {
+                    "createdAt": "2024-02-02T07:58:39.656Z",
+                    "updatedAt": "2024-02-02T07:58:39.656Z",
+                    "id": "40315f5a-5099-420b-9f58-853c46599c61",
+                    "name": "Gauzy Web Site",
+                    "membersCount": 13,
+                    "imageUrl": "https://dummyimage.com/330x300/269aff/ffffff.jpg&text=GW",
+                    "organizationContact": {
+                        "createdAt": "2024-02-02T07:58:39.656Z",
+                        "updatedAt": "2024-02-02T07:58:39.656Z",
+                        "id": "63836e77-3976-4ab6-9b6f-f8cff632b39b",
+                        "name": "Weldon Frami",
+                        "imageUrl": "https://dummyimage.com/330x300/0ecc9D/ffffff.jpg&text=W",
+                        "image": null
+                    },
+                    "image": null
+                },
+                "client": {
+                    "createdAt": "2024-02-02T07:58:39.659Z",
+                    "updatedAt": "2024-02-02T07:58:39.659Z",
+                    "id": "63836e77-3976-4ab6-9b6f-f8cff632b39b",
+                    "name": "Weldon Frami",
+                    "imageUrl": "https://dummyimage.com/330x300/0ecc9D/ffffff.jpg&text=W",
+                    "image": null
+                },
+                "employeeLogs": [
+                    {
+                        "description": "Autem unde libero.",
+                        "employee": {
+                            "createdAt": "2024-02-02T07:58:39.659Z",
+                            "updatedAt": "2024-02-02T07:58:39.659Z",
+                            "id": "a5c975eb-d155-4d7c-9b69-75c6408226fb",
+                            "userId": "ff1e2a1f-06ab-43a2-a99d-e93c447b05a2",
+                            "user": {
+                                "createdAt": "2024-02-02T07:58:39.659Z",
+                                "updatedAt": "2024-02-02T07:58:39.659Z",
+                                "id": "ff1e2a1f-06ab-43a2-a99d-e93c447b05a2",
+                                "firstName": "Default",
+                                "lastName": "Employee",
+                                "imageUrl": "assets/images/avatars/avatar-default.svg",
+                                "image": null,
+                                "name": "Default Employee",
+                                "employeeId": null,
+                                "isEmailVerified": false
+                            },
+                            "fullName": "Default Employee",
+                            "isDeleted": false
+                        },
+                        "sum": 4122,
+                        "task": {
+                            "createdAt": "2024-02-02T07:58:39.658Z",
+                            "updatedAt": "2024-02-02T07:58:39.658Z",
+                            "id": "0582cf21-bedc-4e1b-b842-7a67079ae587",
+                            "title": "[Bug] Screen Shots not loading on deferent network. "
+                        },
+                        "activity": 44.88
+                    },
+                    {
+                        "description": "Culpa commodi rem quia fugit aliquam minus.",
+                        "employee": {
+                            "createdAt": "2024-02-02T07:58:39.661Z",
+                            "updatedAt": "2024-02-02T07:58:39.661Z",
+                            "id": "08f78ee0-15d1-4404-94c1-4e3271d91d8b",
+                            "userId": "18fd55d1-dd74-43ba-9020-82ba153ff453",
+                            "user": {
+                                "createdAt": "2024-02-02T07:58:39.661Z",
+                                "updatedAt": "2024-02-02T07:58:39.661Z",
+                                "id": "18fd55d1-dd74-43ba-9020-82ba153ff453",
+                                "firstName": "Ruslan",
+                                "lastName": "K.",
+                                "imageUrl": "assets/images/avatars/ruslan.jpg",
+                                "image": null,
+                                "name": "Ruslan K.",
+                                "employeeId": null,
+                                "isEmailVerified": false
+                            },
+                            "fullName": "Ruslan K.",
+                            "isDeleted": false
+                        },
+                        "sum": 4115,
+                        "task": {
+                            "createdAt": "2024-02-02T07:58:39.660Z",
+                            "updatedAt": "2024-02-02T07:58:39.660Z",
+                            "id": "e6b78d3d-ca42-4213-8abd-25f5ecf68ce2",
+                            "title": "[Enhancement] Performance Degradation in Team Dashboard"
+                        },
+                        "activity": 42.75
+                    },
+                    {
+                        "description": "Expedita sapiente deleniti ab earum dolore.",
+                        "employee": {
+                            "createdAt": "2024-02-02T07:58:39.677Z",
+                            "updatedAt": "2024-02-02T07:58:39.677Z",
+                            "id": "0420041a-7b28-477a-a516-a50cdb0d7162",
+                            "userId": "8ab4b62d-a551-45e9-b738-6e11542bd717",
+                            "user": {
+                                "createdAt": "2024-02-02T07:58:39.677Z",
+                                "updatedAt": "2024-02-02T07:58:39.677Z",
+                                "id": "8ab4b62d-a551-45e9-b738-6e11542bd717",
+                                "firstName": "Roster",
+                                "lastName": "R.",
+                                "imageUrl": "assets/images/avatars/avatar-default.svg",
+                                "image": null,
+                                "name": "Roster R.",
+                                "employeeId": null,
+                                "isEmailVerified": false
+                            },
+                            "fullName": "Roster R.",
+                            "isDeleted": false
+                        },
+                        "sum": 7097,
+                        "task": {
+                            "createdAt": "2024-02-02T07:58:39.675Z",
+                            "updatedAt": "2024-02-02T07:58:39.675Z",
+                            "id": "cdeee97f-e072-4f60-aa76-704db380c65e",
+                            "title": "[Fix] action buttons on form pages (Leads, Clients, Customers) have wrong positioning in screen 14\""
+                        },
+                        "activity": 49.11
+                    },
+                    {
+                        "description": "Iste suscipit odio doloribus dolorem officia commodi.",
+                        "employee": {
+                            "createdAt": "2024-02-02T07:58:39.679Z",
+                            "updatedAt": "2024-02-02T07:58:39.679Z",
+                            "id": "a2607828-76e5-465e-b9c1-d370efa9179c",
+                            "userId": "e17e9434-522d-4ed7-a18f-471a4c0def20",
+                            "user": {
+                                "createdAt": "2024-02-02T07:58:39.679Z",
+                                "updatedAt": "2024-02-02T07:58:39.679Z",
+                                "id": "e17e9434-522d-4ed7-a18f-471a4c0def20",
+                                "firstName": "Dister",
+                                "lastName": "D.",
+                                "imageUrl": "assets/images/avatars/avatar-default.svg",
+                                "image": null,
+                                "name": "Dister D.",
+                                "employeeId": null,
+                                "isEmailVerified": false
+                            },
+                            "fullName": "Dister D.",
+                            "isDeleted": false
+                        },
+                        "sum": 2236,
+                        "task": {
+                            "createdAt": "2024-02-02T07:58:39.679Z",
+                            "updatedAt": "2024-02-02T07:58:39.679Z",
+                            "id": "cdeee97f-e072-4f60-aa76-704db380c65e",
+                            "title": "[Fix] action buttons on form pages (Leads, Clients, Customers) have wrong positioning in screen 14\""
+                        },
+                        "activity": 42.89
+                    },
+                    {
+                        "description": "Assumenda earum dolores.",
+                        "employee": {
+                            "createdAt": "2024-02-02T07:58:39.680Z",
+                            "updatedAt": "2024-02-02T07:58:39.680Z",
+                            "id": "f4eb4c66-9149-4600-8f99-31b7499add3e",
+                            "userId": "454ec19d-5cb2-45d2-9c7d-9d53ab36b153",
+                            "user": {
+                                "createdAt": "2024-02-02T07:58:39.680Z",
+                                "updatedAt": "2024-02-02T07:58:39.680Z",
+                                "id": "454ec19d-5cb2-45d2-9c7d-9d53ab36b153",
+                                "firstName": "Mustero",
+                                "lastName": "M.",
+                                "imageUrl": "assets/images/avatars/avatar-default.svg",
+                                "image": null,
+                                "name": "Mustero M.",
+                                "employeeId": null,
+                                "isEmailVerified": false
+                            },
+                            "fullName": "Mustero M.",
+                            "isDeleted": false
+                        },
+                        "sum": 1709,
+                        "task": {
+                            "createdAt": "2024-02-02T07:58:39.680Z",
+                            "updatedAt": "2024-02-02T07:58:39.680Z",
+                            "id": "93cdb81c-3260-47b4-a256-25e78f185aa4",
+                            "title": "[Fix] Desktop Timer inputs is overflowing on window minimize"
+                        },
+                        "activity": 57.87
+                    }
+                ]
+            },
+            {
+                "project": {
+                    "createdAt": "2024-02-02T07:58:39.662Z",
+                    "updatedAt": "2024-02-02T07:58:39.662Z",
+                    "id": "c9089397-8d8d-4de5-bf22-ab6d46b29b6d",
+                    "name": "Gauzy Platform DevOps",
+                    "membersCount": 10,
+                    "imageUrl": "https://dummyimage.com/330x300/269aff/ffffff.jpg&text=GP",
+                    "organizationContact": {
+                        "createdAt": "2024-02-02T07:58:39.662Z",
+                        "updatedAt": "2024-02-02T07:58:39.662Z",
+                        "id": "48c89237-e78e-4657-9de0-db80d7390fcc",
+                        "name": "Nettie Hamill",
+                        "imageUrl": "https://dummyimage.com/330x300/8b72ff/ffffff.jpg&text=N",
+                        "image": null
+                    },
+                    "image": null
+                },
+                "client": {
+                    "createdAt": "2024-02-02T07:58:39.665Z",
+                    "updatedAt": "2024-02-02T07:58:39.665Z",
+                    "id": "48c89237-e78e-4657-9de0-db80d7390fcc",
+                    "name": "Nettie Hamill",
+                    "imageUrl": "https://dummyimage.com/330x300/8b72ff/ffffff.jpg&text=N",
+                    "image": null
+                },
+                "employeeLogs": [
+                    {
+                        "description": "Porro in adipisci.",
+                        "employee": {
+                            "createdAt": "2024-02-02T07:58:39.665Z",
+                            "updatedAt": "2024-02-02T07:58:39.665Z",
+                            "id": "6223c39a-21c3-4e78-a918-94c11432c024",
+                            "userId": "8d886d16-2138-45a4-9d3b-4696343d48d8",
+                            "user": {
+                                "createdAt": "2024-02-02T07:58:39.665Z",
+                                "updatedAt": "2024-02-02T07:58:39.665Z",
+                                "id": "8d886d16-2138-45a4-9d3b-4696343d48d8",
+                                "firstName": "Alish",
+                                "lastName": "M.",
+                                "imageUrl": "assets/images/avatars/alish.jpg",
+                                "image": null,
+                                "name": "Alish M.",
+                                "employeeId": null,
+                                "isEmailVerified": false
+                            },
+                            "fullName": "Alish M.",
+                            "isDeleted": false
+                        },
+                        "sum": 6480,
+                        "task": {
+                            "createdAt": "2024-02-02T07:58:39.664Z",
+                            "updatedAt": "2024-02-02T07:58:39.664Z",
+                            "id": "12553a39-4b37-467e-80c4-0f3539274daa",
+                            "title": "[Bug] Pagination isn't working"
+                        },
+                        "activity": 35.34
+                    },
+                    {
+                        "description": "Ullam laudantium provident adipisci ducimus debitis aut laboriosam commodi.",
+                        "employee": {
+                            "createdAt": "2024-02-02T07:58:39.670Z",
+                            "updatedAt": "2024-02-02T07:58:39.670Z",
+                            "id": "2382efc7-930f-4095-9ddc-978bf44a38eb",
+                            "userId": "f12d6e47-f4c5-472b-81e9-8f2e9c16fd89",
+                            "user": {
+                                "createdAt": "2024-02-02T07:58:39.670Z",
+                                "updatedAt": "2024-02-02T07:58:39.670Z",
+                                "id": "f12d6e47-f4c5-472b-81e9-8f2e9c16fd89",
+                                "firstName": "Hoster",
+                                "lastName": "H.",
+                                "imageUrl": "assets/images/avatars/avatar-default.svg",
+                                "image": null,
+                                "name": "Hoster H.",
+                                "employeeId": null,
+                                "isEmailVerified": false
+                            },
+                            "fullName": "Hoster H.",
+                            "isDeleted": false
+                        },
+                        "sum": 4706,
+                        "task": {
+                            "createdAt": "2024-02-02T07:58:39.669Z",
+                            "updatedAt": "2024-02-02T07:58:39.669Z",
+                            "id": "f07ca63f-f68d-4a88-8dfd-5061290ebffc",
+                            "title": "[Question] How to Export and import Backup on Desktop version."
+                        },
+                        "activity": 48.07
+                    },
+                    {
+                        "description": "Distinctio tenetur veritatis eligendi quisquam molestiae molestias.",
+                        "employee": {
+                            "createdAt": "2024-02-02T07:58:39.681Z",
+                            "updatedAt": "2024-02-02T07:58:39.681Z",
+                            "id": "13ddd7b5-7f5f-4381-974b-0d0470cbf9d6",
+                            "userId": "e0ae7a4c-fd4e-4d8a-a8b8-86515b3e8760",
+                            "user": {
+                                "createdAt": "2024-02-02T07:58:39.681Z",
+                                "updatedAt": "2024-02-02T07:58:39.681Z",
+                                "id": "e0ae7a4c-fd4e-4d8a-a8b8-86515b3e8760",
+                                "firstName": "Desterrro",
+                                "lastName": "D.",
+                                "imageUrl": "assets/images/avatars/avatar-default.svg",
+                                "image": null,
+                                "name": "Desterrro D.",
+                                "employeeId": null,
+                                "isEmailVerified": false
+                            },
+                            "fullName": "Desterrro D.",
+                            "isDeleted": false
+                        },
+                        "sum": 28,
+                        "task": {
+                            "createdAt": "2024-02-02T07:58:39.681Z",
+                            "updatedAt": "2024-02-02T07:58:39.681Z",
+                            "id": "f07ca63f-f68d-4a88-8dfd-5061290ebffc",
+                            "title": "[Question] How to Export and import Backup on Desktop version."
+                        },
+                        "activity": 75
+                    }
+                ]
+            },
+            {
+                "project": {
+                    "createdAt": "2024-02-02T07:58:39.666Z",
+                    "updatedAt": "2024-02-02T07:58:39.666Z",
+                    "id": "6524f485-626c-403c-8999-cd39bca84239",
+                    "name": "Gauzy Platform SaaS",
+                    "membersCount": 11,
+                    "imageUrl": "https://dummyimage.com/330x300/0ecc9D/ffffff.jpg&text=GP",
+                    "organizationContact": {
+                        "createdAt": "2024-02-02T07:58:39.666Z",
+                        "updatedAt": "2024-02-02T07:58:39.666Z",
+                        "id": "ae95c800-51f8-4341-9a63-eb797d945bb1",
+                        "name": "Keven Zieme",
+                        "imageUrl": "https://dummyimage.com/330x300/269aff/ffffff.jpg&text=K",
+                        "image": null
+                    },
+                    "image": null
+                },
+                "client": {
+                    "createdAt": "2024-02-02T07:58:39.667Z",
+                    "updatedAt": "2024-02-02T07:58:39.667Z",
+                    "id": "ae95c800-51f8-4341-9a63-eb797d945bb1",
+                    "name": "Keven Zieme",
+                    "imageUrl": "https://dummyimage.com/330x300/269aff/ffffff.jpg&text=K",
+                    "image": null
+                },
+                "employeeLogs": [
+                    {
+                        "description": "Enim vero repudiandae veritatis.",
+                        "employee": {
+                            "createdAt": "2024-02-02T07:58:39.668Z",
+                            "updatedAt": "2024-02-02T07:58:39.668Z",
+                            "id": "bcc9f6d5-7876-46a2-adf0-989e45f81ceb",
+                            "userId": "594fd4eb-005c-418f-9cdd-619f00bd41d6",
+                            "user": {
+                                "createdAt": "2024-02-02T07:58:39.668Z",
+                                "updatedAt": "2024-02-02T07:58:39.668Z",
+                                "id": "594fd4eb-005c-418f-9cdd-619f00bd41d6",
+                                "firstName": "Booster",
+                                "lastName": "P.",
+                                "imageUrl": "assets/images/avatars/avatar-default.svg",
+                                "image": null,
+                                "name": "Booster P.",
+                                "employeeId": null,
+                                "isEmailVerified": false
+                            },
+                            "fullName": "Booster P.",
+                            "isDeleted": false
+                        },
+                        "sum": 3787,
+                        "task": {
+                            "createdAt": "2024-02-02T07:58:39.667Z",
+                            "updatedAt": "2024-02-02T07:58:39.667Z",
+                            "id": "c853dda5-a953-4476-8ea7-76772fdd2b9d",
+                            "title": "[Feature] Add support of MySQL DB"
+                        },
+                        "activity": 55.77
+                    },
+                    {
+                        "description": "Magni.",
+                        "employee": {
+                            "createdAt": "2024-02-02T07:58:39.683Z",
+                            "updatedAt": "2024-02-02T07:58:39.683Z",
+                            "id": "2c478a6c-964d-4ed7-be1d-0d016f87fe25",
+                            "userId": "3a91e25c-7e4f-49f2-99c6-d907e1d6d59d",
+                            "user": {
+                                "createdAt": "2024-02-02T07:58:39.683Z",
+                                "updatedAt": "2024-02-02T07:58:39.683Z",
+                                "id": "3a91e25c-7e4f-49f2-99c6-d907e1d6d59d",
+                                "firstName": "Chetan",
+                                "lastName": "K.",
+                                "imageUrl": "assets/images/avatars/chetan.png",
+                                "image": null,
+                                "name": "Chetan K.",
+                                "employeeId": null,
+                                "isEmailVerified": false
+                            },
+                            "fullName": "Chetan K.",
+                            "isDeleted": false
+                        },
+                        "sum": 4895,
+                        "task": {
+                            "createdAt": "2024-02-02T07:58:39.682Z",
+                            "updatedAt": "2024-02-02T07:58:39.682Z",
+                            "id": "59a09d36-5ca0-4871-943d-e4ff930258cb",
+                            "title": "[Fix] Timeout Issues during App Initialization: Seeking Investigation and Resolution"
+                        },
+                        "activity": 42.8
+                    }
+                ]
+            },
+            {
+                "project": {
+                    "createdAt": "2024-02-02T07:58:39.671Z",
+                    "updatedAt": "2024-02-02T07:58:39.671Z",
+                    "id": "e8cd7377-0d02-472f-9706-082a4e94e5f5",
+                    "name": "Gauzy Platform (Open-Source)",
+                    "membersCount": 15,
+                    "imageUrl": "https://dummyimage.com/330x300/ffaf26/ffffff.jpg&text=GP",
+                    "organizationContact": {
+                        "createdAt": "2024-02-02T07:58:39.671Z",
+                        "updatedAt": "2024-02-02T07:58:39.671Z",
+                        "id": "b35f8d52-bc14-4e68-9bd3-dd3dbb0dd26d",
+                        "name": "Zula Harber",
+                        "imageUrl": "https://dummyimage.com/330x300/0ecc9D/ffffff.jpg&text=Z",
+                        "image": null
+                    },
+                    "image": null
+                },
+                "client": {
+                    "createdAt": "2024-02-02T07:58:39.673Z",
+                    "updatedAt": "2024-02-02T07:58:39.673Z",
+                    "id": "b35f8d52-bc14-4e68-9bd3-dd3dbb0dd26d",
+                    "name": "Zula Harber",
+                    "imageUrl": "https://dummyimage.com/330x300/0ecc9D/ffffff.jpg&text=Z",
+                    "image": null
+                },
+                "employeeLogs": [
+                    {
+                        "description": "Molestias alias voluptatem itaque quos.",
+                        "employee": {
+                            "createdAt": "2024-02-02T07:58:39.673Z",
+                            "updatedAt": "2024-02-02T07:58:39.673Z",
+                            "id": "3bf0d4bd-bcd1-4290-b2e4-00b7d01422f1",
+                            "userId": "26d74f43-b1ac-419b-9a12-742d128067b3",
+                            "user": {
+                                "createdAt": "2024-02-02T07:58:39.673Z",
+                                "updatedAt": "2024-02-02T07:58:39.673Z",
+                                "id": "26d74f43-b1ac-419b-9a12-742d128067b3",
+                                "firstName": "Aster",
+                                "lastName": "A.",
+                                "imageUrl": "assets/images/avatars/avatar-default.svg",
+                                "image": null,
+                                "name": "Aster A.",
+                                "employeeId": null,
+                                "isEmailVerified": false
+                            },
+                            "fullName": "Aster A.",
+                            "isDeleted": false
+                        },
+                        "sum": 5603,
+                        "task": {
+                            "createdAt": "2024-02-02T07:58:39.672Z",
+                            "updatedAt": "2024-02-02T07:58:39.672Z",
+                            "id": "f6261123-5ae9-4dd3-8e8f-f173b1e3ead1",
+                            "title": "[Question] Need guidance on installation"
+                        },
+                        "activity": 42.62
+                    },
+                    {
+                        "description": "Reiciendis dolores.",
+                        "employee": {
+                            "createdAt": "2024-02-02T07:58:39.685Z",
+                            "updatedAt": "2024-02-02T07:58:39.685Z",
+                            "id": "ad9a9c0e-2c9e-4475-a569-f9b0f537338f",
+                            "userId": "314f497f-9a89-4da2-a60c-788ce2790d11",
+                            "user": {
+                                "createdAt": "2024-02-02T07:58:39.685Z",
+                                "updatedAt": "2024-02-02T07:58:39.685Z",
+                                "id": "314f497f-9a89-4da2-a60c-788ce2790d11",
+                                "firstName": "Yostorono",
+                                "lastName": "Y.",
+                                "imageUrl": "assets/images/avatars/avatar-default.svg",
+                                "image": null,
+                                "name": "Yostorono Y.",
+                                "employeeId": null,
+                                "isEmailVerified": false
+                            },
+                            "fullName": "Yostorono Y.",
+                            "isDeleted": false
+                        },
+                        "sum": 2033,
+                        "task": {
+                            "createdAt": "2024-02-02T07:58:39.685Z",
+                            "updatedAt": "2024-02-02T07:58:39.685Z",
+                            "id": "bdca9d89-559f-41a1-b83f-9ca1f0fb39ee",
+                            "title": "[Bug] Remove ngcc for Angular 16+"
+                        },
+                        "activity": 36.35
+                    }
+                ]
+            }
+        ],
+        "sum": 46811,
+        "activity": 44.75
+    }
+]

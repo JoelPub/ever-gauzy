@@ -1,0 +1,74 @@
+[
+    {
+        "project": {
+            "createdAt": "2024-02-02T09:24:33.134Z",
+            "updatedAt": "2024-02-02T09:24:33.134Z",
+            "id": "c9089397-8d8d-4de5-bf22-ab6d46b29b6d",
+            "name": "Gauzy Platform DevOps",
+            "budget": 3516,
+            "budgetType": "cost",
+            "membersCount": 10,
+            "imageUrl": "https://dummyimage.com/330x300/269aff/ffffff.jpg&text=GP",
+            "image": null
+        },
+        "budgetType": "cost",
+        "budget": 3516,
+        "spent": 3008.33,
+        "remainingBudget": 507.67,
+        "spentPercentage": 85.56
+    },
+    {
+        "project": {
+            "createdAt": "2024-02-02T09:24:33.182Z",
+            "updatedAt": "2024-02-02T09:24:33.182Z",
+            "id": "40315f5a-5099-420b-9f58-853c46599c61",
+            "name": "Gauzy Web Site",
+            "budget": 4024,
+            "budgetType": "cost",
+            "membersCount": 13,
+            "imageUrl": "https://dummyimage.com/330x300/269aff/ffffff.jpg&text=GW",
+            "image": null
+        },
+        "budgetType": "cost",
+        "budget": 4024,
+        "spent": 2454.44,
+        "remainingBudget": 1569.56,
+        "spentPercentage": 61
+    },
+    {
+        "project": {
+            "createdAt": "2024-02-02T09:24:33.214Z",
+            "updatedAt": "2024-02-02T09:24:33.214Z",
+            "id": "6524f485-626c-403c-8999-cd39bca84239",
+            "name": "Gauzy Platform SaaS",
+            "budget": 4580,
+            "budgetType": "cost",
+            "membersCount": 11,
+            "imageUrl": "https://dummyimage.com/330x300/0ecc9D/ffffff.jpg&text=GP",
+            "image": null
+        },
+        "budgetType": "cost",
+        "budget": 4580,
+        "spent": 3270.64,
+        "remainingBudget": 1309.36,
+        "spentPercentage": 71.41
+    },
+    {
+        "project": {
+            "createdAt": "2024-02-02T09:24:33.252Z",
+            "updatedAt": "2024-02-02T09:24:33.252Z",
+            "id": "e8cd7377-0d02-472f-9706-082a4e94e5f5",
+            "name": "Gauzy Platform (Open-Source)",
+            "budget": 1604,
+            "budgetType": "cost",
+            "membersCount": 15,
+            "imageUrl": "https://dummyimage.com/330x300/ffaf26/ffffff.jpg&text=GP",
+            "image": null
+        },
+        "budgetType": "cost",
+        "budget": 1604,
+        "spent": 2849.22,
+        "remainingBudget": 0,
+        "spentPercentage": 177.63
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "id": "b873daa2-f46e-4265-9d12-ec399beb42c6",
+        "startedAt": "2024-02-01T00:00:00.000Z",
+        "duration": 4824,
+        "user": {
+            "name": "Default Employee",
+            "imageUrl": "assets/images/avatars/avatar-default.svg"
+        },
+        "project": {
+            "name": "Gauzy Web Site",
+            "imageUrl": "https://dummyimage.com/330x300/ffaf26/ffffff.jpg&text=GW"
+        },
+        "employeeId": "917d0b14-4f48-4aac-8fcd-f091927c3984"
+    },
+    {
+        "id": "1aa2a8a3-052a-4e09-bbe9-fcd62395e25f",
+        "startedAt": "2024-01-31T00:00:00.000Z",
+        "duration": 1216,
+        "user": {
+            "name": "Mustero M.",
+            "imageUrl": "assets/images/avatars/avatar-default.svg"
+        },
+        "project": {
+            "name": "Gauzy Platform SaaS",
+            "imageUrl": "https://dummyimage.com/330x300/269aff/ffffff.jpg&text=GP"
+        },
+        "employeeId": "5dc7f41d-35f0-4925-98cc-de4d27895054"
+    },
+    {
+        "id": "df3b4c42-1878-430d-b405-c17049731fe6",
+        "startedAt": "2024-01-30T00:00:00.000Z",
+        "duration": 5610,
+        "user": {
+            "name": "Yostorono Y.",
+            "imageUrl": "assets/images/avatars/avatar-default.svg"
+        },
+        "project": {
+            "name": "Gauzy Web Site",
+            "imageUrl": "https://dummyimage.com/330x300/ffaf26/ffffff.jpg&text=GW"
+        },
+        "employeeId": "2a0945ca-0420-4134-8386-5f6100feca15"
+    },
+    {
+        "id": "205f0e9c-1601-4bc5-a4ae-2b8990293846",
+        "startedAt": "2024-01-29T00:00:00.000Z",
+        "duration": 6865,
+        "user": {
+            "name": "Booster P.",
+            "imageUrl": "assets/images/avatars/avatar-default.svg"
+        },
+        "project": {
+            "name": "Gauzy Platform (Open-Source)",
+            "imageUrl": "https://dummyimage.com/330x300/269aff/ffffff.jpg&text=GP"
+        },
+        "employeeId": "8a90450a-300a-4bd0-94bc-05e7b15948dc"
+    },
+    {
+        "id": "17bdd73e-ae7b-4167-8031-8066fc985b60",
+        "startedAt": "2024-01-29T00:00:00.000Z",
+        "duration": 6001,
+        "user": {
+            "name": "Yostorono Y.",
+            "imageUrl": "assets/images/avatars/avatar-default.svg"
+        },
+        "project": {
+            "name": "Gauzy Platform SaaS",
+            "imageUrl": "https://dummyimage.com/330x300/269aff/ffffff.jpg&text=GP"
+        },
+        "employeeId": "2a0945ca-0420-4134-8386-5f6100feca15"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "sessions": 5,
+        "duration": 386,
+        "title": "PgAdmin",
+        "durationPercentage": 3.8938767275295065
+    },
+    {
+        "sessions": 7,
+        "duration": 353,
+        "title": "Sublime Text",
+        "durationPercentage": 3.560980530616362
+    },
+    {
+        "sessions": 4,
+        "duration": 263,
+        "title": "untrue-dash.org",
+        "durationPercentage": 2.6530818117623323
+    },
+    {
+        "sessions": 4,
+        "duration": 245,
+        "title": "colorful-leek.biz",
+        "durationPercentage": 2.4715020679915263
+    },
+    {
+        "sessions": 3,
+        "duration": 190,
+        "title": "dark-territory.info",
+        "durationPercentage": 1.9166750731362856
+    }
+]
